@@ -1,0 +1,2 @@
+# Only the archived HTML standings extractor needs this package.
+beautifulsoup4>=4.12,<5

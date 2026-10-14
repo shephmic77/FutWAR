@@ -1,0 +1,104 @@
+{
+  "repository": "https://github.com/JaseZiv/worldfootballR_data",
+  "commit": "2df143967509ff45584e261a2a033687346d654b",
+  "rights_status": "Data license/upstream reuse unresolved; owner authorized cited personal-project research on 2026-10-10; no dataset redistribution authorized",
+  "personal_use_review": "No explicit prohibition of personal-project use identified in reviewed material; full upstream policy pages could not be retrieved. Absence of a located prohibition is not confirmed licensing permission.",
+  "files": [
+    {
+      "name": "README.md",
+      "path": "data/raw/keeper_archive/2026-10-10/README.md",
+      "source_url": "https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/2df143967509ff45584e261a2a033687346d654b/README.md",
+      "bytes": 3075,
+      "sha256": "99523e353856d0c993781d2e7abfddb7ac25002e8b412c3484e34a2fd79336e7",
+      "retrieved_at_utc": "2026-10-10T18:41:26.985294+00:00"
+    },
+    {
+      "name": "release_metadata.json",
+      "path": "data/raw/keeper_archive/2026-10-10/release_metadata.json",
+      "source_url": "https://api.github.com/repos/JaseZiv/worldfootballR_data/releases/tags/fb_big5_advanced_season_stats",
+      "bytes": 36381,
+      "sha256": "6dbff8a4c565029a0bd255074c5064aa3a1e68bf7e9a49eb317e3c37fb7f74a4",
+      "retrieved_at_utc": "2026-10-10T18:41:27.180713+00:00"
+    },
+    {
+      "name": "release_big5_player_keepers.rds",
+      "path": "data/raw/keeper_archive/2026-10-10/release_big5_player_keepers.rds",
+      "source_url": "https://github.com/JaseZiv/worldfootballR_data/releases/download/fb_big5_advanced_season_stats/big5_player_keepers.rds",
+      "bytes": 1020537,
+      "sha256": "fdcb1ee458a3bb838240e142e9c5de2c6ec1cbfcd91a8229133b7d4c3aade09a",
+      "retrieved_at_utc": "2026-10-10T18:41:27.771950+00:00"
+    },
+    {
+      "name": "statsbomb_big5_player_keepers.rds",
+      "path": "data/raw/keeper_archive/2026-10-10/statsbomb_big5_player_keepers.rds",
+      "source_url": "https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/2df143967509ff45584e261a2a033687346d654b/data/fb_big5_advanced_statsbomb/big5_player_keepers.rds",
+      "bytes": 116920,
+      "sha256": "5f7e260d7ad2ca74b990cb4eb8186efcf41f298c648995661f89d45e9d7beb34",
+      "retrieved_at_utc": "2026-10-10T18:41:28.096878+00:00"
+    },
+    {
+      "name": "release_big5_player_keepers_adv.rds",
+      "path": "data/raw/keeper_archive/2026-10-10/release_big5_player_keepers_adv.rds",
+      "source_url": "https://github.com/JaseZiv/worldfootballR_data/releases/download/fb_big5_advanced_season_stats/big5_player_keepers_adv.rds",
+      "bytes": 593188,
+      "sha256": "d1afdcfd71edf8887740830b24ba2bf8bd535dcadf6839e5d3a860f3fb56d633",
+      "retrieved_at_utc": "2026-10-10T18:41:28.948305+00:00"
+    },
+    {
+      "name": "statsbomb_big5_player_keepers_adv.rds",
+      "path": "data/raw/keeper_archive/2026-10-10/statsbomb_big5_player_keepers_adv.rds",
+      "source_url": "https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/2df143967509ff45584e261a2a033687346d654b/data/fb_big5_advanced_statsbomb/big5_player_keepers_adv.rds",
+      "bytes": 76316,
+      "sha256": "84641da94fc4a8a735d46f194ed5da9f8ab2820883810ec57d16c154ff05a6a7",
+      "retrieved_at_utc": "2026-10-10T18:41:29.234811+00:00"
+    },
+    {
+      "name": "repository_big5_player_keepers.rds",
+      "path": "data/raw/keeper_archive/2026-10-10/repository_big5_player_keepers.rds",
+      "source_url": "https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/2df143967509ff45584e261a2a033687346d654b/data/fb_big5_advanced_season_stats/big5_player_keepers.rds",
+      "bytes": 119397,
+      "sha256": "038e1f1f4d425ed38bcb2cf8b23b44756be129e04fd0e68b8d969262e767dd4d",
+      "retrieved_at_utc": "2026-10-10T18:43:34.838163+00:00"
+    },
+    {
+      "name": "repository_big5_player_keepers_adv.rds",
+      "path": "data/raw/keeper_archive/2026-10-10/repository_big5_player_keepers_adv.rds",
+      "source_url": "https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/2df143967509ff45584e261a2a033687346d654b/data/fb_big5_advanced_season_stats/big5_player_keepers_adv.rds",
+      "bytes": 79611,
+      "sha256": "4ddfa1d37b5480054a9c2e5dea2677a2a571e28cb771d38b550925444a301e10",
+      "retrieved_at_utc": "2026-10-10T18:43:35.120680+00:00"
+    },
+    {
+      "name": "nextgen_goalkeeping_2024-2025.csv",
+      "path": "data/raw/keeper_archive/2026-10-10/nextgen_goalkeeping_2024-2025.csv",
+      "source_url": "https://raw.githubusercontent.com/MahmoudMahdy448/NextGenEUPlayers/bc1ac3fb3b6bd7a086ea86f05a75244ab9288dca/data/raw/2024-2025/goalkeeping_2024-2025.csv",
+      "bytes": 28014,
+      "sha256": "44d970ef3aa34f3f1f3d7d1e0ce8303f2c13c4854bb715665b8e426eb05ad2f2",
+      "retrieved_at_utc": "2026-10-10T18:44:35.388240+00:00"
+    },
+    {
+      "name": "nextgen_advanced_goalkeeping_2024-2025.csv",
+      "path": "data/raw/keeper_archive/2026-10-10/nextgen_advanced_goalkeeping_2024-2025.csv",
+      "source_url": "https://raw.githubusercontent.com/MahmoudMahdy448/NextGenEUPlayers/bc1ac3fb3b6bd7a086ea86f05a75244ab9288dca/data/raw/2024-2025/advanced_goalkeeping_2024-2025.csv",
+      "bytes": 37525,
+      "sha256": "a89f428a72a563cb0a09478aefbb97dab0431b623f736adca7518b423d462d87",
+      "retrieved_at_utc": "2026-10-10T18:44:35.674412+00:00"
+    },
+    {
+      "name": "nextgen_goalkeeping_2023-2024.csv",
+      "path": "data/raw/keeper_archive/2026-10-10/nextgen_goalkeeping_2023-2024.csv",
+      "source_url": "https://raw.githubusercontent.com/MahmoudMahdy448/NextGenEUPlayers/bc1ac3fb3b6bd7a086ea86f05a75244ab9288dca/data/raw/2023-2024/goalkeeping_2023-2024.csv",
+      "bytes": 26866,
+      "sha256": "5d1fe14b65d4172d1a5495093618ea20d0130ee93fe5300d0b7b130fae96336b",
+      "retrieved_at_utc": "2026-10-10T18:59:32.141518+00:00"
+    },
+    {
+      "name": "nextgen_advanced_goalkeeping_2023-2024.csv",
+      "path": "data/raw/keeper_archive/2026-10-10/nextgen_advanced_goalkeeping_2023-2024.csv",
+      "source_url": "https://raw.githubusercontent.com/MahmoudMahdy448/NextGenEUPlayers/bc1ac3fb3b6bd7a086ea86f05a75244ab9288dca/data/raw/2023-2024/advanced_goalkeeping_2023-2024.csv",
+      "bytes": 36005,
+      "sha256": "18f97cb5630dafa034c66fa4d1e5c0d3ef905b50ac20abcaec7a4a1812202cc3",
+      "retrieved_at_utc": "2026-10-10T18:59:32.465264+00:00"
+    }
+  ]
+}

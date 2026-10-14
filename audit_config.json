@@ -1,0 +1,48 @@
+{
+  "columns": {},
+  "league_aliases": {},
+  "season_aliases": {},
+  "null_tokens": [
+    "",
+    "NA",
+    "N/A",
+    "null",
+    "None"
+  ],
+  "files": {
+    "Top5_League_Players_2017to2024_dataset.csv": {
+      "delimiter": ";",
+      "encoding": "utf-8-sig",
+      "decimal": ",",
+      "columns": {
+        "league": "league",
+        "season": "season",
+        "position": "pos_",
+        "minutes": "Playing Time_Min"
+      },
+      "key_columns": [
+        "league",
+        "season",
+        "team",
+        "player"
+      ],
+      "league_aliases": {
+        "ENG-Premier League": "Premier League",
+        "ESP-La Liga": "La Liga",
+        "ITA-Serie A": "Serie A",
+        "GER-Bundesliga": "Bundesliga",
+        "FRA-Ligue 1": "Ligue 1"
+      },
+      "season_aliases": {
+        "1718": "2017-18",
+        "1819": "2018-19",
+        "1920": "2019-20",
+        "2021": "2020-21",
+        "2122": "2021-22",
+        "2223": "2022-23",
+        "2324": "2023-24",
+        "2425": "2024-25"
+      }
+    }
+  }
+}

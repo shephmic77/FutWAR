@@ -1,12 +1,2 @@
-
-pandas
-numpy
-scipy
-scikit-learn
-statsmodels
-matplotlib
-seaborn
-sqlalchemy
-psycopg2-binary
-jupyter
-requests
+-r requirements-exploration.txt
+-r requirements-reference-audit.txt

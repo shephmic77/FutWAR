@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "kind": "brand",
+      "label": "light",
+      "path": "data/raw/explorer_branding/2026-10-10/light.png",
+      "sha256": "f24f80b295c84510b663d861a8340d9e9891360738cee510ee54fae1139e5ceb",
+      "title": "FutWAR light logo",
+      "artist": "User supplied",
+      "source_page": "",
+      "license": "User supplied for this project; original unchanged",
+      "retrieved_at": "2026-10-10"
+    },
+    {
+      "kind": "brand",
+      "label": "dark",
+      "path": "data/raw/explorer_branding/2026-10-10/dark.png",
+      "sha256": "6ca69161bea23a72fd0516fe9aa661e657baa697185f13e790bfdf40608d8b78",
+      "title": "FutWAR dark logo",
+      "artist": "User supplied",
+      "source_page": "",
+      "license": "User supplied for this project; original unchanged",
+      "retrieved_at": "2026-10-10"
+    }
+  ]
+}

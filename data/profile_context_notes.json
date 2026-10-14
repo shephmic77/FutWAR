@@ -1,0 +1,48 @@
+{
+  "purpose": "Reviewed display context for individual preview records; partial coverage, not a comprehensive injury or transfer dataset",
+  "reviewed_at": "2026-10-10",
+  "records": {
+    "original_player:255": {
+      "player_name": "Mohamed Salah",
+      "provider_player_id": "148455",
+      "profile_reference": "https://www.transfermarkt.co.uk/mohamed-salah/profil/spieler/148455",
+      "expected_birth_year": "1992",
+      "expected_nationality_code": "EGY",
+      "expected_citizenship": "Egypt",
+      "identity_review": "Exact name, birth year and nationality agree. Official Liverpool biography corroborates 15 June 1992; AS Roma announcement corroborates the move to Liverpool before 2017-18. Profile enrichment is limited to this reviewed record.",
+      "identity_source": "https://www.liverpoolfc.com/team/first-team/player/mohamed-salah",
+      "injuries": [
+        {
+          "reported_at": "2018-01-04",
+          "summary": "Liverpool reported a groin injury and confirmed he missed the Burnley league match on 1 January and would miss the Everton FA Cup tie. Exact injury duration is not assigned.",
+          "source_url": "https://www.liverpoolfc.com/news/first-team/286290-salah-and-coutinho-fitness-update",
+          "scope": "Mixed competitions; documented event only, not complete season coverage"
+        }
+      ],
+      "transfers": [
+        {
+          "announced_at": "2017-06-22",
+          "effective_at": "2017-07-01",
+          "from_club": "AS Roma",
+          "to_club": "Liverpool",
+          "initial_fee_eur": 42000000,
+          "maximum_addons_eur": 8000000,
+          "summary": "AS Roma announced an initial €42m fee, with up to €8m in performance-related clauses. This is a transfer fee, not a market-value estimate.",
+          "source_url": "https://www.asroma.com/en/news/41866/roma-and-liverpool-agree-salah-transfer",
+          "scope": "Reviewed incoming transfer preceding 2017-18; not complete career coverage"
+        }
+      ]
+    },
+    "original_player:433": {
+      "player_name": "Harry Kane",
+      "provider_player_id": "132098",
+      "profile_reference": "https://www.transfermarkt.co.uk/harry-kane/profil/spieler/132098",
+      "expected_birth_year": "1993",
+      "expected_nationality_code": "ENG",
+      "expected_citizenship": "England",
+      "identity_review": "Manually reviewed exact-name profile reference, matching source birth year and nationality. Enrichment is limited to basic profile fields for this record; no career or statistical aggregation is performed.",
+      "injuries": [],
+      "transfers": []
+    }
+  }
+}

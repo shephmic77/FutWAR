@@ -1,0 +1,25 @@
+{
+  "publisher": "dcaribou/transfermarkt-datasets",
+  "download_documentation": "https://github.com/dcaribou/transfermarkt-datasets",
+  "publisher_license": "CC0-1.0 (publisher declaration; upstream rights not independently confirmed)",
+  "license_url": "https://github.com/dcaribou/transfermarkt-datasets/blob/master/LICENSE",
+  "access_method": "Publisher public CSV downloads; no upstream scraping",
+  "redistribution_policy": "Private research archive; raw and processed exports excluded from Git",
+  "files": [
+    {
+      "filename": "game_lineups.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/game_lineups.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/game_lineups.csv.gz",
+      "retrieved_at_utc": "2026-10-10T18:16:53.332189+00:00",
+      "sha256": "5e83d6fad28364aadfea608013700cf09990062eede1ad9ef189189b0af47ba2",
+      "bytes": 125814089
+    }
+  ],
+  "semantics_review": {
+    "source_url": "https://raw.githubusercontent.com/dcaribou/transfermarkt-scraper/6c1eb59a59349f6869155164808e17c617b0e80d/tfmkt/crawlers/game_lineups.py",
+    "path": "data/raw/position_semantics/6c1eb59a59349f6869155164808e17c617b0e80d/game_lineups.py",
+    "sha256": "45d964eb0f5a65bf14b61f47e77f85203d19386154b88a9780d99c4197b35150",
+    "reviewed_at_utc": "2026-10-10T18:21:30.978669+00:00",
+    "limit": "Current pinned parser may differ from collection-time parser; positions come from textual lineup/bench table cells, not played-role intervals"
+  }
+}

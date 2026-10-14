@@ -1,0 +1,36 @@
+{
+  "assets": [
+    {
+      "kind": "league",
+      "label": "Premier League",
+      "title": "Premier League official emblem",
+      "path": "data/processed/explorer_assets/premier-league-lion.svg",
+      "sha256": "a254c5df2c504dd06453a05fe153a9727a66b79cb2a4261522b371deec6b723c",
+      "raw_path": "data/raw/explorer_assets/2026-10-10/leagues/premier-league.svg",
+      "raw_sha256": "962dd32516d47a2560b089833f2f9ab6cdffe16a08b39de29a8c4060de090ca0",
+      "source_url": "https://www.premierleague.com/resources/v1.54.15/i/svg-files/elements/pl-logo-light.svg",
+      "source_page": "https://www.premierleague.com/en",
+      "artist": "Premier League",
+      "license": "Rights retained; private research use only; redistribution permission unconfirmed",
+      "retrieved_at_utc": "2026-10-11T00:30:34.540391+00:00",
+      "display_changes": "Vector viewport limited to lion; no path changes",
+      "historical_accuracy": "Current illustrative emblem, not verification of every historical edition"
+    },
+    {
+      "kind": "league",
+      "label": "La Liga",
+      "title": "La Liga official emblem",
+      "path": "data/raw/explorer_assets/2026-10-10/leagues/laliga.ico",
+      "sha256": "91587f16b84071b65e887ba16963545403a37975655fc54f7cf819ace0403a9e",
+      "raw_path": "data/raw/explorer_assets/2026-10-10/leagues/laliga.ico",
+      "raw_sha256": "91587f16b84071b65e887ba16963545403a37975655fc54f7cf819ace0403a9e",
+      "source_url": "https://assets.laliga.com/assets/public/logos/favicon.ico",
+      "source_page": "https://www.laliga.com/en-GB",
+      "artist": "La Liga",
+      "license": "Rights retained; private research use only; redistribution permission unconfirmed",
+      "retrieved_at_utc": "2026-10-11T00:30:35.378987+00:00",
+      "display_changes": "CSS fit only",
+      "historical_accuracy": "Current illustrative emblem, not verification of every historical edition"
+    }
+  ]
+}

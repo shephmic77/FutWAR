@@ -1,0 +1,13 @@
+{
+  "label": "Liverpool",
+  "source_url": "https://stadion-edge.liverpoolfc.com/images/lfc.svg",
+  "source_page": "https://www.liverpoolfc.com/",
+  "path": "data/raw/profile_images/2026-10-10/liverpool-official-crest.svg",
+  "sha256": "edb7af00fb3475cb16f6c5d77be2b366fd0c60fd79743733525b0b9e102b764a",
+  "retrieved_at_utc": "2026-10-10T21:58:02.887346+00:00",
+  "rights_holder": "Liverpool Football Club",
+  "license": "No open reuse license verified",
+  "use_scope": "Owner-requested private layout preview; no redistribution or public deployment authorized",
+  "display_changes": "CSS contain only; archived SVG unchanged",
+  "terms_reference": "https://www.liverpoolfc.com/corporate/brand-protection"
+}

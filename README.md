@@ -1,165 +1,55 @@
 # FutWAR
-### Football Wins Above Replacement
 
-## Overview
+> **UNDER CONSTRUCTION — active research and development.**
+>
+> FutWAR is a research prototype. The player explorer and current experiments are incomplete. No final WAR formula, coefficients, replacement pool, or conversion to expected league points has been approved.
 
-FutWAR is a data science and sports analytics project aiming to develop a football equivalent of baseball's Wins Above Replacement (WAR).
+FutWAR (Football Wins Above Replacement) is a transparent soccer analytics project focused on men's domestic football in Europe's Big Five leagues from **2017–18 through 2024–25**. The goal is to estimate a player's observed contribution relative to a defensible replacement, while keeping league strength and tactical fit as distinct questions.
 
-The project seeks to measure individual player contributions relative to replacement-level players while accounting for positional responsibilities, team quality, opposition strength, league differences, and tactical systems.
+## Research goals
 
-Beyond player valuation, FutWAR aims to compare the quality and competitive depth of Europe's Big Five leagues, investigating differences between elite, midtable, and lower-ranked teams.
+- Estimate seasonal player contribution, first per 90 and then across observed playing time; seek an expected-points interpretation only after validation.
+- Compare league/team strength on a common scale, including squad depth and the players actually fielded.
+- Study specific positions, tactics, and role changes without inferring played roles from broad labels or formation alone.
+- Include goalkeepers, with role-appropriate measurement and a separate validation path.
 
-The project will combine statistical modeling, database management, and interactive data visualization.
+The owner wants three replacement comparisons (a same-position average across the five leagues, a selected league average, and a team-accessible option informed by historical resources/budgets), each available in position-locked and flexible-position views. These are **six comparison views**, not six selected formulas. Team-budget feasibility, league adjustment, cross-position comparability, player credit, and uncertainty remain research questions. The owner's secondary-position threshold is at least five appearances and at least 10% of appearances in that specific position. No position rule or WAR weights are inferred where evidence is missing.
 
-## Research Objectives
+COVID-era seasons remain in the 2017–18 to 2024–25 scope for inspection. Whether to omit them or add context is undecided. Do not adjust or exclude them without discussion.
 
-### 1. Player Valuation
+## Current status
 
-Develop a statistical metric to estimate how much value an individual player contributes above a replacement-level player.
+The project has audited an initial player-season source, built a local PostgreSQL/SQL workflow, assembled match and standings references, explored metric coverage by position, and run bounded event-state experiments. Those experiments suggest that event context can improve outcome prediction in limited samples; they do not establish action-to-player credit or player value. Sources have differing definitions, coverage, and reuse terms. The data are not complete or fully harmonized.
 
-Research questions:
-- How much does an individual player contribute to team performance?
-- What constitutes a replacement-level player in football?
-- How should contributions across different positions be compared?
-- How do playing time, team strength, and opposition quality affect estimated value?
-- Can player contribution be expressed in expected league points above replacement?
+A possible later-season event-data validation source has unresolved access/registration guidance. The user submitted a provider inquiry; that does not count as registration or permission. Work on already documented sources can continue while awaiting a reply.
 
-### 2. League and Team Strength
+See [the project plan](docs/project_plan.md), [data-source register](docs/data_sources.md), and [WAR model architecture](docs/war_model_architecture.md) for decisions and limitations. These documents preserve research context; prior proposals remain proposals unless marked as an owner decision.
 
-Compare Europe's five major leagues across multiple seasons.
+## Repository layout
 
-Research questions:
-- Which leagues have the strongest elite clubs?
-- Which leagues have the strongest midtable and bottom-ranked clubs?
-- Which leagues have the greatest competitive depth?
-- How does player quality differ between leagues?
-- How do league-strength distributions change over time?
-- How can player and team performances be compared across leagues on a common scale?
+```text
+AGENTS.md       project-specific development and research constraints
+data/           source manifests, aliases, and reviewed metadata
+notebooks/      exploratory and methodological notebooks
+docs/           research plan, provenance, decisions, and methods
+profile/        player-explorer prototype source
+reports/        reviewed narrative findings and selected methodology figures
+scripts/        reproducible audits, preparation, and research experiments
+sql/            PostgreSQL schema and analysis queries
+tests/          automated checks for research and data-handling code
+```
 
-### 3. Tactical and Positional Analysis
+Original/raw and processed datasets, credentials, local database files, row-level exports, generated explorer bundles, and provider-restricted files are intentionally excluded from Git. The public repository contains code and selected research documentation, not a redistributable data bundle. Check source terms and the source register before sharing data-derived work.
 
-Investigate how formations, tactical roles, and playing styles influence player performance and valuation.
+## Local setup
 
-Research questions:
-- How do formations affect individual statistical contributions?
-- How can players with different tactical responsibilities be compared?
-- How should a wingback be evaluated relative to a traditional fullback?
-- How does a player's performance change across positions or systems?
-- Can tactical suitability be estimated separately from overall player value?
+Use Windows PowerShell from the project root. Python is the primary language. Some scripts use the standard library; install the project requirements for notebooks and source-specific analyses:
 
-## Scope
+```powershell
+py -m pip install -r requirements.txt
+py -m unittest discover -s tests -v
+```
 
-### Competitions
-- Premier League — England
-- La Liga — Spain
-- Serie A — Italy
-- Bundesliga — Germany
-- Ligue 1 — France
+PostgreSQL is optional for many audits. When needed, create a local `.env` from `.env.example`, set a unique local password, and start the database with Docker Compose. See [Docker setup](docs/docker_setup.md). Never commit `.env` or any database dump.
 
-### Seasons
-- 2022–23
-- 2023–24
-- 2024–25
-- 2025–26
-
-### Players
-
-The initial model will focus on outfield players. Goalkeeper valuation will be developed separately because it requires distinct performance measures and modeling methods.
-
-### Data
-
-The project will prioritize player-level, team-level, and match-level statistics. Event-level data and detailed tactical information may be incorporated when reliable coverage is available.
-
-## Potential Statistical Variables
-
-### Attacking
-- Non-penalty goals
-- Non-penalty expected goals (npxG)
-- Expected assists (xA)
-- Shots and shot creation
-- Finishing performance
-
-### Passing and Ball Progression
-- Progressive passes
-- Progressive carries
-- Key passes
-- Successful take-ons
-- Passing efficiency
-
-### Defensive Contributions
-- Tackles
-- Interceptions
-- Blocks
-- Ball recoveries
-- Aerial duels
-
-### Possession and Discipline
-- Possession losses
-- Dispossessions
-- Fouls
-- Yellow and red cards
-
-### Contextual Variables
-- Position and tactical role
-- Minutes played
-- Team strength
-- Opposition strength
-- League strength
-- Formation
-- Team playing style
-- Match circumstances
-
-These variables are preliminary. Their availability, predictive usefulness, and potential overlap will be investigated before finalizing the model.
-
-## Methodology
-
-FutWAR will be developed incrementally.
-
-**Phase 1 — Data Collection and Exploration**
-
-Collect, clean, standardize, and explore historical player, team, and match data across all five leagues.
-
-**Phase 2 — Player Valuation**
-
-Develop an initial player-value model, establish replacement-level baselines, and estimate seasonal contributions above replacement.
-
-**Phase 3 — League Strength**
-
-Evaluate team quality and league depth using cross-league comparisons, historical performance, and player-level estimates.
-
-**Phase 4 — Tactical Context**
-
-Investigate how formations, positions, and tactical responsibilities affect player contributions and comparisons.
-
-**Phase 5 — Model Evaluation**
-
-Compare alternative methods, test performance on unseen data, quantify uncertainty, and document limitations.
-
-**Phase 6 — Visualization**
-
-Build interactive dashboards for player evaluation, team comparisons, league strength, and tactical analysis.
-
-## Technology Stack
-
-- **Python:** Data collection, cleaning, statistical modeling, and evaluation
-- **PostgreSQL:** Relational database storage and SQL analysis
-- **Tableau:** Interactive dashboards and visualizations
-- **Git/GitHub:** Version control and documentation
-- **Jupyter Notebook:** Exploratory analysis and experimentation
-
-## Planned Deliverables
-
-1. Standardized multi-season football database
-2. FutWAR player-value model and rankings
-3. Position-specific replacement-level estimates
-4. Comparative Big Five league-strength analysis
-5. Formation and tactical-role analysis
-6. Statistical model validation and limitations report
-7. Interactive Tableau dashboards
-8. Documented and reproducible GitHub repository
-
-## Project Status
-
-**Phase 1 — Project setup, data-source evaluation, and exploratory analysis**
-
-FutWAR is an independent research and portfolio project. Its statistical methodology and final results are under development.
+The root `.gitignore` keeps raw and processed records and generated detailed outputs local. To run the first inventory after placing permitted CSVs in `data/raw/`, use `py scripts/audit_data.py`; inspect the local `reports/` outputs before interpreting or sharing them.

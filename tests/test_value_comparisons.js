@@ -1,0 +1,20 @@
+const assert=require('node:assert/strict');
+const {reference,pooled,majorityRole}=require('../profile/value_comparisons.js');
+function row(id,season,league,total,minutes=900,role='RW',group=id){return {id,group,season,league,domain:'outfield',display_role:role,minutes,metrics:{npxg:total*90/minutes},totals:{npxg:total}};}
+const selected=row('selected','2024-25','La Liga',10);
+const rows=[selected,row('self-stint','2024-25','La Liga',50,900,'RW','selected'),row('a','2024-25','La Liga',1),row('b','2024-25','Serie A',3),row('past','2023-24','La Liga',100),row('low','2024-25','La Liga',5,100),row('wrong','2024-25','La Liga',30,900,'CB'),row('unknown','2024-25','La Liga',20,900,'MF')];
+assert.equal(reference(rows,selected,'2024-25','npxg').players,2);
+assert.equal(reference(rows,selected,'2024-25','npxg').rate,.2);
+assert.equal(reference(rows,selected,'2024-25','npxg','La Liga').rate,.1);
+assert.equal(reference(rows,selected,'2024-25','npxg').belowMinimum,1);
+assert.equal(reference(rows,selected,'2024-25','npxg').unknownRoles,1);
+assert.equal(reference(rows,selected,'2022-23','npxg').rate,null);
+assert.equal(reference(rows,{...selected,display_role:'MF'},'2024-25','npxg').rate,null);
+const stints=[row('x','2024-25','La Liga',1,450,'RW','person'),row('y','2024-25','Serie A',2,450,'RW','person')];
+assert.equal(reference(stints,selected,'2024-25','npxg').players,1);
+assert.equal(reference(stints,selected,'2024-25','npxg').rate,.3);
+assert.equal(reference(stints,selected,'2024-25','npxg','La Liga').rate,null);
+assert.equal(pooled([{...stints[0],totals:{}}],'npxg').rate,null);
+assert.equal(majorityRole([row('a','s','l',0,900,'LB'),row('b','s','l',0,900,'LWB')]),'Unavailable');
+assert.throws(()=>reference(rows,selected,'2024-25','npxg',null,0));
+console.log('Season, identity, league, exposure, missing-data and role-reference checks passed.');

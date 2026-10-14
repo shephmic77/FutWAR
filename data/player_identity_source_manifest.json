@@ -1,0 +1,66 @@
+{
+  "publisher": "dcaribou/transfermarkt-datasets",
+  "download_documentation": "https://github.com/dcaribou/transfermarkt-datasets",
+  "publisher_license": "CC0-1.0 (publisher declaration; upstream rights not independently confirmed)",
+  "license_url": "https://github.com/dcaribou/transfermarkt-datasets/blob/master/LICENSE",
+  "access_method": "Publisher public CSV downloads; no upstream scraping",
+  "redistribution_policy": "Private research archive; raw and processed exports excluded from Git",
+  "files": [
+    {
+      "filename": "competitions.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/competitions.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/competitions.csv.gz",
+      "retrieved_at_utc": "2026-10-10T17:28:04.336208+00:00",
+      "sha256": "8924ddfbc0e9989f4a42a3c32ebb6faa671614625086d7fa84353f955352ea88",
+      "bytes": 2242
+    },
+    {
+      "filename": "clubs.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/clubs.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/clubs.csv.gz",
+      "retrieved_at_utc": "2026-10-10T17:28:04.699473+00:00",
+      "sha256": "aa57ab56e87faffaea1e8697439a32caf10116d8f2f2dfb3a57193c0bb1d641b",
+      "bytes": 51281
+    },
+    {
+      "filename": "players.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/players.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz",
+      "retrieved_at_utc": "2026-10-10T17:28:05.366464+00:00",
+      "sha256": "d22e407981d5b51a79bf8ff59835729f3526f7dc3495a6d8ed2f852ed2e86403",
+      "bytes": 4389958
+    },
+    {
+      "filename": "games.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/games.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/games.csv.gz",
+      "retrieved_at_utc": "2026-10-10T17:28:06.157056+00:00",
+      "sha256": "142561989017d379bcf9e72bad0b87e0996bae0e7b710ebb3def9255f464c741",
+      "bytes": 4995595
+    },
+    {
+      "filename": "appearances.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/appearances.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/appearances.csv.gz",
+      "retrieved_at_utc": "2026-10-10T17:28:08.292491+00:00",
+      "sha256": "e096c2b158fc3d52c4550526c4d4850dd62f31007652f4bcae112eadb1646802",
+      "bytes": 45253638
+    },
+    {
+      "filename": "transfers.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/transfers.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/transfers.csv.gz",
+      "retrieved_at_utc": "2026-10-10T17:28:09.037605+00:00",
+      "sha256": "90326983daf7e6ac7aabdfe62b90936d9bf1dd2171e53dec75c3751eb1620a83",
+      "bytes": 5809514
+    },
+    {
+      "filename": "player_valuations.csv.gz",
+      "path": "data/raw/transfermarkt_publisher/2026-10-10/player_valuations.csv.gz",
+      "source_url": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/player_valuations.csv.gz",
+      "retrieved_at_utc": "2026-10-10T23:24:05.489324+00:00",
+      "sha256": "608e32e5ad2231074f3505c469ad727be66d7e6efda6af918afd85379439631d",
+      "bytes": 7197935
+    }
+  ]
+}

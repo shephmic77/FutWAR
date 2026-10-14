@@ -1,0 +1,54 @@
+{
+  "purpose": "Cited player action illustrations, separate from statistics",
+  "historical_accuracy": "Photographs are illustrations; selected season or club accuracy is not asserted.",
+  "assets": [],
+  "catalogue": {
+    "status": "unavailable",
+    "source_url": "https://query.wikidata.org/sparql?query=SELECT+%3Fperson+%3Ftmid+%3Fimage+WHERE+%7B+%3Fperson+wdt%3AP2446+%3Ftmid%3B+wdt%3AP18+%3Fimage.+%7D+LIMIT+15000&format=json",
+    "error": "HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)",
+    "note": "No retry or alternate endpoint attempted; no new action photographs acquired."
+  },
+  "access_gap": "Commons original image endpoint returned HTTP 429 on first request; downloads stopped without retries.",
+  "reviewed_candidates": [
+    {
+      "id": "paulo-dybala-action",
+      "player_name": "Paulo Dybala",
+      "provider_player_id": "206050",
+      "source_page": "https://commons.wikimedia.org/wiki/File%3AFrosinone_Calcio_-_Stadio_Matusa_-_vs_Juventus_7_2_2016_0-2_-_DSC_4255_-_Dybala_vs_Gori_%28cropped%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "photo_date": "2016-02-07",
+      "description": "Juventus match action; upstream crop includes full body",
+      "status": "reviewed_source_not_archived_due_to_rate_limit"
+    },
+    {
+      "id": "mohamed-salah-action",
+      "player_name": "Mohamed Salah",
+      "provider_player_id": "148455",
+      "source_page": "https://commons.wikimedia.org/wiki/File%3AMohamed_Salah_2017.jpg",
+      "license": "CC BY-SA 3.0",
+      "photo_date": "2017-09-26",
+      "description": "Liverpool at Spartak match",
+      "status": "reviewed_source_not_archived_due_to_rate_limit"
+    },
+    {
+      "id": "lorenzo-insigne-action",
+      "player_name": "Lorenzo Insigne",
+      "provider_player_id": "133964",
+      "source_page": "https://commons.wikimedia.org/wiki/File%3ABar%C3%A7a_-_Napoli_-_20140806_-_16_%28cropped%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "photo_date": "2014-08-06",
+      "description": "Napoli friendly match action; upstream crop",
+      "status": "reviewed_source_not_archived_due_to_rate_limit"
+    },
+    {
+      "id": "harry-kane-action",
+      "player_name": "Harry Kane",
+      "provider_player_id": "132098",
+      "source_page": "https://commons.wikimedia.org/wiki/File%3AHarry_Kane_2018.jpg",
+      "license": "CC BY-SA 3.0",
+      "photo_date": "2018-07-13",
+      "description": "England World Cup match; international kit",
+      "status": "reviewed_source_not_archived_due_to_rate_limit"
+    }
+  ]
+}

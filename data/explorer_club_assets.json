@@ -1,0 +1,1492 @@
+{
+  "purpose": "Owner-requested private explorer club identity illustrations",
+  "historical_edition_policy": "Illustrative club logos; exact season editions not established",
+  "identity_method": "Existing reviewed league/club aliases, publisher club_id, Wikidata P7223 exact match",
+  "assets": [
+    {
+      "id": "club-10",
+      "kind": "club",
+      "publisher_club_id": "10",
+      "wikidata_id": "Q105844",
+      "label": "Arminia Bielefeld",
+      "title": "File:Arminia Bielefeld Logo 2021–.svg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/10.svg",
+      "sha256": "89728bb256e8538eb71766056df129e6a4ff3492532ca15650a1ccec7930a583",
+      "bytes": 15036,
+      "retrieved_at_utc": "2026-10-10T23:25:35.552512+00:00",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "DSC Arminia Bielefeld",
+      "historical_season_accuracy": "Illustrative edition; not verified for every selected season",
+      "trademark_notice": "Club marks may be trademarked; source license is not trademark clearance",
+      "display_changes": "CSS contain only; raw unchanged"
+    },
+    {
+      "id": "club-27",
+      "kind": "club",
+      "publisher_club_id": "27",
+      "wikidata_id": "Q15789",
+      "label": "Bayern Munich",
+      "title": "File:FC Bayern München logo (2024).svg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:FC_Bayern_M%C3%BCnchen_logo_(2024).svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/27.svg",
+      "sha256": "d76ad7bc2e4e504acd7d4f5b16d3601541e707714cb448f7ad2ec9b3bc7fe86f",
+      "bytes": 6805,
+      "retrieved_at_utc": "2026-10-10T23:25:36.683818+00:00",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "FC Bayern Munich",
+      "historical_season_accuracy": "Illustrative edition; not verified for every selected season",
+      "trademark_notice": "Club marks may be trademarked; source license is not trademark clearance",
+      "display_changes": "CSS contain only; raw unchanged"
+    },
+    {
+      "id": "club-80",
+      "kind": "club",
+      "publisher_club_id": "80",
+      "wikidata_id": "Q105861",
+      "label": "VfL Bochum",
+      "title": "File:VfL Bochum logo.svg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:VfL_Bochum_logo.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/VfL_Bochum_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/80.svg",
+      "sha256": "36ff4a5fc083d24450e1f5d6f4fa9dc6b3963fcac4ff05f2aa63b138c8dc9147",
+      "bytes": 8149,
+      "retrieved_at_utc": "2026-10-10T23:25:37.813433+00:00",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "VfL Bochum",
+      "historical_season_accuracy": "Illustrative edition; not verified for every selected season",
+      "trademark_notice": "Club marks may be trademarked; source license is not trademark clearance",
+      "display_changes": "CSS contain only; raw unchanged"
+    },
+    {
+      "id": "club-105",
+      "kind": "club",
+      "publisher_club_id": "105",
+      "wikidata_id": "Q479351",
+      "label": "SV Darmstadt 98",
+      "title": "File:SV Darmstadt 98 Logo.svg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:SV_Darmstadt_98_Logo.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/105.svg",
+      "sha256": "881bac5b7c9999583cf8cbf6f406b3a84eba87946c85dd61585a61932c5fde95",
+      "bytes": 33861,
+      "retrieved_at_utc": "2026-10-10T23:25:39.013368+00:00",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "SV Darmstadt 1898 e.V.",
+      "historical_season_accuracy": "Illustrative edition; not verified for every selected season",
+      "trademark_notice": "Club marks may be trademarked; source license is not trademark clearance",
+      "display_changes": "CSS contain only; raw unchanged"
+    },
+    {
+      "id": "club-16",
+      "kind": "club",
+      "publisher_club_id": "16",
+      "wikidata_id": "Q41420",
+      "label": "Borussia Dortmund",
+      "title": "File:Borussia Dortmund logo.svg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Borussia_Dortmund_logo.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/16.svg",
+      "sha256": "e517d63b08b5310310a867b8412a9cdb7d4f8e45cfed07e3d7e2e78e41b639c9",
+      "bytes": 3071,
+      "retrieved_at_utc": "2026-10-10T23:25:40.169433+00:00",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Lispir (Lispir)",
+      "historical_season_accuracy": "Illustrative edition; not verified for every selected season",
+      "trademark_notice": "Club marks may be trademarked; source license is not trademark clearance",
+      "display_changes": "CSS contain only; raw unchanged"
+    }
+  ],
+  "coverage": [
+    {
+      "league": "Bundesliga",
+      "team": "Arminia",
+      "status": "available",
+      "publisher_club_id": "10",
+      "publisher_name": "Arminia Bielefeld",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/arminia-bielefeld/startseite/verein/10",
+      "wikidata_id": "Q105844",
+      "asset_id": "club-10"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Augsburg",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "167",
+      "publisher_name": "FC Augsburg",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-augsburg/startseite/verein/167",
+      "wikidata_id": "Q97905916"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Bayern Munich",
+      "status": "available",
+      "publisher_club_id": "27",
+      "publisher_name": "Bayern Munich",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-bayern-munchen/startseite/verein/27",
+      "wikidata_id": "Q15789",
+      "asset_id": "club-27"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Bochum",
+      "status": "available",
+      "publisher_club_id": "80",
+      "publisher_name": "VfL Bochum",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/vfl-bochum/startseite/verein/80",
+      "wikidata_id": "Q105861",
+      "asset_id": "club-80"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Darmstadt 98",
+      "status": "available",
+      "publisher_club_id": "105",
+      "publisher_name": "SV Darmstadt 98",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sv-darmstadt-98/startseite/verein/105",
+      "wikidata_id": "Q479351",
+      "asset_id": "club-105"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Dortmund",
+      "status": "available",
+      "publisher_club_id": "16",
+      "publisher_name": "Borussia Dortmund",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/borussia-dortmund/startseite/verein/16",
+      "wikidata_id": "Q41420",
+      "asset_id": "club-16"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Düsseldorf",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "38",
+      "publisher_name": "Fortuna Düsseldorf",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fortuna-dusseldorf/startseite/verein/38",
+      "wikidata_id": "Q151747"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Eint Frankfurt",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "24",
+      "publisher_name": "Eintracht Frankfurt",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/eintracht-frankfurt/startseite/verein/24",
+      "wikidata_id": "Q38245"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Freiburg",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "60",
+      "publisher_name": "SC Freiburg",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sc-freiburg/startseite/verein/60",
+      "wikidata_id": "Q106394"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Gladbach",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "18",
+      "publisher_name": "Borussia Mönchengladbach",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/borussia-monchengladbach/startseite/verein/18",
+      "wikidata_id": "Q101959"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Greuther Fürth",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "65",
+      "publisher_name": "SpVgg Greuther Fürth",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/spvgg-greuther-furth/startseite/verein/65",
+      "wikidata_id": "Q153539"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hamburger SV",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "41",
+      "publisher_name": "Hamburger SV",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/hamburger-sv/startseite/verein/41",
+      "wikidata_id": "Q51974"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hannover 96",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "42",
+      "publisher_name": "Hannover 96",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/hannover-96/startseite/verein/42",
+      "wikidata_id": "Q33748"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Heidenheim",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "2036",
+      "publisher_name": "1. Fußballclub Heidenheim 1846",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/1-fc-heidenheim-1846/startseite/verein/2036",
+      "wikidata_id": "Q162251"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hertha BSC",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "44",
+      "publisher_name": "Hertha BSC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/hertha-bsc/startseite/verein/44",
+      "wikidata_id": "Q102720"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hoffenheim",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "533",
+      "publisher_name": "TSG 1899 Hoffenheim",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/tsg-1899-hoffenheim/startseite/verein/533",
+      "wikidata_id": "Q22707"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Holstein Kiel",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "269",
+      "publisher_name": "Holstein Kiel",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/holstein-kiel/startseite/verein/269",
+      "wikidata_id": "Q157828"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Köln",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "3",
+      "publisher_name": "1.FC Köln",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/1-fc-koln/startseite/verein/3",
+      "wikidata_id": "Q104770"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Leverkusen",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "15",
+      "publisher_name": "Bayer 04 Leverkusen",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/bayer-04-leverkusen/startseite/verein/15",
+      "wikidata_id": "Q104761"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "M'Gladbach",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "18",
+      "publisher_name": "Borussia Mönchengladbach",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/borussia-monchengladbach/startseite/verein/18",
+      "wikidata_id": "Q101959"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Mainz 05",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "39",
+      "publisher_name": "1.FSV Mainz 05",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/1-fsv-mainz-05/startseite/verein/39",
+      "wikidata_id": "Q105254"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Nürnberg",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "4",
+      "publisher_name": "1.FC Nuremberg",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/1-fc-nurnberg/startseite/verein/4",
+      "wikidata_id": "Q15786"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Paderborn 07",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "127",
+      "publisher_name": "SC Paderborn 07",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sc-paderborn-07/startseite/verein/127",
+      "wikidata_id": "Q160532"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "RB Leipzig",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "23826",
+      "publisher_name": "RB Leipzig",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/rasenballsport-leipzig/startseite/verein/23826",
+      "wikidata_id": "Q702455"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Schalke 04",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "33",
+      "publisher_name": "FC Schalke 04",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-schalke-04/startseite/verein/33",
+      "wikidata_id": "Q32494"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "St. Pauli",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "35",
+      "publisher_name": "FC St. Pauli",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-st-pauli/startseite/verein/35",
+      "wikidata_id": "Q6463"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Stuttgart",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "79",
+      "publisher_name": "VfB Stuttgart",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/vfb-stuttgart/startseite/verein/79",
+      "wikidata_id": "Q4512"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Union Berlin",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "89",
+      "publisher_name": "1.FC Union Berlin",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/1-fc-union-berlin/startseite/verein/89",
+      "wikidata_id": "Q141971"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Werder Bremen",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "86",
+      "publisher_name": "SV Werder Bremen",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sv-werder-bremen/startseite/verein/86",
+      "wikidata_id": "Q51976"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Wolfsburg",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "82",
+      "publisher_name": "VfL Wolfsburg",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/vfl-wolfsburg/startseite/verein/82",
+      "wikidata_id": "Q101859"
+    },
+    {
+      "league": "La Liga",
+      "team": "Alavés",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1108",
+      "publisher_name": "Deportivo Alavés",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/deportivo-alaves/startseite/verein/1108",
+      "wikidata_id": "Q223620"
+    },
+    {
+      "league": "La Liga",
+      "team": "Almería",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "3302",
+      "publisher_name": "UD Almería",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ud-almeria/startseite/verein/3302",
+      "wikidata_id": "Q10407"
+    },
+    {
+      "league": "La Liga",
+      "team": "Athletic Club",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "621",
+      "publisher_name": "Athletic Bilbao",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/athletic-bilbao/startseite/verein/621",
+      "wikidata_id": "Q8687"
+    },
+    {
+      "league": "La Liga",
+      "team": "Atlético Madrid",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "13",
+      "publisher_name": "Atlético de Madrid",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/atletico-madrid/startseite/verein/13",
+      "wikidata_id": "Q8701"
+    },
+    {
+      "league": "La Liga",
+      "team": "Barcelona",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "131",
+      "publisher_name": "FC Barcelona",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-barcelona/startseite/verein/131",
+      "wikidata_id": "Q7156"
+    },
+    {
+      "league": "La Liga",
+      "team": "Betis",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "150",
+      "publisher_name": "Real Betis Balompié",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/real-betis-sevilla/startseite/verein/150",
+      "wikidata_id": "Q8723"
+    },
+    {
+      "league": "La Liga",
+      "team": "Celta Vigo",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "940",
+      "publisher_name": "Celta de Vigo",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/celta-vigo/startseite/verein/940",
+      "wikidata_id": "Q8749"
+    },
+    {
+      "league": "La Liga",
+      "team": "Cádiz",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "2687",
+      "publisher_name": "Cádiz CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-cadiz/startseite/verein/2687",
+      "wikidata_id": "Q460448"
+    },
+    {
+      "league": "La Liga",
+      "team": "Eibar",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1533",
+      "publisher_name": "SD Eibar",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sd-eibar/startseite/verein/1533",
+      "wikidata_id": "Q770740"
+    },
+    {
+      "league": "La Liga",
+      "team": "Elche",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1531",
+      "publisher_name": "Elche CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-elche/startseite/verein/1531",
+      "wikidata_id": "Q10512"
+    },
+    {
+      "league": "La Liga",
+      "team": "Espanyol",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "714",
+      "publisher_name": "RCD Espanyol Barcelona",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/espanyol-barcelona/startseite/verein/714",
+      "wikidata_id": "Q8780"
+    },
+    {
+      "league": "La Liga",
+      "team": "Getafe",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "3709",
+      "publisher_name": "Getafe CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-getafe/startseite/verein/3709",
+      "wikidata_id": "Q8806"
+    },
+    {
+      "league": "La Liga",
+      "team": "Girona",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "12321",
+      "publisher_name": "Girona FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-girona/startseite/verein/12321",
+      "wikidata_id": "Q11945"
+    },
+    {
+      "league": "La Liga",
+      "team": "Granada",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "16795",
+      "publisher_name": "Granada CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-granada/startseite/verein/16795",
+      "wikidata_id": "Q8812"
+    },
+    {
+      "league": "La Liga",
+      "team": "Huesca",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "5358",
+      "publisher_name": "SD Huesca",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sd-huesca/startseite/verein/5358",
+      "wikidata_id": "Q11971"
+    },
+    {
+      "league": "La Liga",
+      "team": "La Coruña",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "897",
+      "publisher_name": "Deportivo de La Coruña",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/deportivo-la-coruna/startseite/verein/897",
+      "wikidata_id": "Q8760"
+    },
+    {
+      "league": "La Liga",
+      "team": "Las Palmas",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "472",
+      "publisher_name": "UD Las Palmas",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ud-las-palmas/startseite/verein/472",
+      "wikidata_id": "Q11979"
+    },
+    {
+      "league": "La Liga",
+      "team": "Leganés",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1244",
+      "publisher_name": "CD Leganés",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/cd-leganes/startseite/verein/1244",
+      "wikidata_id": "Q856119"
+    },
+    {
+      "league": "La Liga",
+      "team": "Levante",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "3368",
+      "publisher_name": "Levante UD",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ud-levante/startseite/verein/3368",
+      "wikidata_id": "Q8823"
+    },
+    {
+      "league": "La Liga",
+      "team": "Mallorca",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "237",
+      "publisher_name": "RCD Mallorca",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/rcd-mallorca/startseite/verein/237",
+      "wikidata_id": "Q8835"
+    },
+    {
+      "league": "La Liga",
+      "team": "Málaga",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1084",
+      "publisher_name": "Málaga CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-malaga/startseite/verein/1084",
+      "wikidata_id": "Q8857"
+    },
+    {
+      "league": "La Liga",
+      "team": "Osasuna",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "331",
+      "publisher_name": "CA Osasuna",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ca-osasuna/startseite/verein/331",
+      "wikidata_id": "Q10286"
+    },
+    {
+      "league": "La Liga",
+      "team": "Rayo Vallecano",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "367",
+      "publisher_name": "Rayo Vallecano",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/rayo-vallecano/startseite/verein/367",
+      "wikidata_id": "Q10300"
+    },
+    {
+      "league": "La Liga",
+      "team": "Real Madrid",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "418",
+      "publisher_name": "Real Madrid",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/real-madrid/startseite/verein/418",
+      "wikidata_id": "Q8682"
+    },
+    {
+      "league": "La Liga",
+      "team": "Real Sociedad",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "681",
+      "publisher_name": "Real Sociedad",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/real-sociedad-san-sebastian/startseite/verein/681",
+      "wikidata_id": "Q10315"
+    },
+    {
+      "league": "La Liga",
+      "team": "Sevilla",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "368",
+      "publisher_name": "Sevilla FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-sevilla/startseite/verein/368",
+      "wikidata_id": "Q10329"
+    },
+    {
+      "league": "La Liga",
+      "team": "Valencia",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1049",
+      "publisher_name": "Valencia CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-valencia/startseite/verein/1049",
+      "wikidata_id": "Q10333"
+    },
+    {
+      "league": "La Liga",
+      "team": "Valladolid",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "366",
+      "publisher_name": "Real Valladolid CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/real-valladolid/startseite/verein/366",
+      "wikidata_id": "Q10319"
+    },
+    {
+      "league": "La Liga",
+      "team": "Villarreal",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1050",
+      "publisher_name": "Villarreal CF",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-villarreal/startseite/verein/1050",
+      "wikidata_id": "Q12297"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Ajaccio",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1147",
+      "publisher_name": "AC Ajaccio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ac-ajaccio/startseite/verein/1147",
+      "wikidata_id": "Q270051"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Amiens",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1416",
+      "publisher_name": "Amiens SC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/amiens-sc/startseite/verein/1416",
+      "wikidata_id": "Q866884"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Angers",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "1420",
+      "publisher_name": "Angers SCO",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sco-angers/startseite/verein/1420",
+      "wikidata_id": "Q845137"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Auxerre",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "290",
+      "publisher_name": "AJ Auxerre",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/aj-auxerre/startseite/verein/290",
+      "wikidata_id": "Q182876"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Bordeaux",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "40",
+      "publisher_name": "FC Girondins Bordeaux",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-girondins-bordeaux/startseite/verein/40",
+      "wikidata_id": "Q172476"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Brest",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "3911",
+      "publisher_name": "Stade Brestois 29",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/stade-brest-29/startseite/verein/3911",
+      "wikidata_id": "Q218372"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Caen",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1162",
+      "publisher_name": "SM Caen",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sm-caen/startseite/verein/1162",
+      "wikidata_id": "Q193377"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Clermont Foot",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "3524",
+      "publisher_name": "Clermont Foot 63",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/clermont-foot-63/startseite/verein/3524",
+      "wikidata_id": "Q870182"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Dijon",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "2969",
+      "publisher_name": "Dijon FCO",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/dijon-fco/startseite/verein/2969",
+      "wikidata_id": "Q503317"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Guingamp",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "855",
+      "publisher_name": "EA Guingamp",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ea-guingamp/startseite/verein/855",
+      "wikidata_id": "Q459148"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Le Havre",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "738",
+      "publisher_name": "Le Havre AC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ac-le-havre/startseite/verein/738",
+      "wikidata_id": "Q328658"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lens",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "826",
+      "publisher_name": "RC Lens",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/rc-lens/startseite/verein/826",
+      "wikidata_id": "Q191843"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lille",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1082",
+      "publisher_name": "LOSC Lille",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/losc-lille/startseite/verein/1082",
+      "wikidata_id": "Q19516"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lorient",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1158",
+      "publisher_name": "FC Lorient",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-lorient/startseite/verein/1158",
+      "wikidata_id": "Q48911"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lyon",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1041",
+      "publisher_name": "Olympique Lyon",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/olympique-lyon/startseite/verein/1041",
+      "wikidata_id": "Q704"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Marseille",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "244",
+      "publisher_name": "Olympique Marseille",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/olympique-marseille/startseite/verein/244",
+      "wikidata_id": "Q132885"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Metz",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "347",
+      "publisher_name": "FC Metz",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-metz/startseite/verein/347",
+      "wikidata_id": "Q221525"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Monaco",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "162",
+      "publisher_name": "AS Monaco",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/as-monaco/startseite/verein/162",
+      "wikidata_id": "Q180305"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Montpellier",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "969",
+      "publisher_name": "Montpellier HSC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/montpellier-hsc/startseite/verein/969",
+      "wikidata_id": "Q19513"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Nantes",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "995",
+      "publisher_name": "FC Nantes",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-nantes/startseite/verein/995",
+      "wikidata_id": "Q192071"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Nice",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "417",
+      "publisher_name": "OGC Nice",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ogc-nizza/startseite/verein/417",
+      "wikidata_id": "Q185163"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Nîmes",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1160",
+      "publisher_name": "Nîmes Olympique",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/nimes-olympique/startseite/verein/1160",
+      "wikidata_id": "Q730809"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Paris S-G",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "583",
+      "publisher_name": "Paris Saint-Germain",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-paris-saint-germain/startseite/verein/583",
+      "wikidata_id": "Q483020"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Reims",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "1421",
+      "publisher_name": "Stade Reims",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/stade-reims/startseite/verein/1421",
+      "wikidata_id": "Q208228"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Rennes",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "273",
+      "publisher_name": "Stade Rennais FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-stade-rennes/startseite/verein/273",
+      "wikidata_id": "Q19509"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Saint-Étienne",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "618",
+      "publisher_name": "AS Saint-Étienne",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/as-saint-etienne/startseite/verein/618",
+      "wikidata_id": "Q19521"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Strasbourg",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "667",
+      "publisher_name": "RC Strasbourg Alsace",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/rc-strassburg-alsace/startseite/verein/667",
+      "wikidata_id": "Q126334"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Toulouse",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "415",
+      "publisher_name": "FC Toulouse",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-toulouse/startseite/verein/415",
+      "wikidata_id": "Q19518"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Troyes",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "1095",
+      "publisher_name": "ESTAC Troyes",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/es-troyes-ac/startseite/verein/1095",
+      "wikidata_id": "Q501693"
+    },
+    {
+      "league": "Premier League",
+      "team": "Arsenal",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "11",
+      "publisher_name": "Arsenal FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-arsenal/startseite/verein/11",
+      "wikidata_id": "Q9617"
+    },
+    {
+      "league": "Premier League",
+      "team": "Aston Villa",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "405",
+      "publisher_name": "Aston Villa",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/aston-villa/startseite/verein/405",
+      "wikidata_id": "Q18711"
+    },
+    {
+      "league": "Premier League",
+      "team": "Bournemouth",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "989",
+      "publisher_name": "AFC Bournemouth",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/afc-bournemouth/startseite/verein/989",
+      "wikidata_id": "Q19568"
+    },
+    {
+      "league": "Premier League",
+      "team": "Brentford",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1148",
+      "publisher_name": "Brentford FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-brentford/startseite/verein/1148",
+      "wikidata_id": "Q19571"
+    },
+    {
+      "league": "Premier League",
+      "team": "Brighton",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1237",
+      "publisher_name": "Brighton & Hove Albion",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/brighton-amp-hove-albion/startseite/verein/1237",
+      "wikidata_id": "Q19453"
+    },
+    {
+      "league": "Premier League",
+      "team": "Burnley",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1132",
+      "publisher_name": "Burnley FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-burnley/startseite/verein/1132",
+      "wikidata_id": "Q19458"
+    },
+    {
+      "league": "Premier League",
+      "team": "Cardiff City",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "603",
+      "publisher_name": "Cardiff City",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/cardiff-city/startseite/verein/603",
+      "wikidata_id": "Q18662"
+    },
+    {
+      "league": "Premier League",
+      "team": "Chelsea",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "631",
+      "publisher_name": "Chelsea FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-chelsea/startseite/verein/631",
+      "wikidata_id": "Q9616"
+    },
+    {
+      "league": "Premier League",
+      "team": "Crystal Palace",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "873",
+      "publisher_name": "Crystal Palace",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/crystal-palace/startseite/verein/873",
+      "wikidata_id": "Q19467"
+    },
+    {
+      "league": "Premier League",
+      "team": "Everton",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "29",
+      "publisher_name": "Everton FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-everton/startseite/verein/29",
+      "wikidata_id": "Q5794"
+    },
+    {
+      "league": "Premier League",
+      "team": "Fulham",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "931",
+      "publisher_name": "Fulham FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-fulham/startseite/verein/931",
+      "wikidata_id": "Q18708"
+    },
+    {
+      "league": "Premier League",
+      "team": "Huddersfield",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1110",
+      "publisher_name": "Huddersfield Town",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/huddersfield-town/startseite/verein/1110",
+      "wikidata_id": "Q19473"
+    },
+    {
+      "league": "Premier League",
+      "team": "Ipswich Town",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "677",
+      "publisher_name": "Ipswich Town",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ipswich-town/startseite/verein/677",
+      "wikidata_id": "Q9653"
+    },
+    {
+      "league": "Premier League",
+      "team": "Leeds United",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "399",
+      "publisher_name": "Leeds United",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/leeds-united/startseite/verein/399",
+      "wikidata_id": "Q1128631"
+    },
+    {
+      "league": "Premier League",
+      "team": "Leicester City",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1003",
+      "publisher_name": "Leicester City",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/leicester-city/startseite/verein/1003",
+      "wikidata_id": "Q19481"
+    },
+    {
+      "league": "Premier League",
+      "team": "Liverpool",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "31",
+      "publisher_name": "Liverpool FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-liverpool/startseite/verein/31",
+      "wikidata_id": "Q1130849"
+    },
+    {
+      "league": "Premier League",
+      "team": "Luton Town",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1031",
+      "publisher_name": "Luton Town",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/luton-town/startseite/verein/1031",
+      "wikidata_id": "Q18520"
+    },
+    {
+      "league": "Premier League",
+      "team": "Manchester City",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "281",
+      "publisher_name": "Manchester City",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/manchester-city/startseite/verein/281",
+      "wikidata_id": "Q50602"
+    },
+    {
+      "league": "Premier League",
+      "team": "Manchester Utd",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "985",
+      "publisher_name": "Manchester United",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/manchester-united/startseite/verein/985",
+      "wikidata_id": "Q18656"
+    },
+    {
+      "league": "Premier League",
+      "team": "Newcastle Utd",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "762",
+      "publisher_name": "Newcastle United",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/newcastle-united/startseite/verein/762",
+      "wikidata_id": "Q18716"
+    },
+    {
+      "league": "Premier League",
+      "team": "Norwich City",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1123",
+      "publisher_name": "Norwich City",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/norwich-city/startseite/verein/1123",
+      "wikidata_id": "Q18721"
+    },
+    {
+      "league": "Premier League",
+      "team": "Nott'ham Forest",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "703",
+      "publisher_name": "Nottingham Forest",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/nottingham-forest/startseite/verein/703",
+      "wikidata_id": "Q19490"
+    },
+    {
+      "league": "Premier League",
+      "team": "Sheffield Utd",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "350",
+      "publisher_name": "Sheffield United",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sheffield-united/startseite/verein/350",
+      "wikidata_id": "Q19607"
+    },
+    {
+      "league": "Premier League",
+      "team": "Southampton",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "180",
+      "publisher_name": "Southampton FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-southampton/startseite/verein/180",
+      "wikidata_id": "Q18732"
+    },
+    {
+      "league": "Premier League",
+      "team": "Stoke City",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "512",
+      "publisher_name": "Stoke City",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/stoke-city/startseite/verein/512",
+      "wikidata_id": "Q18736"
+    },
+    {
+      "league": "Premier League",
+      "team": "Swansea City",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "2288",
+      "publisher_name": "Swansea City",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/swansea-city/startseite/verein/2288",
+      "wikidata_id": "Q18659"
+    },
+    {
+      "league": "Premier League",
+      "team": "Tottenham",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "148",
+      "publisher_name": "Tottenham Hotspur",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/tottenham-hotspur/startseite/verein/148",
+      "wikidata_id": "Q18741"
+    },
+    {
+      "league": "Premier League",
+      "team": "Watford",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1010",
+      "publisher_name": "Watford FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-watford/startseite/verein/1010",
+      "wikidata_id": "Q2714"
+    },
+    {
+      "league": "Premier League",
+      "team": "West Brom",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "984",
+      "publisher_name": "West Bromwich Albion",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/west-bromwich-albion/startseite/verein/984",
+      "wikidata_id": "Q18744"
+    },
+    {
+      "league": "Premier League",
+      "team": "West Ham",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "379",
+      "publisher_name": "West Ham United",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/west-ham-united/startseite/verein/379",
+      "wikidata_id": "Q18747"
+    },
+    {
+      "league": "Premier League",
+      "team": "Wolves",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "543",
+      "publisher_name": "Wolverhampton Wanderers",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/wolverhampton-wanderers/startseite/verein/543",
+      "wikidata_id": "Q19500"
+    },
+    {
+      "league": "Serie A",
+      "team": "Atalanta",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "800",
+      "publisher_name": "Atalanta BC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/atalanta-bergamo/startseite/verein/800",
+      "wikidata_id": "Q1886"
+    },
+    {
+      "league": "Serie A",
+      "team": "Benevento",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "4171",
+      "publisher_name": "Benevento Calcio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/benevento-calcio/startseite/verein/4171",
+      "wikidata_id": "Q652516"
+    },
+    {
+      "league": "Serie A",
+      "team": "Bologna",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "1025",
+      "publisher_name": "Bologna Football Club 1909",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-bologna/startseite/verein/1025",
+      "wikidata_id": "Q1893"
+    },
+    {
+      "league": "Serie A",
+      "team": "Brescia",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "19",
+      "publisher_name": "Brescia Calcio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/brescia-calcio/startseite/verein/19",
+      "wikidata_id": "Q6651"
+    },
+    {
+      "league": "Serie A",
+      "team": "Cagliari",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1390",
+      "publisher_name": "Cagliari Calcio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/cagliari-calcio/startseite/verein/1390",
+      "wikidata_id": "Q1900"
+    },
+    {
+      "league": "Serie A",
+      "team": "Chievo",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "862",
+      "publisher_name": "Chievo Verona",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/chievo-verona/startseite/verein/862",
+      "wikidata_id": "Q2037"
+    },
+    {
+      "league": "Serie A",
+      "team": "Como",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "1047",
+      "publisher_name": "Como 1907",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/como-1907/startseite/verein/1047",
+      "wikidata_id": "Q1120838"
+    },
+    {
+      "league": "Serie A",
+      "team": "Cremonese",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "2239",
+      "publisher_name": "US Cremonese",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/us-cremonese/startseite/verein/2239",
+      "wikidata_id": "Q759482"
+    },
+    {
+      "league": "Serie A",
+      "team": "Crotone",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "4083",
+      "publisher_name": "FC Crotone",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-crotone/startseite/verein/4083",
+      "wikidata_id": "Q6690"
+    },
+    {
+      "league": "Serie A",
+      "team": "Empoli",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "749",
+      "publisher_name": "FC Empoli",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-empoli/startseite/verein/749",
+      "wikidata_id": "Q6703"
+    },
+    {
+      "league": "Serie A",
+      "team": "Fiorentina",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "430",
+      "publisher_name": "ACF Fiorentina",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ac-florenz/startseite/verein/430",
+      "wikidata_id": "Q2052"
+    },
+    {
+      "league": "Serie A",
+      "team": "Frosinone",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "8970",
+      "publisher_name": "Frosinone Calcio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/frosinone-calcio/startseite/verein/8970",
+      "wikidata_id": "Q845043"
+    },
+    {
+      "league": "Serie A",
+      "team": "Genoa",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "252",
+      "publisher_name": "Genoa CFC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/genua-cfc/startseite/verein/252",
+      "wikidata_id": "Q2074"
+    },
+    {
+      "league": "Serie A",
+      "team": "Hellas Verona",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "276",
+      "publisher_name": "Hellas Verona",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/hellas-verona/startseite/verein/276",
+      "wikidata_id": "Q8639"
+    },
+    {
+      "league": "Serie A",
+      "team": "Inter",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "46",
+      "publisher_name": "Inter Milan",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/inter-mailand/startseite/verein/46",
+      "wikidata_id": "Q631"
+    },
+    {
+      "league": "Serie A",
+      "team": "Juventus",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "506",
+      "publisher_name": "Juventus FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/juventus-turin/startseite/verein/506",
+      "wikidata_id": "Q1422"
+    },
+    {
+      "league": "Serie A",
+      "team": "Lazio",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "398",
+      "publisher_name": "Società Sportiva Lazio S.p.A.",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/lazio-rom/startseite/verein/398",
+      "wikidata_id": "Q2609"
+    },
+    {
+      "league": "Serie A",
+      "team": "Lecce",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "1005",
+      "publisher_name": "US Lecce",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/us-lecce/startseite/verein/1005",
+      "wikidata_id": "Q13391"
+    },
+    {
+      "league": "Serie A",
+      "team": "Milan",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "5",
+      "publisher_name": "AC Milan",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ac-mailand/startseite/verein/5",
+      "wikidata_id": "Q1543"
+    },
+    {
+      "league": "Serie A",
+      "team": "Monza",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "2919",
+      "publisher_name": "AC Monza",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ac-monza/startseite/verein/2919",
+      "wikidata_id": "Q289482"
+    },
+    {
+      "league": "Serie A",
+      "team": "Napoli",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "6195",
+      "publisher_name": "SSC Napoli",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/ssc-neapel/startseite/verein/6195",
+      "wikidata_id": "Q2641"
+    },
+    {
+      "league": "Serie A",
+      "team": "Parma",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "130",
+      "publisher_name": "Parma Calcio 1913",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/parma-calcio-1913/startseite/verein/130",
+      "wikidata_id": "Q2693"
+    },
+    {
+      "league": "Serie A",
+      "team": "Roma",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "12",
+      "publisher_name": "Associazione Sportiva Roma",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/as-rom/startseite/verein/12",
+      "wikidata_id": "Q2739"
+    },
+    {
+      "league": "Serie A",
+      "team": "SPAL",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "2722",
+      "publisher_name": "SPAL",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/spal/startseite/verein/2722",
+      "wikidata_id": "Q13385"
+    },
+    {
+      "league": "Serie A",
+      "team": "Salernitana",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "380",
+      "publisher_name": "US Salernitana 1919",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/us-salernitana-1919/startseite/verein/380",
+      "wikidata_id": "Q847587"
+    },
+    {
+      "league": "Serie A",
+      "team": "Sampdoria",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "1038",
+      "publisher_name": "UC Sampdoria",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/sampdoria-genua/startseite/verein/1038",
+      "wikidata_id": "Q1457"
+    },
+    {
+      "league": "Serie A",
+      "team": "Sassuolo",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "6574",
+      "publisher_name": "US Sassuolo",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/us-sassuolo/startseite/verein/6574",
+      "wikidata_id": "Q8603"
+    },
+    {
+      "league": "Serie A",
+      "team": "Spezia",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "3522",
+      "publisher_name": "Spezia Calcio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/spezia-calcio/startseite/verein/3522",
+      "wikidata_id": "Q8615"
+    },
+    {
+      "league": "Serie A",
+      "team": "Torino",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "416",
+      "publisher_name": "Torino FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/fc-turin/startseite/verein/416",
+      "wikidata_id": "Q2768"
+    },
+    {
+      "league": "Serie A",
+      "team": "Udinese",
+      "status": "download_paused_rate_limit",
+      "publisher_club_id": "410",
+      "publisher_name": "Udinese Calcio",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/udinese-calcio/startseite/verein/410",
+      "wikidata_id": "Q2798"
+    },
+    {
+      "league": "Serie A",
+      "team": "Venezia",
+      "status": "no_commons_logo_recorded",
+      "publisher_club_id": "607",
+      "publisher_name": "Venezia FC",
+      "publisher_source_url": "https://www.transfermarkt.co.uk/venezia-fc/startseite/verein/607",
+      "wikidata_id": "Q501245"
+    }
+  ],
+  "wikidata_query": {
+    "source_url": "https://query.wikidata.org/sparql?query=SELECT+%3Fid+%3Fclub+%3Flogo+WHERE+%7B+VALUES+%3Fid+%7B+%2210%22+%221003%22+%221005%22+%221010%22+%221025%22+%221031%22+%221038%22+%221041%22+%221047%22+%221049%22+%22105%22+%221050%22+%221082%22+%221084%22+%221095%22+%2211%22+%221108%22+%221110%22+%221123%22+%221132%22+%221147%22+%221148%22+%221158%22+%221160%22+%221162%22+%2212%22+%2212321%22+%221237%22+%221244%22+%22127%22+%2213%22+%22130%22+%22131%22+%221390%22+%221416%22+%221420%22+%221421%22+%22148%22+%2215%22+%22150%22+%221531%22+%221533%22+%2216%22+%22162%22+%22167%22+%2216795%22+%2218%22+%22180%22+%2219%22+%222036%22+%222239%22+%222288%22+%22237%22+%2223826%22+%2224%22+%22244%22+%22252%22+%222687%22+%22269%22+%2227%22+%222722%22+%22273%22+%22276%22+%22281%22+%2229%22+%22290%22+%222919%22+%222969%22+%223%22+%2231%22+%2233%22+%223302%22+%22331%22+%223368%22+%22347%22+%2235%22+%22350%22+%223522%22+%223524%22+%22366%22+%22367%22+%22368%22+%223709%22+%22379%22+%2238%22+%22380%22+%2239%22+%223911%22+%22398%22+%22399%22+%224%22+%2240%22+%22405%22+%224083%22+%2241%22+%22410%22+%22415%22+%22416%22+%22417%22+%224171%22+%22418%22+%2242%22+%22430%22+%2244%22+%2246%22+%22472%22+%225%22+%22506%22+%22512%22+%22533%22+%225358%22+%22543%22+%22583%22+%2260%22+%22603%22+%22607%22+%22618%22+%226195%22+%22621%22+%22631%22+%2265%22+%226574%22+%22667%22+%22677%22+%22681%22+%22703%22+%22714%22+%22738%22+%22749%22+%22762%22+%2279%22+%2280%22+%22800%22+%2282%22+%22826%22+%22855%22+%2286%22+%22862%22+%22873%22+%2289%22+%22897%22+%228970%22+%22931%22+%22940%22+%22969%22+%22984%22+%22985%22+%22989%22+%22995%22+%7D+%3Fclub+wdt%3AP7223+%3Fid.+OPTIONAL+%7B+%3Fclub+wdt%3AP154+%3Flogo+%7D+%7D&format=json",
+    "path": "data/raw/explorer_assets/2026-10-10/clubs/wikidata_club_logos.json",
+    "sha256": "80e9757bbf001dc3d345fa72047702113e53c2340cc09e02f470f923dfbdf221",
+    "license": "CC0 structured data",
+    "retrieved_at_utc": "2026-10-10T23:25:32.632814+00:00"
+  },
+  "metadata_archives": [
+    {
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/commons_metadata_0.json",
+      "source_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3A1.+FC+Heidenheim+1846.svg%7CFile%3A1.+FC+Koeln+Logo+2014%E2%80%93.svg%7CFile%3A1.+FC+N%C3%BCrnberg+logo.svg%7CFile%3A2019-07-12+Fu%C3%9Fball%3B+Freundschaftsspiel+RB+Leipzig+-+FC+Z%C3%BCrich+1DX+0881+by+Stepro+2.png%7CFile%3AACF+Fiorentina+-+logo+%28Italy%2C+2022%29.svg%7CFile%3AAS+ROMA+Text+Logo+2020+-+2021+.svg%7CFile%3AAngers+Sporting+Club+de+l%27Ouest+logo.svg%7CFile%3AArminia+Bielefeld+Logo+2021%E2%80%93.svg%7CFile%3AAtalanta+BC.png%7CFile%3ABologna+F.C.+1909+logo.svg%7CFile%3ABorussia+Dortmund+logo.svg%7CFile%3ABorussia+M%C3%B6nchengladbach+logo.svg%7CFile%3ACalcio+Como+-+logo+%28Italy%2C+2019-%29.svg%7CFile%3ACurrent+logo+of+Girondins+de+Bordeaux.png%7CFile%3AES+Troyes+AC.svg%7CFile%3AEmpoli+FC+logo.svg%7CFile%3AEscudo+RC+Celta+de+Vigo.svg%7CFile%3AFC+Bayern+M%C3%BCnchen+logo+%282024%29.svg%7CFile%3AFC+Internazionale+Milano+2021.svg%7CFile%3AFC+Metz+2021+Logo.svg%7CFile%3AFC+Schalke+04+Logo.svg%7CFile%3AFlag+of+Sampdoria.svg%7CFile%3AFootball+Club+Barcelona+Color+Update.png%7CFile%3AFortuna+D%C3%BCsseldorf.svg%7CFile%3AGetafe+CF+Logo.png%7CFile%3AHamburger+SV+logo.svg%7CFile%3AHannover+96+Logo.svg%7CFile%3AHertha+BSC+Logo+2012.svg%7CFile%3AHolstein+Kiel+Logo.svg%7CFile%3AJuventus+FC+-+logo+black+%28Italy%2C+2017%29.svg%7CFile%3AJuventus+FC+-+logo+black+%28Italy%2C+2020%29.svg%7CFile%3AJuventus+FC+-+pictogram+white+%28Italy%2C+2017%29.svg%7CFile%3ALogo+AS+Saint-%C3%89tienne.svg%7CFile%3ALogo+EA+Guingamp+2019.svg%7CFile%3ALogo+FC+Nantes+%28avec+fond%29+-+2019.svg%7CFile%3ALogo+Liverpool+FC+%282024%29.png%7CFile%3ALogo+Mainz+05.svg%7CFile%3ALogo+Parma+Calcio+1913+%28adozione+2016%29.svg%7CFile%3ALogo+of+AC+Milan.svg%7CFile%3ALogo+of+AC+Monza.png&prop=imageinfo&iiprop=url%7Cextmetadata&redirects=1",
+      "sha256": "2e387e9babb586846687c1b82ffb3b1ff642c1613f3162c4045d358b394d77e4",
+      "retrieved_at_utc": "2026-10-10T23:25:33.063116+00:00"
+    },
+    {
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/commons_metadata_1.json",
+      "source_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ALogo+of+Spezia+Calcio+%282025-%29.svg%7CFile%3AMontpellier+H%C3%A9rault+Sport+Club+%28logo%2C+2000%29.svg%7CFile%3AOGC+Nice+%28simplified+logo%29.svg%7CFile%3AOlympique+de+Marseille+2026+logo.svg%7CFile%3ARacing+Club+de+Strasbourg+contre+Racing+Lens+d%C3%A9cembre+2016+.jpg%7CFile%3AS.S.+Lazio+logo.svg%7CFile%3ASC+Paderborn+07+Logo+new.svg%7CFile%3ASPAL+Ferrara.svg%7CFile%3ASSC+Napoli+2024+%28deep+blue+navy%29.svg%7CFile%3ASV+Darmstadt+98+Logo.svg%7CFile%3ASV-Werder-Bremen-Logo.svg%7CFile%3ASpVgg+Greuther+F%C3%BCrth+2017.svg%7CFile%3AStade+Brestois+Logo+avant+1985.svg%7CFile%3AStade+Reims.svg%7CFile%3AStade+Rennais+%28logo+1960%29.svg%7CFile%3ATSG+Logo-Standard+4c.png%7CFile%3AUdinese+Calcio+2010.svg%7CFile%3AVfB+Stuttgart+1893+Logo.svg%7CFile%3AVfL+Bochum+logo.svg%7CFile%3AVfL+Wolfsburg+logo+2026.svg&prop=imageinfo&iiprop=url%7Cextmetadata&redirects=1",
+      "sha256": "765b1ac800583daec3b2c088dffa610dcb47722064d67b37c18c7b9df807204c",
+      "retrieved_at_utc": "2026-10-10T23:25:34.375661+00:00"
+    }
+  ],
+  "acquisition_stopped_due_to_http_429": true,
+  "rate_limit_event": {
+    "source_host": "upload.wikimedia.org",
+    "reported_at_utc": "2026-10-10T23:26:54.120780+00:00",
+    "observation": "Initial acquisition returned HTTP 429 after five club assets.",
+    "action": "Stopped. Generate coverage from already archived metadata only; no retries or route changes."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "source_page": "https://www.kaggle.com/datasets/gumush/football-player-injuries-market-value",
+  "retrieved_at_utc": "2026-10-10T23:40:58.507418+00:00",
+  "status": "not_linkable_anonymized_cohort",
+  "redistribution": "private only; no automatic upstream permission inferred",
+  "files": [
+    {
+      "filename": "file_metadata.json",
+      "path": "data/raw/explorer_injuries/2026-10-10/file_metadata.json",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/list/gumush/football-player-injuries-market-value",
+      "sha256": "43fd29e512f838a23bfe656709774b4833706ad16e77f32aa7ba56713da9a388",
+      "bytes": 1062
+    },
+    {
+      "filename": "dataset_metadata.json",
+      "path": "data/raw/explorer_injuries/2026-10-10/dataset_metadata.json",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/view/gumush/football-player-injuries-market-value",
+      "sha256": "b4c1de4eade37fcf407a4c141a66ce1635119bcdb9f4a610c4a9109a3d0b5997",
+      "bytes": 5743
+    },
+    {
+      "filename": "source.zip",
+      "path": "data/raw/explorer_injuries/2026-10-10/source.zip",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/gumush/football-player-injuries-market-value",
+      "sha256": "d9cf80d7cc07e16c7543ccaf0b715036415e488f801d4446a5730223dbba2186",
+      "bytes": 396925
+    },
+    {
+      "filename": "README.md",
+      "path": "data/raw/explorer_injuries/2026-10-10/README.md",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/gumush/football-player-injuries-market-value",
+      "sha256": "005aa1ab84b6347bbe0cc520a7834f3f540a15fbb897daacb1833cbe85a17b87",
+      "bytes": 5338
+    },
+    {
+      "filename": "players.csv",
+      "path": "data/raw/explorer_injuries/2026-10-10/players.csv",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/gumush/football-player-injuries-market-value",
+      "sha256": "d68d9145c47d059cd4906c6dc9b6351cbe3a5160a5258f5f42073939d0335a8d",
+      "bytes": 87952
+    },
+    {
+      "filename": "injuries.csv",
+      "path": "data/raw/explorer_injuries/2026-10-10/injuries.csv",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/gumush/football-player-injuries-market-value",
+      "sha256": "1ab0527c5f4be7dfb838877b1341d367e069bbd1ebff70b5a5439a4bda445275",
+      "bytes": 1702037
+    }
+  ],
+  "review": {
+    "license": "CC BY-NC-SA 4.0 publisher declaration; upstream rights unresolved",
+    "injury_events": 12948,
+    "anonymous_players": 2061,
+    "named_profile_merge": false,
+    "reason": "Real names and provider identity mapping are absent; no reidentification attempted"
+  }
+}

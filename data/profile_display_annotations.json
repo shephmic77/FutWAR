@@ -1,0 +1,14 @@
+{
+  "purpose": "Owner-supplied profile display annotations; not finalized analysis positions",
+  "records": {
+    "original_player:255": {
+      "player_name": "Mohamed Salah",
+      "team_name": "Liverpool",
+      "season": "2017-18",
+      "position": "RW",
+      "basis": "Owner explicitly requested Salah be displayed as RW in the layout review on 2026-10-10.",
+      "status": "owner_supplied_display_label",
+      "analysis_main_position_changed": false
+    }
+  }
+}

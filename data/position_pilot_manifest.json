@@ -1,0 +1,166 @@
+{
+  "provider": "StatsBomb (Hudl) Open Data",
+  "commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "purpose": "Six-match recorded-position validation; no seasonal role assignment",
+  "access_review": "Official statsbombpy README permits unauthenticated open data. Registration requested; linked form redirects and registration remains incomplete. Private noncommercial research; attribution required; no raw redistribution.",
+  "access_evidence_url": "https://github.com/hudl/statsbombpy#open-data",
+  "sample_rule": "Earliest, middle and latest listed match by date then match_id in each cell",
+  "files": [
+    {
+      "source_path": "data/matches/11/1.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/matches/11/1.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/1.json",
+      "sha256": "ac2b71812837bfabc08d538faee5dae6ae4cfbc4c03e2b8867d2d31a9eb379ac",
+      "bytes": 66269,
+      "retrieved_at_utc": "2026-10-10T20:39:36.597040+00:00"
+    },
+    {
+      "source_path": "data/events/9575.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/events/9575.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/9575.json",
+      "sha256": "4d84cb501d7983ff39d6782105a2a4f1f8afd5634b8ca3d1d507107fb82e8421",
+      "bytes": 3468925,
+      "retrieved_at_utc": "2026-10-10T20:39:39.147674+00:00"
+    },
+    {
+      "source_path": "data/lineups/9575.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/lineups/9575.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/9575.json",
+      "sha256": "4d1f323fb444e2f3359b9d741be322f036e59962b4850146de160e527b94c16f",
+      "bytes": 18675,
+      "retrieved_at_utc": "2026-10-10T20:39:39.640145+00:00"
+    },
+    {
+      "source_path": "data/events/9754.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/events/9754.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/9754.json",
+      "sha256": "90e369f0614742bde2b3d31a6e7517dd03fb65c89036493bbff665a3849be78f",
+      "bytes": 3163327,
+      "retrieved_at_utc": "2026-10-10T20:39:42.138088+00:00"
+    },
+    {
+      "source_path": "data/lineups/9754.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/lineups/9754.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/9754.json",
+      "sha256": "4e291cb0ce88fd735afa744ff98abbd3d0db5b37cdcd783c0cc658f66ff6b9a5",
+      "bytes": 16574,
+      "retrieved_at_utc": "2026-10-10T20:39:42.620598+00:00"
+    },
+    {
+      "source_path": "data/events/9948.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/events/9948.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/9948.json",
+      "sha256": "f86c78655c3cee7ee2f3cadb110b4fa9979e3af4625d81d81e114991dfdf4459",
+      "bytes": 3152746,
+      "retrieved_at_utc": "2026-10-10T20:39:45.373178+00:00"
+    },
+    {
+      "source_path": "data/lineups/9948.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/lineups/9948.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/9948.json",
+      "sha256": "9f0162b232dfee4793ec054221dcf0357669a79eb3754a9dbf67a0e84f59c938",
+      "bytes": 19637,
+      "retrieved_at_utc": "2026-10-10T20:39:45.861376+00:00"
+    },
+    {
+      "source_path": "data/matches/9/281.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/matches/9/281.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/9/281.json",
+      "sha256": "13dff90f126d9f73da410ae3292b2773744657d3ba968a2b7a9c02135033581c",
+      "bytes": 63079,
+      "retrieved_at_utc": "2026-10-10T20:39:46.404626+00:00"
+    },
+    {
+      "source_path": "data/events/3895052.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/events/3895052.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3895052.json",
+      "sha256": "ecc00b4e7ddd0154532329091d5d82fd7de4b9f6aa8da174788816001e40e605",
+      "bytes": 3205861,
+      "retrieved_at_utc": "2026-10-10T20:39:48.762248+00:00"
+    },
+    {
+      "source_path": "data/lineups/3895052.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/lineups/3895052.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3895052.json",
+      "sha256": "485e5e4f06136578a5dd18648397808110978cadb36a63cbe39acf0de613c18b",
+      "bytes": 22124,
+      "retrieved_at_utc": "2026-10-10T20:39:49.271397+00:00"
+    },
+    {
+      "source_path": "data/events/3895202.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/events/3895202.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3895202.json",
+      "sha256": "39fa9916efaaf66a639fe4872986d7192043ac974ab4816f998affc0a3db8e0b",
+      "bytes": 3459624,
+      "retrieved_at_utc": "2026-10-10T20:39:51.878068+00:00"
+    },
+    {
+      "source_path": "data/lineups/3895202.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/lineups/3895202.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3895202.json",
+      "sha256": "4d19fa5c41aed00a962c068f2cf132a143a477b3cbd70bda611b6d535855ba3f",
+      "bytes": 19697,
+      "retrieved_at_utc": "2026-10-10T20:39:52.371834+00:00"
+    },
+    {
+      "source_path": "data/events/3895348.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/events/3895348.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3895348.json",
+      "sha256": "380a71237d8be1baa5a1dc3ba8bb9c8966e5234bc8d3757f74c384bf9ff3345d",
+      "bytes": 3567849,
+      "retrieved_at_utc": "2026-10-10T20:39:55.597457+00:00"
+    },
+    {
+      "source_path": "data/lineups/3895348.json",
+      "path": "data/raw/statsbomb_position_pilot/2026-10-10/data/lineups/3895348.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3895348.json",
+      "sha256": "8dc0a37bc33360ec17e9b9605708cafcacd7b80fbd369c1e8b4e3319bf6e3b6c",
+      "bytes": 20244,
+      "retrieved_at_utc": "2026-10-10T20:39:56.097394+00:00"
+    }
+  ],
+  "selected_matches": [
+    {
+      "competition_id": 11,
+      "season_id": 1,
+      "match_id": 9575,
+      "date": "2017-08-20",
+      "catalog_match_count": 36
+    },
+    {
+      "competition_id": 11,
+      "season_id": 1,
+      "match_id": 9754,
+      "date": "2018-01-14",
+      "catalog_match_count": 36
+    },
+    {
+      "competition_id": 11,
+      "season_id": 1,
+      "match_id": 9948,
+      "date": "2018-05-20",
+      "catalog_match_count": 36
+    },
+    {
+      "competition_id": 9,
+      "season_id": 281,
+      "match_id": 3895052,
+      "date": "2023-08-19",
+      "catalog_match_count": 34
+    },
+    {
+      "competition_id": 9,
+      "season_id": 281,
+      "match_id": 3895202,
+      "date": "2024-01-20",
+      "catalog_match_count": 34
+    },
+    {
+      "competition_id": 9,
+      "season_id": 281,
+      "match_id": 3895348,
+      "date": "2024-05-18",
+      "catalog_match_count": 34
+    }
+  ]
+}

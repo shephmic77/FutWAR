@@ -1,0 +1,47 @@
+{
+  "Premier League": {
+    "Brighton & Hove Albion": "Brighton",
+    "Huddersfield Town": "Huddersfield",
+    "Manchester United": "Manchester Utd",
+    "Newcastle United": "Newcastle Utd",
+    "Nottingham Forest": "Nott'ham Forest",
+    "Sheffield United": "Sheffield Utd",
+    "Tottenham Hotspur": "Tottenham",
+    "West Bromwich Albion": "West Brom",
+    "West Ham United": "West Ham",
+    "Wolverhampton Wanderers": "Wolves"
+  },
+  "La Liga": {
+    "Athletic Bilbao": "Athletic Club",
+    "Deportivo La Coruña": "La Coruña",
+    "Real Betis": "Betis"
+  },
+  "Serie A": {
+    "Inter Milan": "Inter",
+    "Internazionale": "Inter"
+  },
+  "Bundesliga": {
+    "1. FC Heidenheim": "Heidenheim",
+    "1. FC Köln": "Köln",
+    "1. FC Nürnberg": "Nürnberg",
+    "1899 Hoffenheim": "Hoffenheim",
+    "Arminia Bielefeld": "Arminia",
+    "Bayer Leverkusen": "Leverkusen",
+    "Borussia Dortmund": "Dortmund",
+    "Borussia Mönchengladbach": "Gladbach",
+    "Eintracht Frankfurt": "Eint Frankfurt",
+    "FC Augsburg": "Augsburg",
+    "FC St. Pauli": "St. Pauli",
+    "Fortuna Düsseldorf": "Düsseldorf",
+    "SC Freiburg": "Freiburg",
+    "SC Paderborn": "Paderborn 07",
+    "TSG Hoffenheim": "Hoffenheim",
+    "VfB Stuttgart": "Stuttgart",
+    "VfL Bochum": "Bochum",
+    "VfL Wolfsburg": "Wolfsburg"
+  },
+  "Ligue 1": {
+    "Clermont": "Clermont Foot",
+    "Paris Saint-Germain": "Paris S-G"
+  }
+}

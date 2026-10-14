@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="940" viewBox="0 0 1500 940">
+<title>FutWAR six comparison views</title><desc>Three requested baselines crossed with position locked and flexible replacement pools. No player scores are shown.</desc>
+<rect width="100%" height="100%" fill="#fbf8f1"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#26352e}.muted{fill:#66736a}.small{font-size:15px}.body{font-size:18px}.head{font-size:27px;font-weight:700}.sub{font-size:19px}</style>
+<text x="48" y="55" class="head">FutWAR · comparison design</text>
+<text x="48" y="88" class="sub">One shared contribution estimate; three season-specific references; two position-eligibility scopes.</text>
+<text x="48" y="122" class="small muted">Design proposal · no weights fitted · no player WAR values generated</text>
+<rect x="277" y="158" width="387" height="105" rx="14" fill="#e9eee6"/>
+<text x="294" y="195" class="body">All-five-league average</text>
+<text x="294" y="228" class="small muted">same season · benchmark</text>
+<rect x="674" y="158" width="387" height="105" rx="14" fill="#e9eee6"/>
+<text x="691" y="195" class="body">Selected-league average</text>
+<text x="691" y="228" class="small muted">chosen league + season · benchmark</text>
+<rect x="1071" y="158" width="387" height="105" rx="14" fill="#e9eee6"/>
+<text x="1088" y="195" class="body">Team-accessible replacement</text>
+<text x="1088" y="228" class="small muted">club · season-start resources</text>
+<rect x="48" y="276" width="212" height="173" rx="14" fill="#f0e8da"/>
+<text x="66" y="314" class="body">Position locked</text>
+<text x="66" y="346" class="small muted">Replacement has the same veri</text>
+<text x="66" y="368" class="small muted">fied main position.</text>
+<rect x="277" y="276" width="387" height="173" rx="14" fill="#fffdf8" stroke="#ded6c8"/>
+<circle cx="301" cy="313" r="8" fill="#51755d"/>
+<text x="320" y="319" class="body">Same specific position</text>
+<text x="294" y="358" class="small">Per 90: player impact − pool impact</text>
+<text x="294" y="386" class="small">Season: per-90 difference × minutes / 90</text>
+<text x="294" y="416" class="small muted">Uncertainty + eligible-pool count shown</text>
+<rect x="674" y="276" width="387" height="173" rx="14" fill="#fffdf8" stroke="#ded6c8"/>
+<circle cx="698" cy="313" r="8" fill="#bd884a"/>
+<text x="717" y="319" class="body">Same specific position</text>
+<text x="691" y="358" class="small">Per 90: player impact − pool impact</text>
+<text x="691" y="386" class="small">Season: per-90 difference × minutes / 90</text>
+<text x="691" y="416" class="small muted">Uncertainty + eligible-pool count shown</text>
+<rect x="1071" y="276" width="387" height="173" rx="14" fill="#fffdf8" stroke="#ded6c8"/>
+<circle cx="1095" cy="313" r="8" fill="#b74445"/>
+<text x="1114" y="319" class="body">Same specific position</text>
+<text x="1088" y="358" class="small">Per 90: player impact − pool impact</text>
+<text x="1088" y="386" class="small">Season: per-90 difference × minutes / 90</text>
+<text x="1088" y="416" class="small muted">Uncertainty + eligible-pool count shown</text>
+<rect x="48" y="461" width="212" height="173" rx="14" fill="#f0e8da"/>
+<text x="66" y="499" class="body">Any evidenced position</text>
+<text x="66" y="531" class="small muted">Any eligible main or qualifyi</text>
+<text x="66" y="553" class="small muted">ng secondary role.</text>
+<rect x="277" y="461" width="387" height="173" rx="14" fill="#fffdf8" stroke="#ded6c8"/>
+<circle cx="301" cy="498" r="8" fill="#51755d"/>
+<text x="320" y="504" class="body">Any eligible position</text>
+<text x="294" y="543" class="small">Per 90: player impact − pool impact</text>
+<text x="294" y="571" class="small">Season: per-90 difference × minutes / 90</text>
+<text x="294" y="601" class="small muted">Uncertainty + eligible-pool count shown</text>
+<rect x="674" y="461" width="387" height="173" rx="14" fill="#fffdf8" stroke="#ded6c8"/>
+<circle cx="698" cy="498" r="8" fill="#bd884a"/>
+<text x="717" y="504" class="body">Any eligible position</text>
+<text x="691" y="543" class="small">Per 90: player impact − pool impact</text>
+<text x="691" y="571" class="small">Season: per-90 difference × minutes / 90</text>
+<text x="691" y="601" class="small muted">Uncertainty + eligible-pool count shown</text>
+<rect x="1071" y="461" width="387" height="173" rx="14" fill="#fffdf8" stroke="#ded6c8"/>
+<circle cx="1095" cy="498" r="8" fill="#b74445"/>
+<text x="1114" y="504" class="body">Any affordable eligible role</text>
+<text x="1088" y="543" class="small">Per 90: player impact − pool impact</text>
+<text x="1088" y="571" class="small">Season: per-90 difference × minutes / 90</text>
+<text x="1088" y="601" class="small muted">Uncertainty + eligible-pool count shown</text>
+<rect x="48" y="655" width="1405" height="85" rx="14" fill="#ede7db"/>
+<text x="67" y="686" class="body">Contribution scale</text>
+<text x="258" y="686" class="body">Context-aware actions → scoring/prevention value → calibrated expected points</text>
+<text x="67" y="716" class="small muted">Locked/any-position changes replacement eligibility, not the player’s underlying contribution estimate.</text>
+<text x="48" y="922" class="small muted">Average-based columns are above-average benchmarks. Only a feasible replacement comparison can be called WAR.</text>
+</svg>

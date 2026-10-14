@@ -1,0 +1,41 @@
+{
+  "provider": "StatsBomb (Hudl) Open Data",
+  "repository": "https://github.com/hudl/open-data",
+  "commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "terms_status": "Archived license reviewed for catalog/specification inspection: research and noncommercial conditions, attribution and raw redistribution restrictions noted; requested registration not completed; no event-data adoption",
+  "purpose": "Catalog and specification inspection; no model or source adoption",
+  "files": [
+    {
+      "source_path": "LICENSE.pdf",
+      "path": "data/raw/statsbomb_open/2026-10-10/LICENSE.pdf",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/LICENSE.pdf",
+      "sha256": "a5462e69aeb71a39268b760b110c5c2190a2e0cee3015ba976f66bd71f6c2bb4",
+      "bytes": 165130,
+      "retrieved_at_utc": "2026-10-10T18:20:46.584262+00:00"
+    },
+    {
+      "source_path": "data/competitions.json",
+      "path": "data/raw/statsbomb_open/2026-10-10/data/competitions.json",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/competitions.json",
+      "sha256": "e6cd42f5d8956d6aa30fb917ce8d4c3b3df1879a93f02f8feba820930a6971fa",
+      "bytes": 34887,
+      "retrieved_at_utc": "2026-10-10T18:20:46.808316+00:00"
+    },
+    {
+      "source_path": "doc/Open Data Lineups v2.0.0.pdf",
+      "path": "data/raw/statsbomb_open/2026-10-10/doc/Open Data Lineups v2.0.0.pdf",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/Open%20Data%20Lineups%20v2.0.0.pdf",
+      "sha256": "95cce126e28bd65b7b7c2530fdf9ae2bc4bf9ef512f4edecfe7da52dd07820ee",
+      "bytes": 146148,
+      "retrieved_at_utc": "2026-10-10T18:20:47.169145+00:00"
+    },
+    {
+      "source_path": "doc/Open Data Events v4.0.0.pdf",
+      "path": "data/raw/statsbomb_open/2026-10-10/doc/Open Data Events v4.0.0.pdf",
+      "source_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/Open%20Data%20Events%20v4.0.0.pdf",
+      "sha256": "05de42cc76b0c9cd26213d8e5c72610cac7d4d92c9c2ac878073a565dbb6c44a",
+      "bytes": 384530,
+      "retrieved_at_utc": "2026-10-10T18:20:47.716310+00:00"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Expected-points external validation: candidate source review
+
+Review date: 2026-10-11; access-status update: 2026-10-14
+
+## Research question
+
+The Wyscout 2017–18 action-state pilot has no untouched later-season holdout. This note evaluates a free, documented event-data source as a candidate for an external stress test. It does not change the project scope, select a model, define player credit, or approve any WAR baseline.
+
+## Candidate: StatsBomb Open Data
+
+The official repository states that selected StatsBomb leagues are available free for public research and football-analytics interest. It stores competition/season metadata, match files, per-match events and lineups, with a separate specification directory. I reviewed the five-page Public Data User Agreement (`LICENSE.pdf`, last updated 2023-09-08). It permits use for analysis and research (clause 1.1), prohibits providing or redistributing the data to third parties and commercially exploiting either the data or analysis derived from it (clauses 1.2.1–1.2.2), requires the StatsBomb brand logo on any publication of analysis (clause 1.4), and asks users to register their name and email before access (clause 2.2). The agreement also disclaims completeness and accuracy warranties (clause 3.4). Therefore, any candidate audit must remain local, non-commercial and source-attributed; raw files must not be added to a public data release or website. The user's stated personal research use is not expressly prohibited, but these conditions apply. See the [official repository](https://github.com/hudl/open-data), its [README and repository license](https://github.com/hudl/open-data/blob/master/README.md), and the [agreement PDF](https://github.com/hudl/open-data/blob/master/LICENSE.pdf).
+
+The current `competitions.json` catalog contains useful later-season candidates, including La Liga 2017–18 through 2020–21, Ligue 1 2021–22 and 2022–23, and Bundesliga 2023–24. Its listed Premier League and Serie A seasons do not provide later coverage beyond the existing Wyscout 2017–18 pilot. The catalog is selective rather than a continuous Big Five panel. Catalog presence does not prove all fixtures have event files: actual match counts, event-file availability, event completeness and score reconciliation remain unaudited. See the [official repository](https://github.com/hudl/open-data), [competition catalog](https://github.com/hudl/open-data/blob/master/data/competitions.json), and example [La Liga 2018–19 match index](https://github.com/hudl/open-data/blob/master/data/matches/11/4.json).
+
+## Recommended next step
+
+The read-only audit is prepared at `scripts/audit_statsbomb_coverage.py`. After the user completes StatsBomb's requested registration, run it from PowerShell with `python scripts/audit_statsbomb_coverage.py --registered`. It counts listed fixtures, available event files, event rows, goal tags, match-score reconciliation and missing event fields. Event payloads stay in memory; the output contains aggregate counts, source commit and hashes only. Review any own-goal score mismatches manually. Do not merge these event identities into FutWAR player-season IDs or redistribute source data. Unit coverage is in `tests/test_statsbomb_coverage_audit.py`.
+
+If that audit shows a usable sample, run the already-fitted Wyscout score-state benchmark on a chronologically later StatsBomb sample as an **external stress test**. Begin with score, time, venue and final result because their meanings can be reconciled directly. Report calibration and prediction error by season and competition, with fixture counts and missingness. This test would mix provider and competition changes and the open-data match sample may be selected; it cannot replace a representative within-source later-season holdout.
+
+Only after documenting event-definition mappings should event-context predictions be compared across providers. A mapping from Wyscout event categories to StatsBomb's event taxonomy is itself a modeling decision and must be audited, not silently assumed. Even a successful external prediction test would validate outcome prediction only. It would not validate action-to-player credit, goal/assist weighting, defensive or goalkeeper attribution, or any replacement pool.
+
+## Decision still needed after coverage audit
+
+The owner submitted an inquiry through StatsBomb's contact form asking how to satisfy the agreement's registration request; a response and registration confirmation are still pending. The form submission alone is not treated as registration. Once the provider's instructions are clear and the owner confirms completion, run the audit and review actual candidate match/event coverage before deciding whether the sample is adequate for a limited external stress test. If it is too selective, keep the Wyscout pilot exploratory and prioritize a later-season source with explicit terms and broader coverage. No match or event data were downloaded or added in this external-validation source review; only the public terms PDF was fetched for review.

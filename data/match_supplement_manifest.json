@@ -1,0 +1,15 @@
+{
+  "supplement_file": "data/raw/match_supplements/2024-25_final_round_verified.json",
+  "supplement_sha256": "1c8658911912f26cf32c403e8285424de9689e8ef7c90afe17fbde215d6009f9",
+  "record_count": 20,
+  "original_source_hashes": {
+    "2024-25/es.1.json": "da5bfa1b3634e1039d9e71aec50bdc847f8761189e3de235a4e730e0dc64ca38",
+    "2024-25/it.1.json": "7d9bb936de3ccaeec54d57371512a58a5eeb21277e7d5f0882911a834d22b659"
+  },
+  "exact_missing_fixture_set_verified": true,
+  "fulltime_score_recovery_only": true,
+  "local_pdf_archiving": "Unavailable: local DNS failed. Official published report text was verified through web tools; remote source URLs retained.",
+  "supplement_license": "No open license established; private research evidence stays ignored by Git",
+  "effective_scored_match_count_expected": 14359,
+  "ligue_1_2019_20_not_supplemented": true
+}

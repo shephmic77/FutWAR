@@ -1,0 +1,148 @@
+{
+  "provider": "Wyscout research release via Pappalardo/Massucco Figshare",
+  "collection_url": "https://figshare.com/collections/Soccer_match_event_dataset/4415000",
+  "citation": "Pappalardo et al. (2019), doi:10.1038/s41597-019-0247-7",
+  "purpose": "Historical position and goalkeeper source audit; no modeling or merge",
+  "articles": [
+    {
+      "id": 7765196,
+      "version": 3,
+      "title": "Players",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_path": "data/raw/wyscout_research/2026-10-10/article_7765196_v3.json",
+      "metadata_sha256": "40b7bf83ff678e6d7e095f99d0233f26f29aab12b2d576ed8806c51e2cbc3ef4",
+      "retrieved_at_utc": "2026-10-10T18:32:43.585210+00:00"
+    },
+    {
+      "id": 7765316,
+      "version": 4,
+      "title": "Competitions",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_path": "data/raw/wyscout_research/2026-10-10/article_7765316_v4.json",
+      "metadata_sha256": "892422e48ab1385a7401164095020c45de31d659f3e4b5cff3ea9fda958c270e",
+      "retrieved_at_utc": "2026-10-10T18:32:45.924824+00:00"
+    },
+    {
+      "id": 7770422,
+      "version": 1,
+      "title": "Matches",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_path": "data/raw/wyscout_research/2026-10-10/article_7770422_v1.json",
+      "metadata_sha256": "6ec072abe0f4b444e66e910aac6696dbfaf715005bf63de0b2eaa5d440af9a61",
+      "retrieved_at_utc": "2026-10-10T18:32:47.340797+00:00"
+    },
+    {
+      "id": 7770599,
+      "version": 1,
+      "title": "Events",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_path": "data/raw/wyscout_research/2026-10-10/article_7770599_v1.json",
+      "metadata_sha256": "0cc42ef891715c14d7f97ead4425a4eaab5ac731d15237c2a1a0b976899febe0",
+      "retrieved_at_utc": "2026-10-10T18:32:49.426671+00:00"
+    },
+    {
+      "id": 11743836,
+      "version": 1,
+      "title": "Mapping of event identifiers to event names",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_path": "data/raw/wyscout_research/2026-10-10/article_11743836_v1.json",
+      "metadata_sha256": "8a49dd69afbf218d4607ae607fd0670e3554b999c14f862e0db62ccc1fb7c76b",
+      "retrieved_at_utc": "2026-10-10T18:32:54.826376+00:00"
+    },
+    {
+      "id": 11743818,
+      "version": 1,
+      "title": "Mapping of tag identifiers to tag names",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_path": "data/raw/wyscout_research/2026-10-10/article_11743818_v1.json",
+      "metadata_sha256": "b120f94631a05f5c984b211145170a3cc47fcadc84e2ba3877eb95bc4b0a36b5",
+      "retrieved_at_utc": "2026-10-10T18:32:56.249280+00:00"
+    }
+  ],
+  "files": [
+    {
+      "id": 15073721,
+      "article_id": 7765196,
+      "path": "data/raw/wyscout_research/2026-10-10/players.json",
+      "source_url": "https://ndownloader.figshare.com/files/15073721",
+      "bytes": 1737347,
+      "publisher_md5": "f28ddf6326281efeda6488b2169f5609",
+      "sha256": "877a111cb1005b73df5645e9338bd74fb4b496bace2fbc545a72abb3b73efa2e",
+      "retrieved_at_utc": "2026-10-10T18:32:45.350105+00:00"
+    },
+    {
+      "id": 15073685,
+      "article_id": 7765316,
+      "path": "data/raw/wyscout_research/2026-10-10/competitions.json",
+      "source_url": "https://ndownloader.figshare.com/files/15073685",
+      "bytes": 1209,
+      "publisher_md5": "3dc210a4805dda5337b0ff9f7eaa407a",
+      "sha256": "39a738d2bc97638502e1ead01d661b54c623d6d6b37f77de3846f9a94db7a3a1",
+      "retrieved_at_utc": "2026-10-10T18:32:46.727776+00:00"
+    },
+    {
+      "id": 14464622,
+      "article_id": 7770422,
+      "path": "data/raw/wyscout_research/2026-10-10/matches.zip",
+      "source_url": "https://ndownloader.figshare.com/files/14464622",
+      "bytes": 645097,
+      "publisher_md5": "51d80beb17480919f69a53a0152c2d71",
+      "sha256": "c8f92bb7533e5c127e043cee764c991b5c25b4f5e70a65be931baae0b1765ce9",
+      "retrieved_at_utc": "2026-10-10T18:32:48.825238+00:00"
+    },
+    {
+      "id": 14464685,
+      "article_id": 7770599,
+      "path": "data/raw/wyscout_research/2026-10-10/events.zip",
+      "source_url": "https://ndownloader.figshare.com/files/14464685",
+      "bytes": 77323413,
+      "publisher_md5": "7c20e8647e7eda58d7838a0c7b1ec6ab",
+      "sha256": "877e015b716ffdeea18f04418e3f24fed307ed03c37ff305cabe1f47c4822a45",
+      "retrieved_at_utc": "2026-10-10T18:32:54.238846+00:00"
+    },
+    {
+      "id": 21385245,
+      "article_id": 11743836,
+      "path": "data/raw/wyscout_research/2026-10-10/eventid2name.csv",
+      "source_url": "https://ndownloader.figshare.com/files/21385245",
+      "bytes": 1001,
+      "publisher_md5": "46daf16100ece0c743eedc9adcfea162",
+      "sha256": "ce7bafb341b36ab4c6093bf1c09c967e9cea10d4223724a1fc679086e5d16842",
+      "retrieved_at_utc": "2026-10-10T18:32:55.666519+00:00"
+    },
+    {
+      "id": 21385239,
+      "article_id": 11743818,
+      "path": "data/raw/wyscout_research/2026-10-10/tags2name.csv",
+      "source_url": "https://ndownloader.figshare.com/files/21385239",
+      "bytes": 1754,
+      "publisher_md5": "e7acb14918d00e40c80a898b1da8fc39",
+      "sha256": "e0bc1bd8ff6ea5339586fdfc3e8e9b285a4a18f1ae2f5868ccc9ec9cecc8a922",
+      "retrieved_at_utc": "2026-10-10T18:32:57.066536+00:00"
+    }
+  ]
+}

@@ -1,0 +1,2546 @@
+{
+  "repository": "luukhopman/football-logos",
+  "commit": "2a3978f0b4730645c205d855a4bda54c161183e9",
+  "tree_sha256": "aed60f255fc0abf88749c43605ce666ba91c7fa005e71b1c58e5180f0ab844b5",
+  "assets": [
+    {
+      "kind": "club",
+      "label": "Arminia",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/dde1b9840438.png",
+      "sha256": "a043bae9797537037ea13f95cd8d7939bac943d5cfdeb9da66f769cf7c789a7c",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/Arminia%20Bielefeld.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/Arminia%20Bielefeld.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.652294+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Augsburg",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/c553414ad056.png",
+      "sha256": "4518b403505b7d71624f5a73538cefaa3c839f848df87cf4bd4e6dcb351c5f32",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.652626+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Bayern Munich",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/72c1565deb6f.png",
+      "sha256": "725c7d59e4bb089a3297fb8299ebe926f9c6bb1af46c2b45945698da9380a13d",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.653252+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Bochum",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/964260f907ef.png",
+      "sha256": "1c4ae7bd549be4dec23749eb81114bf1c594589056e0bdbf6935ccb5ae0309c0",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/VfL%20Bochum.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/VfL%20Bochum.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.653938+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Darmstadt 98",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/3bfaa2dcb01b.png",
+      "sha256": "3a9cd2ddd90fd69ee1d10f8dec1d1e27a038d4a2abc0d5ec1f2ec4f1ff3e2049",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/Germany%20-%20Bundesliga/SV%20Darmstadt%2098.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/Germany%20-%20Bundesliga/SV%20Darmstadt%2098.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.654606+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Dortmund",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/9588e5e09dcf.png",
+      "sha256": "6224c00dc0376cf74d96d15ff04de65d35c729da8b0870276a54f02a7ce7729b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Borussia%20Dortmund.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.655304+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Eint Frankfurt",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/dc6550998532.png",
+      "sha256": "66f935b1709bb9ad9b04c2a3d54c1fc98e8faa513a8c187022a996a0f11ac407",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.655615+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Freiburg",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/0c68d9dec349.png",
+      "sha256": "ff998a845de9f53ad21f33326d125717bb018a2a69c26678f533e28ff357f346",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.655942+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Gladbach",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/9c41d329eac8.png",
+      "sha256": "3f6c21f0df011c65f54df1eccfd4e6edc336f4ff897e05961034f98231efd925",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.656224+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Greuther Fürth",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/4f70edcaa4b3.png",
+      "sha256": "f49c192e75427e5eafdbd590f9c72fa4fc0f22b30bcc360a90e9fdc340515541",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/Greuther%20F%C3%BCrth.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/Greuther%20F%C3%BCrth.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.656501+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Hamburger SV",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/dee72590f36c.png",
+      "sha256": "7fde65e3c32c050041f0442649e9e8230692c252ea5e72f48590db5b89366b80",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:33.656771+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Heidenheim",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/83e96795b1f7.png",
+      "sha256": "31adda21354630490a1213a4dd6ee6ba6a86aeaeb0a97af117edb657282f5dcd",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/Germany%20-%20Bundesliga/1.FC%20Heidenheim%201846.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/Germany%20-%20Bundesliga/1.FC%20Heidenheim%201846.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.242793+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Hertha BSC",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/898006724240.png",
+      "sha256": "a217b8c0398ca080d7ec1e870faeb28220ef36af6557c0199f306dd27359f247",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/Hertha%20BSC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/Hertha%20BSC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.243072+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Hoffenheim",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/5e7505ee4581.png",
+      "sha256": "44664799e2df09cb8413e9f6b773435f1f16b926b02c322cf3f40c470da47204",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/TSG%201899%20Hoffenheim.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/TSG%201899%20Hoffenheim.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.243313+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Holstein Kiel",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/823c5cdab041.png",
+      "sha256": "6babd29481d7f2743ba79207079718015c0e91f4dbe2ea5708b4b764cba1b743",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2024-25/Germany%20-%20Bundesliga/Holstein%20Kiel.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2024-25/Germany%20-%20Bundesliga/Holstein%20Kiel.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.243552+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Köln",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/883aeb98d7c8.png",
+      "sha256": "524dda6b95899ca20ffd70367fe69dee94b56aadba6c6920c9759d134aa97fb0",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.243789+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Leverkusen",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/09e026d2a81a.png",
+      "sha256": "ae01f5b056005b708bfc6ec54710984ec1536520a0a0c4c1954462db69273398",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.244040+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Mainz 05",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/48bdc728dcfc.png",
+      "sha256": "3b7bc54f1a701f3c17d64084ca4d34634da48c7fb6781bfed4409f101f74a838",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.244275+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Paderborn 07",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/6ddd6f052f2c.png",
+      "sha256": "07a80ece1364af5ed0bbc750e14c3c67951d14e7400bddc0bf89e34fe3642d99",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/SC%20Paderborn%2007.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/SC%20Paderborn%2007.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.244510+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "RB Leipzig",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/5ff8d9ed3987.png",
+      "sha256": "d7aff81d6e7f491547f2a2fb48b19f548b8d8ddd374bbb757798d34133546e3d",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/RB%20Leipzig.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/RB%20Leipzig.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.244738+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Schalke 04",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/6a47e4c00408.png",
+      "sha256": "eaf1163ccdf2b17f38a96e6b5be5ad7f7df7e5d3345efda1c950b93251dcc58c",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.244965+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "St. Pauli",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/944f75ca2555.png",
+      "sha256": "a5a07e5cdc6101d8d01c02fbbddac51887ae014aad444dae633f67e5a2de9809",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2024-25/Germany%20-%20Bundesliga/FC%20St.%20Pauli.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2024-25/Germany%20-%20Bundesliga/FC%20St.%20Pauli.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.245195+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Stuttgart",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/86a2739d8ae4.png",
+      "sha256": "76d2aa9cc7fe9272c175d8c6a37bc588808d48fcebefe29375c8f7acf64ea0cb",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/VfB%20Stuttgart.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.245475+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Union Berlin",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/eefb5fc7d1b3.png",
+      "sha256": "feae734c99d0c15d9d6eaf146914bc09650715130ff04faa91bbfbc82efdde95",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.245702+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Werder Bremen",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/ec1d820a023e.png",
+      "sha256": "76754f64c85552f78846117ddf82a29993f7d529edf180aa2828615aced21812",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.245934+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Wolfsburg",
+      "league": "Bundesliga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/fb11bff5782c.png",
+      "sha256": "fcfb12c5ecc003da1e2d67414ca8dba961b6bee093ae31f8c4d8429e9b2b73ae",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/VfL%20Wolfsburg.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Germany%20-%20Bundesliga/VfL%20Wolfsburg.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.246160+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Alavés",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b04f75f6a726.png",
+      "sha256": "cdb3725c224c1bd5742f084845ed6a14f407aac37807758191f225146dd47378",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.246423+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Almería",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/784a22a116d1.png",
+      "sha256": "56dc18c3f208c26001abab96b21c67cbe1104617eab0e7eef181122fb746ab2e",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Spain%20-%20LaLiga/UD%20Almer%C3%ADa.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Spain%20-%20LaLiga/UD%20Almer%C3%ADa.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.246661+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Athletic Club",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/77628bf47140.png",
+      "sha256": "1b14204cc3afd47bea3f1588e5b26594cfd8395c628e61cdd537825188b1b57c",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.246888+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Atlético Madrid",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/9e4478bf79f6.png",
+      "sha256": "a111593f6c1570ce496624628233e84568741397d6d9764cc089f4fc1074b696",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.247134+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Barcelona",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/ce67e2634997.png",
+      "sha256": "115bad573e66f5c9b2e326a3ed6979c5fec2559c40d5ee2ef02a8e9774d24dc0",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.247441+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Betis",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/0a2594eb8c6a.png",
+      "sha256": "cacc73be2c05879f7d7bd063e1deb72cf3b48d01de2c3c4cddfb0aa6ef2d6e3b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.247692+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Celta Vigo",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/74b506b9bdb6.png",
+      "sha256": "f357757a53ab9f9c4deac5e0a38d4764be3b214f961c17910bc93dea6067366d",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.247919+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Cádiz",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/cd14fc29b791.png",
+      "sha256": "42bd38e7e2c591e1a130f87ef04a40b515efb136ff02ba2d01dfbfff11dc7104",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Spain%20-%20LaLiga/C%C3%A1diz%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Spain%20-%20LaLiga/C%C3%A1diz%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.248193+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Elche",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/3ab1c0707791.png",
+      "sha256": "b68b21d6583b6d791d02dba0263881516c1d9cb08c46dfd6605ad8097dfaa7c6",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Elche%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Elche%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.248520+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Espanyol",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/2d092c938c7d.png",
+      "sha256": "d49b8ba301783bd542a0eff399817e61b10681c71a9289a60fce50941a3fdc78",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.248772+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Getafe",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/ca1f32c5cdca.png",
+      "sha256": "769ba589d7ef3ff337077d1c9304a11aba9d7a409d164f15953e2b2b7cb747b3",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.249026+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Girona",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/ec85c36c22eb.png",
+      "sha256": "1f018fa994bd9f7af9a4b23d373336e65acd0018ae3ce798982cbe046c9a9766",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Spain%20-%20LaLiga/Girona%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Spain%20-%20LaLiga/Girona%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.249273+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Granada",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/81b8196bdb56.png",
+      "sha256": "023d2b876343fa2a9dce1c15195d43000e6718fff7b254fb8ff986aa64b0d156",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Spain%20-%20LaLiga/Granada%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Spain%20-%20LaLiga/Granada%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.249496+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Las Palmas",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/45ae4db6816a.png",
+      "sha256": "6497c1be4922cc17f10abe45a91435f1dd9e47db20bf06a404b1fab9c53f42b8",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/Spain%20-%20LaLiga/UD%20Las%20Palmas.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/Spain%20-%20LaLiga/UD%20Las%20Palmas.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.249729+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Leganés",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/52fb3ffb9bfa.png",
+      "sha256": "5c4282e086cc2ef640913d1d7c261d29030fa335bdbff0d5d708c30cc5ba0c79",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2024-25/Spain%20-%20LaLiga/CD%20Legan%C3%A9s.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2024-25/Spain%20-%20LaLiga/CD%20Legan%C3%A9s.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.249967+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Levante",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/2519c238e2f8.png",
+      "sha256": "9d752afe8575ec174b6e381e449bc21bf78981655eb23d0b6fc3d200e1ac1e35",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.250210+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Mallorca",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1abfa5b503bd.png",
+      "sha256": "cb8173cb631569ecc548e7a93c3149b9e620e7cb9bd3d1f6c1fc7a9d0cfef214",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Spain%20-%20LaLiga/RCD%20Mallorca.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Spain%20-%20LaLiga/RCD%20Mallorca.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.250459+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Málaga",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/0adfc737a6b4.png",
+      "sha256": "27a8d41feb034d30f7131eaa6107a86a30d891b6aa0b7a698424009f4d73f7d4",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.250693+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Osasuna",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/21c8cc093d16.png",
+      "sha256": "dfb35b76146380f642c9f7c5d95474711a2901eb5cc8157a9bf3dea418a49239",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.250946+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Rayo Vallecano",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/6b074424f68c.png",
+      "sha256": "76b7905594cf985cd131cfc5501cb268f6b83981c026f2092abcfca3d503b9f3",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.251175+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Real Madrid",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/5042445cd03e.png",
+      "sha256": "64a3f808a067b89ad7aec392e100951a85189cc50688e11bd91d84e3f2967a1d",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.251412+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Real Sociedad",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/323be9053b3c.png",
+      "sha256": "bf13daf42bab04cb88c67d73a5c7ef044fecb8ee9f65490260d92c0c24217c28",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.251668+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Sevilla",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/5ca9f10bcca7.png",
+      "sha256": "202dc4bc55bb7d7675d23ba69f67b753332cf6789311b8b15b0706167fe052f0",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.251899+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Valencia",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/329a4e89632f.png",
+      "sha256": "280f4c7f1611c8332c3edd31403dc6542581b338cf4bf5093bfae8cd64c33008",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.252127+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Valladolid",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/866e8133e192.png",
+      "sha256": "bb302df2f9858f42a4f9155a24bd565399f32f6f655ccf7e3b88dfbd472f53a6",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Spain%20-%20LaLiga/Real%20Valladolid%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Spain%20-%20LaLiga/Real%20Valladolid%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.252359+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Villarreal",
+      "league": "La Liga",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/f151dcfc22b1.png",
+      "sha256": "14cfc14432a5c62050714be58fcf4a707849603acef9a579bfd7e274916a081e",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Spain%20-%20LaLiga/Villarreal%20CF.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.252594+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Ajaccio",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/0b221a3ee5b1.png",
+      "sha256": "fa4065ade0ad9fe23e1271d98f776429266a1bdb676014010548f86703d4259c",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/France%20-%20Ligue%201/AC%20Ajaccio.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/France%20-%20Ligue%201/AC%20Ajaccio.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.252838+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Angers",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a16522fc2767.png",
+      "sha256": "24592af2138101823c25159864434880a2cdc438453c69fe893b10f4c19859d8",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Angers%20SCO.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Angers%20SCO.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.253080+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Auxerre",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/f1ac12bbbd9b.png",
+      "sha256": "654383850f1e4588e04e96777d98bf7581ab1a5047108b6f8e587504e1b0fa79",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/AJ%20Auxerre.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/AJ%20Auxerre.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.253310+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Bordeaux",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/eaf1978eccb9.png",
+      "sha256": "839ad374c723b67269e3d26dbc2c6598942603741c63ca4a09357702d4b00247",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/G.%20Bordeaux.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/G.%20Bordeaux.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.700610+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Brest",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/e143e83fa5e1.png",
+      "sha256": "4a93ab132a42cb49dbe633259f20a3c96fc5a4b01433a642f3085ad451f55ba1",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Stade%20Brestois%2029.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.700893+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Clermont Foot",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/f76bfaedd83c.png",
+      "sha256": "9d0f58f97c9988d36a969e8f3b300ed3cf97a028bec6aef559ed1c25bbb16320",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/Clermont%20Foot%2063.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/Clermont%20Foot%2063.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.701132+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Le Havre",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/d75dd51c0a32.png",
+      "sha256": "c8a11d488236257c59ae1423cb3ae03bbf12443b169ab4741cc36c0132b8a3cb",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Le%20Havre%20AC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.701369+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Lens",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/bde3a7b82509.png",
+      "sha256": "7687ad7637a9a65785dad69b247d5c1aba0747efad732702e350c67d03639496",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/RC%20Lens.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/RC%20Lens.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.701602+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Lille",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/fc33144baf78.png",
+      "sha256": "634ff3ad567a7ec16a3f455d5bfff3d6a3a2947ec3dc55a71e037e7fa27e059c",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/LOSC%20Lille.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/LOSC%20Lille.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.701829+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Lorient",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/e1310ba6923f.png",
+      "sha256": "2ce56ed7283d96b082f357e777e8d0cd957c3e32b1767afd42242a7e4cfa3d0a",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/FC%20Lorient.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/FC%20Lorient.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.702089+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Lyon",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/705a8bd5120c.png",
+      "sha256": "522c5387aaabd66f130c70c710c92a0e8bfe634c40ac64bdd1e31a406dc54b00",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Olympique%20Lyon.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.702332+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Marseille",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/43ba60f0720b.png",
+      "sha256": "11b088a814fa0926dcce6d8c6111ed3e4cea33c0838aac1200368abf6dfc5e43",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Olympique%20Marseille.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Olympique%20Marseille.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.702573+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Metz",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1607b6cb1692.png",
+      "sha256": "c9abcebcc71f5d065e868089dfdff370b003d1fafa3a2d2446b53550115396d5",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/FC%20Metz.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/FC%20Metz.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.702794+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Monaco",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/ccab051d18f3.png",
+      "sha256": "025b5a8e0004b79a0f30101a7cab4907a9632f42c2776d9fb167b949253cafad",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.703043+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Montpellier",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/be7b810dc60b.png",
+      "sha256": "4a199d6bd8adb70ab0f228861f4075b984973b02a522bbe08be6cb7b9d1132c4",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/Montpellier.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/Montpellier.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.703277+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Nantes",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b92b4c530c0b.png",
+      "sha256": "a4b0a5db1fdf1764a8591895b3b0d825ac7feee21fb412b976b2dc3c59742c6e",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/FC%20Nantes.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/FC%20Nantes.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.703505+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Nice",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a94a7996d169.png",
+      "sha256": "5e72474f0bc715de8d9cb7f32259c66b62f9e36c34fc7c6bc2e955431f999ec7",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/OGC%20Nice.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/OGC%20Nice.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.703746+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Paris S-G",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/2c46365aae0d.png",
+      "sha256": "deebaddea8388e3e7a356afcc4ee56078456d45c0644118c17c270029f1488f1",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Paris%20Saint-Germain.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.703976+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Reims",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b941409ab487.png",
+      "sha256": "af21c9165a807c06c561d5cb77e7533c371d2d177f9435c0b510588723bff6c2",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/Stade%20Reims.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/Stade%20Reims.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.704205+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Rennes",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/4e16bf518376.png",
+      "sha256": "4a2d2d7ce2ef7e8ffd99c4ac634ebc9e6fcc37a9cfedd9b58eb77653ce1c2370",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/Stade%20Rennais%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.704438+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Saint-Étienne",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b134baa6112e.png",
+      "sha256": "9deccfc491c7ff5d2e247af70852bc3164debfdfdc5ffa1ec8af81d810d868ad",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/AS%20Saint-%C3%89tienne.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/France%20-%20Ligue%201/AS%20Saint-%C3%89tienne.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.704680+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Strasbourg",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/452bad7b80d4.png",
+      "sha256": "8f8568262700ae60e466c1e034ea008806038fce76b2c82d33e2b80510d61b21",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/RC%20Strasbourg%20Alsace.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.704910+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Toulouse",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/4dc2960793f1.png",
+      "sha256": "7a11e170d417c190a0ec4d361ae5901bb32a6302ab4d35af02972b1a8a3cf5d0",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/FC%20Toulouse.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.705144+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Troyes",
+      "league": "Ligue 1",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/937c06897a02.png",
+      "sha256": "76350608a08b02cf5d1818734cc8df36237aaba2fb00a37410ae9d42bea3698b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/ESTAC%20Troyes.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/France%20-%20Ligue%201/ESTAC%20Troyes.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.705380+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Arsenal",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/17109ae14671.png",
+      "sha256": "a3ad4f044686b6292b8f9b8f2eae65109e3f1bf4b7677ce07be66c9927297c5f",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.705613+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Aston Villa",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a8523a43e1c7.png",
+      "sha256": "00e19d2343f80ab3d1bc880eaf6dec2a1e2cba328112cda2b36f74e0d517d979",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Aston%20Villa.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Aston%20Villa.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.705847+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Bournemouth",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/c997f55ac25f.png",
+      "sha256": "657f52dfba612dfaa8523f5da73ae67034c109301d65d1c144502acac87d7522",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.706079+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Brentford",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/2d076a2147a4.png",
+      "sha256": "04be6116091082ae1354a645202d91394a0e0e9f36cedef4961b643c40b49749",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Brentford%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Brentford%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.706320+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Brighton",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/9e573acc1c09.png",
+      "sha256": "bb32a56a98c55d52b3412e24bdb8f3c067bb93fe7d51f1e0178f530f268885ac",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.706562+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Burnley",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/e70cba9c5a8f.png",
+      "sha256": "4a9ae5b5d7838c556e5cf5c88187b68d0447f3c5e62aba25b9388da2a0b8429b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Burnley.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Burnley.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.706816+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Chelsea",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/db30fef78bb6.png",
+      "sha256": "b330a1ee83b2a9cc89fc3317abd9f9da5ad4d8a5edc9e88677aaa5e99b02971b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.707054+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Crystal Palace",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/59d440f42e14.png",
+      "sha256": "2cfc4952b29b007eeacca2324e94546c4c6257776a565733d17a66f5dd436e61",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.707290+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Everton",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/883cae5d243b.png",
+      "sha256": "0ed1e5572f1feaa2a2da0e6c6df1265129a2d09de44f9c7367e11c0ee8b3479b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Everton%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Everton%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.707527+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Fulham",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1f58b419d3f0.png",
+      "sha256": "59c7c54d578e6dbc4fde4eaae88b6312f1b899da4542f86705b2b9f15917658d",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Fulham%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Fulham%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.707755+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Ipswich Town",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/bfc7d6988693.png",
+      "sha256": "63d763119728296c3eea019d60386f9441e66f15ba71eb32183037a394ca2563",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.707993+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Leeds United",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/eec0739e122b.png",
+      "sha256": "2c45671a5212b74e47f7a87635e1121c84ad3971c2a700b0f925b9bb0c8bf08f",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Leeds%20United.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Leeds%20United.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.708311+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Leicester City",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1541321faf94.png",
+      "sha256": "ee0f18c61dff477ae477f17719abc0a81e610d7ccf2a866779cc14b07484a577",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Leicester%20City.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Leicester%20City.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.708557+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Liverpool",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/d2dab64e09a5.png",
+      "sha256": "bc0cdab4ad7fca467fbaf3c5b5280c92fc517ed5ee7392595286b89e64f2e91a",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.709331+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Luton Town",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/8bcc256b8e65.png",
+      "sha256": "076d9bc694b142e9e2b78e491514171953588149442f7bdf1be1fadbd6b88964",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/England%20-%20Premier%20League/Luton%20Town.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/England%20-%20Premier%20League/Luton%20Town.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.709580+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Manchester City",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/77c3540dce2e.png",
+      "sha256": "cc469bbafdbb900947d36d0790713b31c6527f9c298770d39848aab5fa6ff3f2",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Manchester%20City.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Manchester%20City.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.709820+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Manchester Utd",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/bd556682429f.png",
+      "sha256": "9bfee26db13a48f5bff3e6d84fd5fc8438ad7db893b2d5f0c33e0779160d669c",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Manchester%20United.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Manchester%20United.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.710054+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Newcastle Utd",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/79636af77c81.png",
+      "sha256": "8285f36ea4c9de20cd08d568222e2c74941b1f5a01d093c4853c44abfc5a3dd7",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:34.710290+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Norwich City",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/050eac789181.png",
+      "sha256": "e610cba76336a17343c6ab0639d5fccb53dea2848d344cf7362eaa54bb416cea",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Norwich.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Norwich.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.174904+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Nott'ham Forest",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/3c78e70400a7.png",
+      "sha256": "9e3dd7742337dad9922bacf188f2f93ed1ac188e280a883dc1306a19d9f955e7",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.175199+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Sheffield Utd",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a140c30003f6.png",
+      "sha256": "6a4b4ce92fa8129b33f1346f06371d93b1fb34a82c3f72fed117a6aebe18e07f",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/England%20-%20Premier%20League/Sheffield%20United.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2023-24/England%20-%20Premier%20League/Sheffield%20United.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.175441+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Southampton",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/edb231b18616.png",
+      "sha256": "9da247339689a823833c5adecafcf738a0827f929828bc981e3593cf4b81aace",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Southampton.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Southampton.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.175682+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Tottenham",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/358b5e2cec6d.png",
+      "sha256": "33b6b4f1baafcecd88f8499b250fe28ee55eaf60f67020c716b12418d4b6f555",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.175908+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Watford",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b9accb8020da.png",
+      "sha256": "ed52881e114a012c7a4d68abbcb1eca87739294a09e1766efb4027c21425b4fb",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Watford%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Watford%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.176139+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "West Ham",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1cb0fd1ae3b3.png",
+      "sha256": "7f5ba79d1baa86d073a9c1852526efed7602f58f7aea790ffd98b10d9d29eeb1",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/West%20Ham.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/West%20Ham.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.176374+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Wolves",
+      "league": "Premier League",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/fe8ae637ccf5.png",
+      "sha256": "93e7ebb3d6e1812a88fd8c79ca35519c22b1ab1f35b437c2461c86ece590bbf2",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Wolverhampton%20Wanderers.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/England%20-%20Premier%20League/Wolverhampton%20Wanderers.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.176612+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Atalanta",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/393adaa31dae.png",
+      "sha256": "4c349dfb0de734061a42cbcd220235ede0f28fc3d738aa9312cb0faf692cec15",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.176838+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Bologna",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a46e8d265051.png",
+      "sha256": "b467aaf0a4a898996d961e973cbfdf56c6b63fa50f0f973fd19131a6a734a93b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.599215+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Cagliari",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/98bbedaab019.png",
+      "sha256": "b22ce1ef7507ac5c325557c441672343a46ae25e98ee14e791e99f601e1709cd",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.599496+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Como",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/4c468114ad01.png",
+      "sha256": "2392352fa7e7bbde03e598bbe6e9b527dcecff64b46513dbeaaccdb72d083b61",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Como%201907.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Como%201907.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.599727+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Cremonese",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/c408177c16ff.png",
+      "sha256": "53642697b6db8181103c9c10fafa19755f25daac7cbe37b837398ab4e21bbf04",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Italy%20-%20Serie%20A/US%20Cremonese.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2022-23/Italy%20-%20Serie%20A/US%20Cremonese.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.599979+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Empoli",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/62438603289c.png",
+      "sha256": "53ed81e473c9cf9241f33250b2f9180ad00f7d4b14bef2eaea4152820f7f37bc",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/FC%20Empoli.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/FC%20Empoli.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.600219+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Fiorentina",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/9f650fdf5902.png",
+      "sha256": "b1c2b9cc12b26e6187dbe761c9cb6c3cd8a07ec88ece0533e847de29f0c3f9e2",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.600458+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Frosinone",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/9d1fc542117c.png",
+      "sha256": "2ea743ce8a708e5c15fc9b0c9893787dfaf19ce2f3bec83510bee9342ec0013a",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.600690+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Genoa",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/912ef1ec5842.png",
+      "sha256": "9c61641924d84cd845beee535f83ab453f9186a6d4b7200cf5570279f761cd5b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.600923+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Hellas Verona",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/144178d7cade.png",
+      "sha256": "b1181f0441cb6070c3b7417ba5c6fb90a052fdfc0ae99f28d63028e7c827c2a1",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Hellas%20Verona.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Hellas%20Verona.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.601146+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Inter",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/8eda9d8a3196.png",
+      "sha256": "0a7c7da7598737572dd20295b7232ef59fc9e2d8d9454534aafef0303bdf5db5",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Inter%20Milan.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.601365+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Juventus",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a47ec8777242.png",
+      "sha256": "145a255a90898096f04a4152ebc3f9799ce0b676cf0dbcf72037dcdeb9129e17",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.602166+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Lazio",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/cfd2a0a54df4.png",
+      "sha256": "eb3114c7f704cda4f726d9f6d9840946ef7778cb65eb33e6a4a25ad114bdf94a",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Lazio.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Lazio.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.602395+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Lecce",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/a67a29a74ffb.png",
+      "sha256": "03a7d871273c0a92acc4f870d1c2ef4d2bff2c0597949cfe17d4befc67a7da6b",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.602630+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Milan",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/96fe05206b27.png",
+      "sha256": "2dbf7c00965ede1ba39186bfc2d90e90cca069fe1129dc8f41f26b7d60a5f416",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.602861+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Monza",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b8201182d81c.png",
+      "sha256": "bdc83a6328cead062473b161e4318b8e272ad9c664f3183da6c390c86443f8a2",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.603091+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Napoli",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/cb74a1970752.png",
+      "sha256": "7382d0fa4e186d4592c8ad9ac6fdc0973ea2f93c431fa65d5c5dbf2f1ab5eec7",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/SSC%20Napoli.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.603605+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Parma",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1ff9983f14bd.png",
+      "sha256": "a2997db4c885d5656f1a267226a2aa9e567ad836c3b8a184f6b21267c41958b9",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:35.603842+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Roma",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/91693582cb02.png",
+      "sha256": "56b4077591336f465e9aefb0182a0627c2f17eb951559e8a34e7203af80d5d9a",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/AS%20Roma.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.105558+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Salernitana",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/b51bfab3822e.png",
+      "sha256": "50f12a9cb5e65db1070e8315bd731ae78a91f66e65c8e1ce20b980e329bbd146",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/US%20Salernitana%201919.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/US%20Salernitana%201919.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.105868+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Sampdoria",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/4c0ed226e2bc.png",
+      "sha256": "97784064411ace94a7d6bc868416c77936b0f7a8ccc20d0ee4ceac23c1d8c470",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Sampdoria.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Sampdoria.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.106102+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Sassuolo",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/41acec87b776.png",
+      "sha256": "af2818ffebbfc0fd6e024971599df3426991a3d7fa50573539e8a37a9609f5dc",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.106336+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Spezia",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/1e3883f44542.png",
+      "sha256": "95a1057403283ef95337b0700dd4a382c88de9b4ed109104318dc74aab6d4df5",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Spezia%20Calcio.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/history/2021-22/Italy%20-%20Serie%20A/Spezia%20Calcio.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.106568+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Torino",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/218036b24556.png",
+      "sha256": "5f3e8d1fec7fa15e12231d6889b778ad7fc95da9b30d89b2b44103b18fb679bd",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.106809+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Udinese",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/e1f87689b104.png",
+      "sha256": "224904b9168115284cc74aa6c6c4de71ff797eec93718dfe9601fd841d0a4281",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.107143+00:00"
+    },
+    {
+      "kind": "club",
+      "label": "Venezia",
+      "league": "Serie A",
+      "path": "data/raw/explorer_crest_catalog/2026-10-10/images/54b2657bafd4.png",
+      "sha256": "143991066aa669cf5e44bcf339c9216e62af75a0b454e5bd53f76156f5cf8911",
+      "source_page": "https://github.com/luukhopman/football-logos/blob/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+      "source_url": "https://raw.githubusercontent.com/luukhopman/football-logos/2a3978f0b4730645c205d855a4bda54c161183e9/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+      "artist": "Club artwork; catalog publisher luukhopman",
+      "license": "No repository license located; underlying club rights retained; private research only",
+      "historical_accuracy": "Illustrative archived club crest; exact selected-season edition not guaranteed",
+      "retrieved_at_utc": "2026-10-11T03:06:36.107488+00:00"
+    }
+  ],
+  "coverage": [
+    {
+      "league": "Bundesliga",
+      "team": "Arminia",
+      "status": "archived",
+      "source_path": "history/2021-22/Germany - Bundesliga/Arminia Bielefeld.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Augsburg",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/FC Augsburg.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Bayern Munich",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/Bayern Munich.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Bochum",
+      "status": "archived",
+      "source_path": "history/2021-22/Germany - Bundesliga/VfL Bochum.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Darmstadt 98",
+      "status": "archived",
+      "source_path": "history/2023-24/Germany - Bundesliga/SV Darmstadt 98.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Dortmund",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/Borussia Dortmund.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Düsseldorf",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Eint Frankfurt",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/Eintracht Frankfurt.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Freiburg",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/SC Freiburg.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Gladbach",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/Borussia Mönchengladbach.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Greuther Fürth",
+      "status": "archived",
+      "source_path": "history/2021-22/Germany - Bundesliga/Greuther Fürth.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hamburger SV",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/Hamburger SV.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hannover 96",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Heidenheim",
+      "status": "archived",
+      "source_path": "history/2023-24/Germany - Bundesliga/1.FC Heidenheim 1846.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hertha BSC",
+      "status": "archived",
+      "source_path": "history/2021-22/Germany - Bundesliga/Hertha BSC.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Hoffenheim",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/TSG 1899 Hoffenheim.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Holstein Kiel",
+      "status": "archived",
+      "source_path": "history/2024-25/Germany - Bundesliga/Holstein Kiel.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Köln",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/1.FC Köln.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Leverkusen",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/Bayer 04 Leverkusen.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Mainz 05",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/1.FSV Mainz 05.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Nürnberg",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Paderborn 07",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/SC Paderborn 07.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "RB Leipzig",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/RB Leipzig.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Schalke 04",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/FC Schalke 04.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "St. Pauli",
+      "status": "archived",
+      "source_path": "history/2024-25/Germany - Bundesliga/FC St. Pauli.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Stuttgart",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/VfB Stuttgart.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Union Berlin",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/1.FC Union Berlin.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Werder Bremen",
+      "status": "archived",
+      "source_path": "logos/Germany - Bundesliga/SV Werder Bremen.png"
+    },
+    {
+      "league": "Bundesliga",
+      "team": "Wolfsburg",
+      "status": "archived",
+      "source_path": "history/2021-22/Germany - Bundesliga/VfL Wolfsburg.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Alavés",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Deportivo Alavés.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Almería",
+      "status": "archived",
+      "source_path": "history/2022-23/Spain - LaLiga/UD Almería.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Athletic Club",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Athletic Bilbao.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Atlético Madrid",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Atlético de Madrid.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Barcelona",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/FC Barcelona.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Betis",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Real Betis Balompié.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Celta Vigo",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Celta de Vigo.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Cádiz",
+      "status": "archived",
+      "source_path": "history/2021-22/Spain - LaLiga/Cádiz CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Eibar",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "La Liga",
+      "team": "Elche",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Elche CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Espanyol",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/RCD Espanyol Barcelona.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Getafe",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Getafe CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Girona",
+      "status": "archived",
+      "source_path": "history/2022-23/Spain - LaLiga/Girona FC.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Granada",
+      "status": "archived",
+      "source_path": "history/2021-22/Spain - LaLiga/Granada CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Huesca",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "La Liga",
+      "team": "La Coruña",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "La Liga",
+      "team": "Las Palmas",
+      "status": "archived",
+      "source_path": "history/2023-24/Spain - LaLiga/UD Las Palmas.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Leganés",
+      "status": "archived",
+      "source_path": "history/2024-25/Spain - LaLiga/CD Leganés.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Levante",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Levante UD.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Mallorca",
+      "status": "archived",
+      "source_path": "history/2021-22/Spain - LaLiga/RCD Mallorca.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Málaga",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Málaga CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Osasuna",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/CA Osasuna.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Rayo Vallecano",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Rayo Vallecano.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Real Madrid",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Real Madrid.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Real Sociedad",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Real Sociedad.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Sevilla",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Sevilla FC.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Valencia",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Valencia CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Valladolid",
+      "status": "archived",
+      "source_path": "history/2022-23/Spain - LaLiga/Real Valladolid CF.png"
+    },
+    {
+      "league": "La Liga",
+      "team": "Villarreal",
+      "status": "archived",
+      "source_path": "logos/Spain - LaLiga/Villarreal CF.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Ajaccio",
+      "status": "archived",
+      "source_path": "history/2022-23/France - Ligue 1/AC Ajaccio.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Amiens",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Angers",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Angers SCO.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Auxerre",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/AJ Auxerre.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Bordeaux",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/G. Bordeaux.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Brest",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Stade Brestois 29.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Caen",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Clermont Foot",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/Clermont Foot 63.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Dijon",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Guingamp",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Le Havre",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Le Havre AC.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lens",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/RC Lens.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lille",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/LOSC Lille.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lorient",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/FC Lorient.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Lyon",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Olympique Lyon.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Marseille",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Olympique Marseille.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Metz",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/FC Metz.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Monaco",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/AS Monaco.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Montpellier",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/Montpellier.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Nantes",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/FC Nantes.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Nice",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/OGC Nice.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Nîmes",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Paris S-G",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Paris Saint-Germain.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Reims",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/Stade Reims.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Rennes",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/Stade Rennais FC.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Saint-Étienne",
+      "status": "archived",
+      "source_path": "history/2021-22/France - Ligue 1/AS Saint-Étienne.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Strasbourg",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/RC Strasbourg Alsace.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Toulouse",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/FC Toulouse.png"
+    },
+    {
+      "league": "Ligue 1",
+      "team": "Troyes",
+      "status": "archived",
+      "source_path": "logos/France - Ligue 1/ESTAC Troyes.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Arsenal",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Arsenal FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Aston Villa",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Aston Villa.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Bournemouth",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/AFC Bournemouth.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Brentford",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Brentford FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Brighton",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Brighton & Hove Albion.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Burnley",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/Burnley.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Cardiff City",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Premier League",
+      "team": "Chelsea",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Chelsea FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Crystal Palace",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Crystal Palace.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Everton",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Everton FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Fulham",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Fulham FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Huddersfield",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Premier League",
+      "team": "Ipswich Town",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Ipswich Town.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Leeds United",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Leeds United.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Leicester City",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/Leicester City.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Liverpool",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Liverpool FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Luton Town",
+      "status": "archived",
+      "source_path": "history/2023-24/England - Premier League/Luton Town.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Manchester City",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Manchester City.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Manchester Utd",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Manchester United.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Newcastle Utd",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Newcastle United.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Norwich City",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/Norwich.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Nott'ham Forest",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Nottingham Forest.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Sheffield Utd",
+      "status": "archived",
+      "source_path": "history/2023-24/England - Premier League/Sheffield United.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Southampton",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/Southampton.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Stoke City",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Premier League",
+      "team": "Swansea City",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Premier League",
+      "team": "Tottenham",
+      "status": "archived",
+      "source_path": "logos/England - Premier League/Tottenham Hotspur.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Watford",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/Watford FC.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "West Brom",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Premier League",
+      "team": "West Ham",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/West Ham.png"
+    },
+    {
+      "league": "Premier League",
+      "team": "Wolves",
+      "status": "archived",
+      "source_path": "history/2021-22/England - Premier League/Wolverhampton Wanderers.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Atalanta",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Atalanta BC.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Benevento",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Serie A",
+      "team": "Bologna",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Bologna FC 1909.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Brescia",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Serie A",
+      "team": "Cagliari",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Cagliari Calcio.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Chievo",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Serie A",
+      "team": "Como",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Como 1907.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Cremonese",
+      "status": "archived",
+      "source_path": "history/2022-23/Italy - Serie A/US Cremonese.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Crotone",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Serie A",
+      "team": "Empoli",
+      "status": "archived",
+      "source_path": "history/2021-22/Italy - Serie A/FC Empoli.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Fiorentina",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/ACF Fiorentina.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Frosinone",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Frosinone Calcio.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Genoa",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Genoa CFC.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Hellas Verona",
+      "status": "archived",
+      "source_path": "history/2021-22/Italy - Serie A/Hellas Verona.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Inter",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Inter Milan.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Juventus",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Juventus FC.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Lazio",
+      "status": "archived",
+      "source_path": "history/2021-22/Italy - Serie A/Lazio.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Lecce",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/US Lecce.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Milan",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/AC Milan.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Monza",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/AC Monza.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Napoli",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/SSC Napoli.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Parma",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Parma Calcio 1913.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Roma",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/AS Roma.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "SPAL",
+      "status": "catalog_name_unresolved"
+    },
+    {
+      "league": "Serie A",
+      "team": "Salernitana",
+      "status": "archived",
+      "source_path": "history/2021-22/Italy - Serie A/US Salernitana 1919.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Sampdoria",
+      "status": "archived",
+      "source_path": "history/2021-22/Italy - Serie A/Sampdoria.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Sassuolo",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/US Sassuolo.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Spezia",
+      "status": "archived",
+      "source_path": "history/2021-22/Italy - Serie A/Spezia Calcio.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Torino",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Torino FC.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Udinese",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Udinese Calcio.png"
+    },
+    {
+      "league": "Serie A",
+      "team": "Venezia",
+      "status": "archived",
+      "source_path": "logos/Italy - Serie A/Venezia FC.png"
+    }
+  ]
+}

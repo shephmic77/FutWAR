@@ -1,0 +1,18 @@
+{
+  "assets": [
+    {
+      "id": "juventus-official",
+      "kind": "club",
+      "label": "Juventus",
+      "title": "Juventus official J Icon",
+      "source_page": "https://www.juventus.com/en/club/logo",
+      "source_url": "https://www.juventus.com/images/image/private/t_editorial_squared_8/f_png/dev/kxdpfwas1r2teqiyoeuq.png",
+      "path": "data/raw/explorer_assets/2026-10-10/clubs/juventus-official.png",
+      "sha256": "5756b16f1e009617e0f317978deb6dea0a0b7009b3789e11fb6577db1ae974ef",
+      "retrieved_at_utc": "2026-10-10T23:38:55.401917+00:00",
+      "artist": "Juventus Football Club",
+      "license": "Rights retained by Juventus; private factual illustration; no open redistribution license verified",
+      "historical_season_accuracy": "Current official J Icon; 2017-20 used an additional Juventus wordmark. Illustrative edition, not promised to match every season."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700">
+<title>FutWAR WAR data readiness</title><desc>Coverage and limitations by season for player statistics, fixtures, Wyscout events, positions and team budgets.</desc>
+<rect width="100%" height="100%" fill="#fbf8f1"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#26352e}.muted{fill:#66736a}.small{font-size:15px}.body{font-size:18px}.head{font-size:27px;font-weight:700}.sub{font-size:19px}</style>
+<text x="48" y="54" class="head">What the current data can support</text>
+<text x="48" y="87" class="sub">Coverage is not the same as comparability or verified meaning.</text>
+<text x="48" y="120" class="small">2017–18</text>
+<text x="1314" y="120" class="small">2024–25</text>
+<text x="48" y="180" class="body">Player-season metrics</text>
+<rect x="165" y="156" width="895" height="27" rx="8" fill="#e4dfd5"/>
+<rect x="165" y="156" width="895.0" height="27" rx="8" fill="#51755d"/>
+<text x="1078" y="177" class="small">40 / 40</text>
+<text x="48" y="210" class="small muted">All 40 league-seasons; outfield + separate keeper work</text>
+<text x="48" y="259" class="body">Match results + standings</text>
+<rect x="165" y="235" width="895" height="27" rx="8" fill="#e4dfd5"/>
+<rect x="165" y="235" width="895.0" height="27" rx="8" fill="#51755d"/>
+<text x="1078" y="256" class="small">40 / 40</text>
+<text x="48" y="289" class="small muted">All 40; team outcomes do not isolate player impact</text>
+<text x="48" y="338" class="body">Fixture-level match context</text>
+<rect x="165" y="314" width="895" height="27" rx="8" fill="#e4dfd5"/>
+<rect x="165" y="314" width="895.0" height="27" rx="8" fill="#bd884a"/>
+<text x="1078" y="335" class="small">40 / 40</text>
+<text x="48" y="368" class="small muted">All 40; one 2024–25 Bundesliga fixture misses box-score context</text>
+<text x="48" y="417" class="body">Detailed events</text>
+<rect x="165" y="393" width="895" height="27" rx="8" fill="#e4dfd5"/>
+<rect x="165" y="393" width="111.9" height="27" rx="8" fill="#b74445"/>
+<text x="1078" y="414" class="small">5 / 40</text>
+<text x="48" y="447" class="small muted">Only 2017–18; provider IDs not joined to player-season identities</text>
+<text x="48" y="496" class="body">Verified played-position minutes</text>
+<rect x="165" y="472" width="895" height="27" rx="8" fill="#e4dfd5"/>
+<text x="1078" y="493" class="small">0 / 40</text>
+<text x="48" y="526" class="small muted">Provider exports exist; played-position semantics not verified</text>
+<text x="48" y="575" class="body">Historical team budget + wages</text>
+<rect x="165" y="551" width="895" height="27" rx="8" fill="#e4dfd5"/>
+<text x="1078" y="572" class="small">0 / 40</text>
+<text x="48" y="605" class="small muted">No comparable club-season wage/availability pool assembled</text>
+<text x="48" y="665" class="small muted">Implication: start with a one-season event pilot and a separate position/budget evidence audit. Keep the other years descriptive until comparable evidence is acquired.</text>
+</svg>

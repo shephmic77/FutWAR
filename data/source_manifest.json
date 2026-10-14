@@ -1,0 +1,17 @@
+{
+  "Top5_League_Players_2017to2024_dataset.csv": {
+    "source_url": "https://www.kaggle.com/datasets/emrey3lmaz/top-5-league-football-player-stats-2017-2025?select=Top5_League_Players_2017to2024_dataset.csv",
+    "retrieved_at": null,
+    "license_or_terms": "CC0: Public Domain (Kaggle listing declaration supplied by user; upstream terms not independently checked)",
+    "provider": "FBref (as stated in the user-pasted Kaggle data card; not independently verified)",
+    "granularity": "apparent player-team-season; approved 512-row group collapse applied only to processed data",
+    "stat_definitions": "User-pasted data card describes common columns; upstream complete glossary remains to be checked",
+    "original_local_path": "C:/Users/mikey/Desktop/Data Science projects/FutWAR/data/raw/Top5_League_Players_2017to2024_dataset.csv",
+    "notes": "Download page identified by user. Provider, license declaration, version and definitions recorded from the user-supplied data card, not independent live verification. Original acquisition date remains unknown. The user-approved group collapse is applied in processed data; raw bytes remain unchanged. Sourced position enrichment and unresolved external exposure discrepancy are documented separately.",
+    "source_url_evidence": "Original download page supplied by the user",
+    "publisher": "Kaggle user emrey3lmaz (from supplied URL)",
+    "acquisition_library": "soccerdata (publisher statement supplied by user)",
+    "dataset_version": "Version 1 (as shown in user-pasted data card)",
+    "metadata_evidence_attachment": "63665088-b210-4176-a060-2f61ba5354c8/Pasted text.txt"
+  }
+}

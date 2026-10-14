@@ -1,0 +1,13 @@
+{
+  "label": "Liverpool",
+  "source_url": "https://resources.premierleague.com/premierleague/badges/t14.svg",
+  "source_page": "https://www.premierleague.com/",
+  "path": "data/raw/profile_images/2026-10-10/liverpool-full-crest.svg",
+  "sha256": "d7ede6abfcfbb9d8bf3445d403067b8f386510560d831fbf4aa762abf9b6e0fb",
+  "retrieved_at_utc": "2026-10-10T21:58:43.720066+00:00",
+  "rights_holder": "Liverpool Football Club",
+  "license": "No open reuse license verified",
+  "use_scope": "Owner-requested private layout preview; no redistribution or public deployment authorized",
+  "display_changes": "CSS contain only; archived SVG unchanged",
+  "terms_reference": "https://www.liverpoolfc.com/corporate/brand-protection"
+}
