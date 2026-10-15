@@ -1,6 +1,6 @@
 # Vercel deployment
 
-The live FutWAR explorer is available at [https://futwar.vercel.app/](https://futwar.vercel.app/). Share this stable project domain rather than an individual deployment URL (for example, a generated `futwar-three.vercel.app` address), which can return `DEPLOYMENT_NOT_FOUND` if that deployment is removed. The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. Player data and a compact search index are separate compressed files, and images are separate assets. The interface can render and enable search while the larger statistics payload downloads.
+The live FutWAR explorer is available at [https://futwar.vercel.app/](https://futwar.vercel.app/). Share this stable project domain rather than an individual deployment URL, which can return `DEPLOYMENT_NOT_FOUND` if that deployment is removed. The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. Player data and a compact search index are separate compressed files, and images are separate assets. The interface can render and enable search while the larger statistics payload downloads.
 
 ## Build or refresh the published site
 
