@@ -21,7 +21,7 @@ COVID-era seasons remain in the 2017–18 to 2024–25 scope for inspection. Whe
 
 The project has audited an initial player-season source, built a local PostgreSQL/SQL workflow, assembled match and standings references, explored metric coverage by position, and run bounded event-state experiments. Those experiments suggest that event context can improve outcome prediction in limited samples; they do not establish action-to-player credit or player value. Sources have differing definitions, coverage, and reuse terms. The data are not complete or fully harmonized.
 
-A possible later-season event-data validation source has unresolved access/registration guidance. The user submitted a provider inquiry; that does not count as registration or permission. Work on already documented sources can continue while awaiting a reply.
+The owner has dropped StatsBomb from consideration. Free-source screening identified Impect Open Data (Bundesliga 2023–24) as a possible later-season event sample, subject to review of its separate terms and a coverage/quality audit. Data readiness remains incomplete; see the [data foundation readiness gates](docs/data_foundation_readiness.md). Formula experiments remain paused until the foundation is reviewed.
 
 See [the project plan](docs/project_plan.md), [data-source register](docs/data_sources.md), and [WAR model architecture](docs/war_model_architecture.md) for decisions and limitations. These documents preserve research context; prior proposals remain proposals unless marked as an owner decision.
 
@@ -39,7 +39,18 @@ sql/            PostgreSQL schema and analysis queries
 tests/          automated checks for research and data-handling code
 ```
 
-Original/raw and processed datasets, credentials, local database files, row-level exports, generated explorer bundles, and provider-restricted files are intentionally excluded from Git. The public repository contains code and selected research documentation, not a redistributable data bundle. Check source terms and the source register before sharing data-derived work.
+Original/raw and processed datasets, credentials, local database files, and provider-restricted files are excluded from Git. The reviewed public browser application is published at `site/index.html`; it embeds the player-season records and display assets needed to run the explorer. The owner has reviewed the included sources for personal/student project use. Source documentation and attribution remain part of the repository.
+
+## Public site deployment
+
+The repository is configured for Vercel through `vercel.json`, which serves the `site/` output directory. After updating the explorer locally, rebuild and copy its generated HTML into the public site artifact:
+
+```powershell
+py scripts/package_explorer.py
+.\scripts\prepare_vercel_site.ps1
+```
+
+Commit and push the updated `site/index.html` with the related application changes. Vercel can then deploy automatically from the connected GitHub repository. See [Vercel setup](docs/vercel_setup.md).
 
 ## Local setup
 

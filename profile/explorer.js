@@ -124,14 +124,21 @@ function drawReferences(){
  const mode=$('reference-mode').value,k=$('reference-metric').value,minimum=Number($('reference-minutes').value);
  $('reference-leagues').hidden=mode!=='league';$('reference-budget').hidden=mode!=='team';
  const isWar=k==='futwar';
- $('reference-minutes').disabled=isWar;$('download-reference').disabled=isWar;
+ $('reference-minutes').disabled=isWar;$('download-reference').disabled=isWar;$('position-scope').disabled=!isWar;
  const f=chartFrame('reference-chart','Season ending year',isWar?'FutWAR':(labels[k]||k)+' difference'+(k.endsWith('per90')?' / 90':' share'));
  if(isWar){
-  f.svg.setAttribute('aria-label','FutWAR comparison: not yet estimated');
-  f.svg.innerHTML='<text x="30" y="70" fill="var(--text)" font-size="22">FutWAR: not yet estimated</text><text x="30" y="110" fill="var(--muted)" font-size="15">A fitted contribution model is needed before plotting values.</text>';
+  const scope=$('position-scope').value,scopeLabel=scope==='locked'?'position locked':'any evidenced position';
+  document.querySelectorAll('.war-view').forEach(card=>{
+   const active=card.dataset.baseline===mode&&card.dataset.scope===scope;
+   card.classList.toggle('is-selected',active);card.setAttribute('aria-current',active?'true':'false');
+  });
+  f.svg.setAttribute('aria-label','FutWAR comparison status: not estimated');
+  f.svg.innerHTML=`<rect x="18" y="28" width="${f.w-36}" height="154" rx="12" fill="var(--bg)" stroke="var(--line)"/><text x="42" y="70" fill="var(--ink)" font-size="22" font-weight="600">No player WAR points plotted</text><text x="42" y="105" fill="var(--muted)" font-size="15">Contribution model and eligible reference pool are not ready.</text><text x="42" y="145" fill="var(--team)" font-size="15">Selected: ${esc(mode==='overall'?'All-five-league average':mode==='league'?'League average':'Team-accessible replacement')} · ${esc(scopeLabel)}</text>`;
   $('reference-legend').innerHTML='';
   const baseline=mode==='overall'?'same-position average across all five leagues':mode==='league'?'same-position averages in your selected leagues':'team-accessible replacement under the selected historical cost scenario';
-  $('reference-note').textContent='Planned comparison: FutWAR contribution against '+baseline+', separately for each selected season. The contribution model and outcome scale are not yet fitted or validated. No scores have been generated. Average-based views will be identified as above average; the replacement view will remain distinct. Choose an individual metric to explore recorded statistics meanwhile.';return;
+  const scopeNeed=scope==='locked'?'Verified specific played-position evidence is required.':'A common calibrated scale and verified secondary positions are required.';
+  const baselineNeed=mode==='team'?'Historical season-start costs, availability and a feasible candidate pool are also required.': 'This average is an above-average comparison, not a replacement-level WAR baseline.';
+  $('reference-note').textContent='Selected research view: '+baseline+' · '+scopeLabel+'. '+scopeNeed+' '+baselineNeed+' No numeric FutWAR has been generated. The tiles above show all six comparison designs and their current evidence gates.';return;
  }
  f.svg.setAttribute('aria-label',"Selected player's recorded metric above a reference average");
  if(!(minimum>0)){f.svg.innerHTML='<text x="30" y="70">Enter a positive reference-minute threshold.</text>';return;}
@@ -158,7 +165,7 @@ function drawReferences(){
  $('reference-note').textContent='Player rate minus the equal-player reference mean in each season. Same specific profile position and '+minimum+'+ metric-supported minutes; selected identity excluded. Transfer stints are pooled within provisional identity groups. Hollow points indicate low selected exposure. Raw league differences are not league-strength-adjusted or player-value estimates. Unknown roles and unavailable metrics are excluded. Hover for reference counts.';
 }
 for(const l of leagues){const label=document.createElement('label');label.className='check';const input=document.createElement('input');input.type='checkbox';input.value=l;input.checked=true;input.onchange=drawReferences;label.append(input,document.createTextNode(l));$('reference-leagues').append(label);}
-for(const id of ['reference-mode','reference-metric','reference-minutes','budget-scenario'])$(id).onchange=drawReferences;
+for(const id of ['reference-mode','position-scope','reference-metric','reference-minutes','budget-scenario'])$(id).onchange=drawReferences;
 $('download-reference').onclick=()=>downloadSVG('reference-chart','futwar-reference-comparison.svg');
 
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>show(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));

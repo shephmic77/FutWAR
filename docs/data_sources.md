@@ -1,5 +1,9 @@
 # FutWAR — Candidate sources and due diligence
 
+## Owner's public-project use confirmation (2026-10-15)
+
+The owner reports reviewing the terms for sources used in the public explorer and confirms that personal/student project use and public inclusion in this repository and its website are acceptable. This records the owner's review and intended non-commercial use; it is not an independent legal review and does not authorize commercial reuse. Source-specific attribution and original license claims remain recorded below.
+
 This is a **candidate list**, not proof of complete coverage or permission to scrape/re-publish. Audit sources against all eight seasons (2017–18 to 2024–25) and five leagues before use. Record source date, file/version, license/terms and actual available fields.
 
 | Source | Potential use | Limitations to verify |
@@ -10,7 +14,8 @@ This is a **candidate list**, not proof of complete coverage or permission to sc
 | Sofascore or ESPN | Starting XI, nominal positions, formations, substitutions, player match statistics | Access and historical coverage are uncertain; check terms, legal acquisition and definitions |
 | Historical FBref archives, including Kaggle | Passing, defensive and progression stats if actually archived | Live FBref advanced coverage changed; verify fields are not empty and don't mix provider definitions silently |
 | Transfermarkt-derived Kaggle Player Scores | Matches, player appearances, clubs, transfers, squad information | Value/market price does not equal on-pitch WAR; licensing and player IDs |
-| StatsBomb Open Data | Detailed event + some positional data for methodology and limited tactical pilot | Selected competitions only; **not** blanket full Big Five coverage |
+| Impect Open Data | Bundesliga 2023–24 event data, player-match KPIs, lineups and substitutions | Separate terms PDF governs use; review terms, attribution/logo requirements, actual match coverage and schema before acquisition or integration; does not fill other league-seasons |
+| StatsBomb Open Data | Historical candidate only; dropped by owner on 2026-10-15 | Do not register, acquire, or audit further for FutWAR; see superseded external-validation note |
 | ClubElo | External cross-league club strength benchmark | API/access restrictions may apply; verify permitted methods |
 | UEFA competitions | Results connecting clubs from different leagues | Strong selection bias toward better teams |
 
@@ -71,7 +76,7 @@ An immutable-parent expansion adds Valladolid free-signing evidence, Schalke rel
 
 ## Lineup and keeper source suitability
 
-The publisher lineup export is separately archived and hashed; 14,307 of 14,359 scoped matches have records, but played-position semantics and wingback distinctions remain unresolved. A pinned parser was inspected as evidence without executing scraping. StatsBomb's catalog, license and specifications were archived at a pinned commit; seven of 40 target cells are listed, with full match/event completeness unaudited. A separate six-match lineup/position pilot exists, but it is not full-season or league-wide coverage. No keeper values were produced. The detailed position-source audit and StatsBomb-derived pilot results remain in the local project folder while provider reuse and branding requirements are reviewed; they are not included in the public repository.
+The publisher lineup export is separately archived and hashed; 14,307 of 14,359 scoped matches have records, but played-position semantics and wingback distinctions remain unresolved. A pinned parser was inspected as evidence without executing scraping. A separate six-match lineup/position pilot exists, but it is not full-season or league-wide coverage. No keeper values were produced. Prior StatsBomb catalog/terms and pilot notes are historical only; the owner dropped that source on 2026-10-15. Do not access further StatsBomb material for this project.
 
 The owner's broader-source search is recorded in `docs/broader_position_keeper_source_search.md`. Sportmonks and API-Football remain unsampled candidates; published fields do not establish historical completeness or actual played roles. Public Wyscout research data cover 2017-18 only by published scope, and an exact-scope goalkeeper study is an archive lead without a located replication download. No new player data, account or paid service was introduced.
 
@@ -79,7 +84,7 @@ Following the owner's free-only decision, six CC BY 4.0 Figshare research articl
 
 Goalkeeper source work has explored archived player metrics and match-event references. Provider coverage, identity links, metric definitions/versions and reuse terms remain unresolved. Underlying keeper archives, row-level correction plans and keeper-specific results stay local; no keeper measurements are bundled in the public repository. The [explicit-license source screening](licensed_keeper_source_screening.md) summarizes candidate terms without selecting a keeper formula. The descriptive 900+ minute focus is exploratory and does not set WAR eligibility.
 
-Historical position candidates remain publisher labels, not verified played-position minutes. A bounded StatsBomb position pilot is kept locally while its public-use and branding terms are reviewed; it cannot establish complete league-season coverage. The owner submitted a provider registration inquiry and awaits guidance; the form submission is not registration confirmation or access approval.
+Historical position candidates remain publisher labels, not verified played-position minutes. Existing bounded StatsBomb position-pilot files are historical only and cannot establish complete league-season coverage. Do not pursue the pending provider inquiry or access additional StatsBomb data.
 
 The [full explorer data audit](full_explorer_data_audit.md) documents the archived publisher valuation table, owner-selected June 30 cutoff, separate keeper overlays and image credits. The new Kaggle injury research archive is anonymized and was excluded from named-profile merging. Original statistics and unresolved upstream rights are preserved.
 # Additional action-value research inputs (2026-10-10)
