@@ -149,7 +149,7 @@ try{
  const groups=new Map(payload.groups.map(group=>[group.id,group.rows]));
  if(window.futwarReady)return;
  $('dataset-status').textContent='Player search is ready; full season statistics are loading in the background.';
- for(const form of forms){const input=form.querySelector('input');form.addEventListener('submit',event=>{event.preventDefault();render(input.value);});input.addEventListener('input',()=>input.value.trim()?render(input.value):$('search-results').hidden=true);}
+ for(const form of forms){const input=form.querySelector('input');form.addEventListener('submit',event=>{event.preventDefault();render(input.value);});input.addEventListener('input',()=>input.value.trim()?render(input.value):$('search-results').hidden=true);if(input.value.trim())render(input.value);}
 }catch(error){if(!window.futwarReady)$('dataset-status').textContent='Search directory unavailable; the full library is still loading. You can try again after it finishes.';}
 })();
 </script><script>'use strict';
