@@ -43,7 +43,7 @@ Original/raw and processed datasets, credentials, local database files, and prov
 
 ## Public site deployment
 
-The repository is configured for Vercel through `vercel.json`, which serves the `site/` output directory. After updating the explorer locally, rebuild and copy its generated HTML into the public site artifact:
+The live FutWAR explorer is available at [futwar.vercel.app](https://futwar.vercel.app/). The repository is configured for Vercel through `vercel.json`, which serves the `site/` output directory. After updating the explorer locally, rebuild and copy its generated HTML into the public site artifact:
 
 ```powershell
 py scripts/package_explorer.py

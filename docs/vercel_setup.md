@@ -1,6 +1,6 @@
 # Vercel deployment
 
-The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. The file is a self-contained bundle of the explorer and its player-season data.
+The live FutWAR explorer is available at [https://futwar.vercel.app/](https://futwar.vercel.app/). The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. The file is a self-contained bundle of the explorer and its player-season data.
 
 ## Build or refresh the published site
 
