@@ -1,6 +1,6 @@
 # Vercel deployment
 
-The live FutWAR explorer is available at [https://futwar.vercel.app/](https://futwar.vercel.app/). The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. The file is a self-contained bundle of the explorer and its player-season data.
+The live FutWAR explorer is available at [https://futwar.vercel.app/](https://futwar.vercel.app/). The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. Player data and a compact search index are separate compressed files, and images are separate assets. The interface can render and enable search while the larger statistics payload downloads.
 
 ## Build or refresh the published site
 
@@ -12,7 +12,7 @@ py scripts/package_explorer.py
 node tests/explorer_core.test.cjs
 ```
 
-Review the explorer locally, then commit and push `site/index.html` together with any related source or documentation changes. `site/index.html` is intentionally tracked and public. Keep raw source archives, credentials, private database files, and provider-restricted material out of Git.
+Review the explorer locally, then commit and push the complete `site/` folder together with related source or documentation changes. Keep raw source archives, credentials, private database files, and provider-restricted material out of Git.
 
 ## Connect Vercel to GitHub
 

@@ -39,18 +39,18 @@ sql/            PostgreSQL schema and analysis queries
 tests/          automated checks for research and data-handling code
 ```
 
-Original/raw and processed datasets, credentials, local database files, and provider-restricted files are excluded from Git. The reviewed public browser application is published at `site/index.html`; it embeds the player-season records and display assets needed to run the explorer. The owner has reviewed the included sources for personal/student project use. Source documentation and attribution remain part of the repository.
+Original/raw and processed datasets, credentials, local database files, and provider-restricted files are excluded from Git. The public browser application is published from `site/`; its compressed player data, quick-search index and images are separate files so the interface can start before the full library finishes loading. The owner has reviewed the included sources for personal/student project use. Source documentation and attribution remain part of the repository.
 
 ## Public site deployment
 
-The live FutWAR explorer is available at [futwar.vercel.app](https://futwar.vercel.app/). The repository is configured for Vercel through `vercel.json`, which serves the `site/` output directory. After updating the explorer locally, rebuild and copy its generated HTML into the public site artifact:
+The live FutWAR explorer is available at [futwar.vercel.app](https://futwar.vercel.app/). The repository is configured for Vercel through `vercel.json`, which serves the `site/` output directory. After updating the explorer locally, rebuild the public site artifact:
 
 ```powershell
 py scripts/package_explorer.py
 .\scripts\prepare_vercel_site.ps1
 ```
 
-Commit and push the updated `site/index.html` with the related application changes. Vercel can then deploy automatically from the connected GitHub repository. See [Vercel setup](docs/vercel_setup.md).
+Commit and push the complete updated `site/` folder with the related application changes. Vercel can then deploy automatically from the connected GitHub repository. See [Vercel setup](docs/vercel_setup.md).
 
 ## Local setup
 

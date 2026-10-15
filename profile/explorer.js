@@ -7,7 +7,8 @@ const labels={futwar:'FutWAR · model in development',blocks_per90:'Blocks',reco
 const roleNames={GK:'Goalkeeper',RB:'Right-back',RWB:'Right wingback',CB:'Centre-back',LB:'Left-back',LWB:'Left wingback',CM:'Central midfielder',CDM:'Defensive midfielder',CAM:'Attacking midfielder',LM:'Left midfielder',RM:'Right midfielder',ST:'Striker',LW:'Left winger',RW:'Right winger'};
 const tones={Liverpool:'#b51f32',Arsenal:'#b51b32','Manchester City':'#246386','Manchester Utd':'#ba2431',Chelsea:'#224caa',Tottenham:'#263d67',Juventus:'#42413d',Roma:'#963b36',Napoli:'#156886',Barcelona:'#89204f','Real Madrid':'#654da3','Bayern Munich':'#b9243e',Dortmund:'#756010','Paris S-G':'#263f6f',Inter:'#25528a',Milan:'#aa2636',Fiorentina:'#714399',Atalanta:'#26507d'};
 let data,current,view='home',tab='overview',comparisons=[],chartPoints=[],sourceQuery='';
-try{const packed=JSON.parse($('explorer-data').textContent),bytes=Uint8Array.from(atob(packed),c=>c.charCodeAt(0));data=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());}catch(error){$('dataset-status').textContent='The dataset could not be loaded. Rebuild the private explorer.';$('live').textContent=error.message;return;}
+document.getElementById('dataset-status').textContent='Loading player records and statistics… Search will become available as soon as the index is ready.';
+try{const packedText=$('explorer-data').textContent.trim();if(packedText){const bytes=Uint8Array.from(atob(JSON.parse(packedText)),c=>c.charCodeAt(0));data=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());}else{const response=await fetch('futwar-data.json.gz');if(!response.ok)throw Error('Player data request failed ('+response.status+')');data=JSON.parse(await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).text());}}catch(error){$('dataset-status').textContent='The football library could not finish loading. Check your connection and refresh.';$('live').textContent=error.message;return;}
 const groups=FutwarCore.buildGroups(data.records),byId=new Map(data.records.map(r=>[r.id,r]));
 for(const r of data.records)Object.defineProperty(r,'source_stats',{get:()=>Object.fromEntries(data.sourceColumns.map((c,i)=>[c,data.sourceRows[r.sourceIndex][i]]))});
 
@@ -16,15 +17,16 @@ function announce(t){$('live').textContent=t;}
 function accent(r){const c=tones[r?.team]||'#8b654b';return document.documentElement.classList.contains('dark')?`color-mix(in srgb,${c} 60%,white)`:c;}
 function palette(){document.documentElement.style.setProperty('--team',view==='player'?accent(current):document.documentElement.classList.contains('dark')?'#d6b69a':'#8b654b');}
 function asset(kind,label){return data.images.find(a=>a.kind===kind&&a.label===label);}
+function imageUrl(a){return a?.data_url||a?.site_url||'';}
 function photograph(r,tiny=false){
  const a=asset('action',r.name)||asset('portrait',r.name),remote=profilePortrait(r);
- const url=a?.data_url||remote?.url;
+ const url=imageUrl(a)||remote?.url;
  return url?`<img class="${tiny?'tiny-photo':'photo'} ${a?.kind==='action'?'':'portrait'}" src="${esc(url)}" alt="${esc(r.name)} ${a?.kind==='action'?'match photo':'portrait'}" data-player-photo="${esc(r.name)}" data-tiny="${tiny}" loading="lazy" referrerpolicy="no-referrer">`:`<div class="${tiny?'tiny-initials':'initials'}" aria-label="Player photo unavailable">${esc(initials(r.name))}</div>`;
 }
 document.addEventListener('error',event=>{const img=event.target;if(!(img instanceof HTMLImageElement)||!img.dataset.playerPhoto)return;const fallback=document.createElement('div');fallback.className=img.dataset.tiny==='true'?'tiny-initials':'initials';fallback.setAttribute('aria-label','Player photo unavailable');fallback.title='The source photograph could not be loaded.';fallback.textContent=initials(img.dataset.playerPhoto);img.replaceWith(fallback);},true);
 
-function crest(r){const a=asset('club',r.team);return a?`<img class="crest" src="${a.data_url}" alt="${esc(r.team)} crest" loading="lazy">`:`<span class="crest-fallback" aria-label="Club crest unavailable" title="${esc(r.team)} crest unavailable">${esc(initials(r.team))}</span>`;}
-function leagueMark(r){const a=asset('league',r.league);return a?`<img class="league-mark" src="${a.data_url}" alt="${esc(r.league)} logo">`:'';}
+function crest(r){const a=asset('club',r.team);return a?`<img class="crest" src="${esc(imageUrl(a))}" alt="${esc(r.team)} crest" loading="lazy">`:`<span class="crest-fallback" aria-label="Club crest unavailable" title="${esc(r.team)} crest unavailable">${esc(initials(r.team))}</span>`;}
+function leagueMark(r){const a=asset('league',r.league);return a?`<img class="league-mark" src="${esc(imageUrl(a))}" alt="${esc(r.league)} logo">`:'';}
 function profilePortrait(r){return r.profile_portrait||history(r).find(x=>x.profile_portrait)?.profile_portrait;}
 function role(r){return FutwarCore.specificPosition(r.display_role||history(r).find(x=>x.display_role)?.display_role||r.position);}
 function roleMarkup(r){return `<span class="role" title="${esc(roleNames[role(r)]||role(r))}; profile role, historical position-minute validation pending">Position: ${esc(role(r))}</span>`;}
@@ -33,8 +35,8 @@ function profileHistory(r=current){const pid=r.provider_player_id||String(r.grou
 function annualMarketValues(r=current){return profileHistory(r)?.annual_values||FutwarCore.seasonValues(history(r));}
 function marketFor(r){return annualMarketValues(r).find(v=>v.season===r.season)||r.market_value;}
 function multipleLeagues(p){return new Set((p.rows||[p]).map(r=>r.league)).size>1;}
-function brandImages(){return ['light','dark'].map(theme=>{const a=asset('brand',theme);return a?`<img class="brand-${theme}" src="${a.data_url}" alt="FutWAR logo">`:'';}).join('');}
-document.querySelector('.brand').innerHTML=brandImages()+'<span>FutWAR</span>';
+function brandImages(){return ['light','dark'].map(theme=>{const a=asset('brand',theme);return a?`<img class="brand-${theme}" src="${esc(imageUrl(a))}" alt="FutWAR logo">`:'';}).join('');}
+document.querySelector('.brand').innerHTML=brandImages();
 $('landing-logo').innerHTML=brandImages();
 function selectedRows(){if(!$('combine-period').checked)return [current];const lo=$('period-start').value,hi=$('period-end').value;return history().filter(r=>r.season>=lo&&r.season<=hi);}
 function metricKeys(r=current){return Object.keys(r.domain==='GK'?(r.keeper?.metrics||{saves_per90:null,psxg_per90:null,reported_residual_per90:null,crosses_stopped_share:null}):r.metrics);}
@@ -182,9 +184,12 @@ $('download-scatter').onclick=()=>downloadSVG('scatter-chart','futwar-peer-compa
 for(const l of leagues){const o=document.createElement('option');o.value=l;o.textContent=l;$('peer-league').append(o);}
 data.teams.sort((a,b)=>a.league.localeCompare(b.league)||a.team.localeCompare(b.team)||b.season.localeCompare(a.season));for(const id of ['team-a','team-b']){for(let i=0;i<data.teams.length;i++){const t=data.teams[i],o=document.createElement('option');o.value=i;o.textContent=`${t.team} · ${t.league} · ${t.season}`;$(id).append(o)}$(id).onchange=renderTeams;}const teamA=data.teams.findIndex(t=>t.team==='Liverpool'&&t.season==='2024-25'),teamB=data.teams.findIndex(t=>t.team==='Juventus'&&t.season==='2024-25');$('team-a').value=Math.max(0,teamA);$('team-b').value=Math.max(1,teamB);
 $('download-coverage').onclick=()=>download('futwar-all-statistic-coverage.csv',csv(data.fieldCoverage),'text/csv;charset=utf-8');
-initPeriod();initMetrics();$('dataset-status').textContent=`${fmt(data.audit.source_records,0)} records · 40 league-seasons · 2017–18 to 2024–25 · ${fmt(data.audit.market_value_available,0)} dated market-value links · Source checks, not independent certification`;
+initPeriod();initMetrics();$('dataset-status').textContent=`${fmt(data.audit.source_records,0)} records ready · 40 league-seasons · 2017–18 to 2024–25 · ${fmt(data.audit.market_value_available,0)} dated market-value links · Source checks, not independent certification`;
 try{if(localStorage.getItem('futwar-explorer-theme')==='dark'){document.documentElement.classList.add('dark');$('theme').textContent='Light theme';}}catch{}
-const saved=new URLSearchParams(location.hash.slice(1));if(saved.has('record')&&byId.has(saved.get('record'))){current=byId.get(saved.get('record'));$('download-coverage').onclick=()=>download('futwar-all-statistic-coverage.csv',csv(data.fieldCoverage),'text/csv;charset=utf-8');
+window.futwarReady=true;
+window.futwarOpenRecord=id=>{const record=byId.get(id);if(record)openPlayer(record);};
+const pendingRecord=window.futwarPendingRecord;window.futwarPendingRecord=null;
+const saved=new URLSearchParams(location.hash.slice(1));const requestedId=pendingRecord||saved.get('record');if(requestedId&&byId.has(requestedId)){current=byId.get(requestedId);$('download-coverage').onclick=()=>download('futwar-all-statistic-coverage.csv',csv(data.fieldCoverage),'text/csv;charset=utf-8');
 initPeriod();initMetrics();if(['overview','analysis','context','value','evidence'].includes(saved.get('tab')))tab=saved.get('tab');if(saved.get('combine')==='1'){$('combine-period').checked=true;for(const [id,k] of [['period-start','start'],['period-end','end']])if([...$(id).options].some(o=>o.value===saved.get(k)))$(id).value=saved.get(k);}show('player');}else show('home');
 const observer=new ResizeObserver(()=>{drawTrend();drawScatter();drawMarket();drawReferences();});for(const id of ['trend-chart','scatter-chart','market-chart','reference-chart'])observer.observe($(id));
 })();

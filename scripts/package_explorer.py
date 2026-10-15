@@ -1,4 +1,4 @@
-"""Bundle the private full-scope site and its locally archived assets."""
+"""Build a self-contained local explorer and a split, faster public site."""
 import base64
 import csv
 import gzip
@@ -6,6 +6,9 @@ import hashlib
 import json
 import mimetypes
 import html as html_tools
+import unicodedata
+from collections import defaultdict
+import shutil
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -89,12 +92,18 @@ def main():
         'policy':'On-demand remote portraits; private research only; upstream image rights unconfirmed; not historical-season photos.'}
     (folder/'portrait_coverage.json').write_text(json.dumps(data['portrait_coverage'],indent=2),encoding='utf-8')
     images=[]
+    public_assets=ROOT/'site'/'assets'
+    public_assets.mkdir(parents=True,exist_ok=True)
     def add(asset,label=None):
         a=dict(asset)
         if label:a['label']=label
         path=ROOT/a['path'];raw=path.read_bytes()
         if hashlib.sha256(raw).hexdigest()!=a['sha256']:raise ValueError('Asset fingerprint differs: '+str(path))
         a['data_url']='data:'+mimetypes.guess_type(path.name)[0]+';base64,'+base64.b64encode(raw).decode('ascii')
+        suffix=path.suffix.lower() or '.bin'
+        public_name=a['sha256'][:20]+suffix
+        shutil.copyfile(path,public_assets/public_name)
+        a['site_url']='assets/'+public_name
         images.append(a)
     for name in ['profile_image_manifest.json','layout_additional_assets.json','explorer_official_assets.json','explorer_league_emblems.json']:
         p=ROOT/'data'/name
@@ -141,6 +150,10 @@ def main():
         branding=json.loads(branding_path.read_text(encoding='utf-8'))
         for a in branding['assets']:add(a)
         data['images']=list({(a['kind'],a['label']):a for a in images}.values())
+    used_assets={a['site_url'].split('/')[-1] for a in data['images']}
+    for candidate in public_assets.iterdir():
+        if candidate.is_file() and len(candidate.stem)==20 and all(ch in '0123456789abcdef' for ch in candidate.stem) and candidate.name not in used_assets:
+            candidate.unlink()
     # Audit every observed club in every league-season, using the actual bundled
     # asset selection. The same crest illustrates each season; this does not
     # claim a historically exact badge edition.
@@ -164,7 +177,7 @@ def main():
     for i,r in enumerate(data['records']):
         data['sourceRows'].append([r['source_stats'][k] for k in data['sourceColumns']])
         del r['source_stats'];r['sourceIndex']=i
-    packed=base64.b64encode(gzip.compress(json.dumps(data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),mtime=0)).decode('ascii')
+    packed=base64.b64encode(gzip.compress(json.dumps(data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)).decode('ascii')
     html=(ROOT/'profile/explorer.html').read_text(encoding='utf-8')
     html=html.replace('__EXPLORER_DATA__',json.dumps(packed))
     css=(ROOT/'profile/explorer.css').read_text(encoding='utf-8')
@@ -177,6 +190,45 @@ def main():
     html=html.replace('<script src="explorer.js"></script>','<script>'+js+'</script>')
     target=folder/'FutWAR_Explorer.html';target.write_text(html,encoding='utf-8')
     (folder/'index.html').write_text(html,encoding='utf-8')
-    print(f'Built private site: {len(data["records"]):,} records; {len(data["images"])} locally archived images; {target.stat().st_size:,} bytes')
+    # Publish the large player library as a separate gzip asset so the browser
+    # can render the shell and initialize fast search before parsing full stats.
+    site_data=dict(data)
+    site_data['images']=[{k:v for k,v in a.items() if k!='data_url'} for a in data['images']]
+    site=ROOT/'site';site.mkdir(parents=True,exist_ok=True)
+    data_gzip=gzip.compress(json.dumps(site_data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)
+    (site/'futwar-data.json.gz').write_bytes(data_gzip)
+    # A compact identity-group index makes searching available while the full
+    # player metrics download and decompress in the background.
+    def identity_text(value):
+        value=unicodedata.normalize('NFKD',str(value or '')).encode('ascii','ignore').decode('ascii').lower()
+        return ' '.join(value.split())
+    identity_ids=defaultdict(set)
+    for r in data['records']:
+        details=r.get('details') or {}
+        key=identity_text(r['name'])+'|'+str(details.get('birth_year') or 'unknown:'+r['id'])
+        identity_ids[key].add(str(r.get('provider_player_id') or ''))
+    grouped=defaultdict(list)
+    for r in data['records']:
+        details=r.get('details') or {}
+        key=identity_text(r['name'])+'|'+str(details.get('birth_year') or 'unknown:'+r['id'])
+        ids=identity_ids[key]-{''}
+        player_id=str(r.get('provider_player_id') or '') or (next(iter(ids)) if len(ids)==1 else '')
+        group='provider:'+player_id if player_id else 'source:'+key
+        grouped[group].append({k:r.get(k) for k in ('id','name','team','league','season','domain','position','display_role')})
+    search_groups=[]
+    for group,rows in grouped.items():
+        rows.sort(key=lambda r:(r['season'],r['team']))
+        search_groups.append({'id':group,'rows':rows})
+    search_gzip=gzip.compress(json.dumps({'groups':search_groups},ensure_ascii=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)
+    (site/'futwar-search.json.gz').write_bytes(search_gzip)
+    site_html=(ROOT/'profile/explorer.html').read_text(encoding='utf-8').replace('__EXPLORER_DATA__','')
+    fast_search=(ROOT/'profile/fast_search.js').read_text(encoding='utf-8')
+    site_html=site_html.replace('<script src="value_comparisons.js"></script>','<script>'+comparisons+'</script>')
+    site_html=site_html.replace('<script src="explorer_core.js"></script>','<script>'+core+'</script>')
+    site_html=site_html.replace('<link rel="stylesheet" href="explorer.css">','<style>'+css+'</style>')
+    site_html=site_html.replace('<script src="explorer.js"></script>','<script>'+fast_search+'</script><script>'+js+'</script>')
+    (site/'index.html').write_text(site_html,encoding='utf-8')
+    print(f'Built local explorer: {len(data["records"]):,} records; {len(data["images"])} locally archived images; {target.stat().st_size:,} bytes')
+    print(f'Built public site: {site_html.__len__():,} HTML chars; {len(data_gzip):,} data bytes; {len(search_gzip):,} search-index bytes; {len(data["images"])} external image assets')
 
 if __name__=='__main__':main()
