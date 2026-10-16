@@ -172,7 +172,7 @@ $('download-reference').onclick=()=>downloadSVG('reference-chart','futwar-refere
 
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>show(b.dataset.view));document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 for(const id of ['global-search','home-search']){const form=$(id),input=form.querySelector('input');form.onsubmit=e=>{e.preventDefault();search(input.value);};input.oninput=()=>{if(input.value.trim())search(input.value);else $('search-results').hidden=true;};}
-document.querySelectorAll('[data-example]').forEach(b=>b.onclick=()=>{const rows=data.records.filter(r=>r.name===b.dataset.example).sort((a,b)=>b.season.localeCompare(a.season));if(rows[0])openPlayer(rows[0]);else search(b.dataset.example);});
+
 $('theme').onclick=()=>{document.documentElement.classList.toggle('dark');$('theme').textContent=document.documentElement.classList.contains('dark')?'Light theme':'Dark theme';palette();save();};
 $('season-record').onchange=()=>openPlayer(byId.get($('season-record').value));$('combine-period').onchange=()=>renderPlayer();
 for(const id of ['period-start','period-end'])$(id).onchange=()=>{if($('period-start').value>$('period-end').value){$('period-end').value=$('period-start').value;}renderPlayer();};
