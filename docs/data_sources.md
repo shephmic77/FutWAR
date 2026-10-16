@@ -1,5 +1,9 @@
 # FutWAR — Candidate sources and due diligence
 
+## Public player-data distribution pause (2026-10-16)
+
+The owner directed FutWAR to pause public distribution of the player library while upstream redistribution terms are clarified or the public dataset is replaced with explicitly reusable data. This is a precaution based on incomplete provenance, not a legal determination. The full explorer remains available locally under ignored `reports/explorer/`; the Vercel artifact contains only a holding page. Earlier owner approval for personal/student use is preserved below as project history, but it did not independently verify rights to relicense or publicly redistribute upstream records and images. GitHub history contains older public site bundles; removing them from the current tree does not remove historical Git objects. See `docs/vercel_setup.md` for that limitation.
+
 ## Owner's public-project use confirmation (2026-10-15)
 
 The owner reports reviewing the terms for sources used in the public explorer and confirms that personal/student project use and public inclusion in this repository and its website are acceptable. This records the owner's review and intended non-commercial use; it is not an independent legal review and does not authorize commercial reuse. Source-specific attribution and original license claims remain recorded below.

@@ -39,18 +39,18 @@ sql/            PostgreSQL schema and analysis queries
 tests/          automated checks for research and data-handling code
 ```
 
-Original/raw and processed datasets, credentials, local database files, and provider-restricted files are excluded from Git. The public browser application is published from `site/`; its compressed player data, quick-search index and images are separate files so the interface can start before the full library finishes loading. The owner has reviewed the included sources for personal/student project use. Source documentation and attribution remain part of the repository.
+Original/raw and processed datasets, credentials, local database files, and provider-restricted files are excluded from Git. The full player explorer is a local research artifact. The public Vercel deployment currently serves a data-free holding page while upstream redistribution terms for the player statistics and profile imagery are reviewed. The local package script will not publish player rows or source-linked images.
 
 ## Public site deployment
 
-The live FutWAR explorer is available at [futwar.vercel.app](https://futwar.vercel.app/). Use this stable project domain when sharing the site; individual deployment URLs are temporary and can return 404 after a deployment is removed. The repository is configured for Vercel through `vercel.json`, which serves the `site/` output directory. After updating the explorer locally, rebuild the public site artifact:
+The public project page is available at [futwar.vercel.app](https://futwar.vercel.app/). It currently explains that the player library is offline during the source-rights review. The full local explorer can still be rebuilt for research:
 
 ```powershell
 py scripts/package_explorer.py
 .\scripts\prepare_vercel_site.ps1
 ```
 
-Commit and push the complete updated `site/` folder with the related application changes. Vercel can then deploy automatically from the connected GitHub repository. See [Vercel setup](docs/vercel_setup.md).
+This writes the full explorer to ignored `reports/explorer/` and writes only the data-free holding page to `site/index.html`. Do not copy `reports/explorer/` or its assets into the public deployment until redistribution permission is confirmed or the published dataset is replaced with an explicitly reusable source. See [Vercel setup](docs/vercel_setup.md).
 
 ## Local setup
 

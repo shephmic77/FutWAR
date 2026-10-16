@@ -1,8 +1,10 @@
 # Vercel deployment
 
-The live FutWAR explorer is available at [https://futwar.vercel.app/](https://futwar.vercel.app/). Share this stable project domain rather than an individual deployment URL, which can return `DEPLOYMENT_NOT_FOUND` if that deployment is removed. The existing FutWAR GitHub repository is the source of truth for the public site. `vercel.json` selects the static `site/` output directory; Vercel serves `site/index.html` at the project root. Player data and a compact search index are separate compressed files, and images are separate assets. The interface can render and enable search while the larger statistics payload downloads.
+The public project page is [https://futwar.vercel.app/](https://futwar.vercel.app/). It currently serves a data-free holding page while upstream reuse rights for the player-season statistics and profile imagery are confirmed. The full player explorer remains a local research artifact.
 
-## Build or refresh the published site
+`vercel.json` serves the `site/` folder. Running `py scripts/package_explorer.py` rebuilds the local explorer under ignored `reports/explorer/` and restores the public holding page at `site/index.html`; it does not write player records, search indexes, or images into `site/`. Run `scripts/prepare_vercel_site.ps1` to verify this public artifact before deployment.
+
+Do not publish the local explorer or its generated assets until written redistribution permission is obtained or the underlying public dataset and imagery are replaced with sources whose terms clearly allow this use. The existing source manifest's Kaggle CC0 entry is the uploader's declaration; it does not independently establish upstream rights. The owner's earlier personal/student-use review is retained in the source history, but this public-distribution pause is a precaution pending clarification, not a legal finding.
 
 Use Windows PowerShell from the repository root:
 
@@ -12,13 +14,13 @@ py scripts/package_explorer.py
 node tests/explorer_core.test.cjs
 ```
 
-Review the explorer locally, then commit and push the complete `site/` folder together with related source or documentation changes. Keep raw source archives, credentials, private database files, and provider-restricted material out of Git.
+The package script preserves a complete local copy for research. Only commit the data-free `site/index.html` for Vercel. Keep raw source archives, credentials, private database files, player bundles, profile photos, and provider-restricted material out of the public deployment.
 
 ## Connect Vercel to GitHub
 
 1. Sign in at [Vercel](https://vercel.com/) and choose **Add New → Project**.
-2. Connect the GitHub account that owns `shepmic77/FutWAR`, then import the existing `FutWAR` repository.
+2. Connect the GitHub account that owns `shephmic77/FutWAR`, then import the existing `FutWAR` repository.
 3. Keep the project root at `./`. The checked-in `vercel.json` sets the output directory to `site`; this is a static HTML project and needs no build command.
 4. Deploy. Future pushes to the connected branch will trigger deployments. Use Vercel's preview deployment for review before promoting a version to production.
 
-The explorer embeds its data in the HTML, so publishing the site also makes the bundled rows and images available to site visitors. The owner reviewed the included sources and confirmed personal/student project use is permitted. The project records the source names and attribution in its research documentation.
+The repository is public and its Git history may retain older site bundles. Removing files from the latest commit does not erase prior public Git objects. A full history rewrite and force-push would be required to remove those historical copies from the repository; coordinate that separately because it changes published commit history and may disrupt existing clones.

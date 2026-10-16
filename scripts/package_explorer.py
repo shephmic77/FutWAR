@@ -92,7 +92,9 @@ def main():
         'policy':'On-demand remote portraits; private research only; upstream image rights unconfirmed; not historical-season photos.'}
     (folder/'portrait_coverage.json').write_text(json.dumps(data['portrait_coverage'],indent=2),encoding='utf-8')
     images=[]
-    public_assets=ROOT/'site'/'assets'
+    # All generated player and club imagery stays in the local audit output.
+    # The public site must never inherit these source-linked assets by default.
+    public_assets=folder/'assets'
     public_assets.mkdir(parents=True,exist_ok=True)
     def add(asset,label=None):
         a=dict(asset)
@@ -190,45 +192,23 @@ def main():
     html=html.replace('<script src="explorer.js"></script>','<script>'+js+'</script>')
     target=folder/'FutWAR_Explorer.html';target.write_text(html,encoding='utf-8')
     (folder/'index.html').write_text(html,encoding='utf-8')
-    # Publish the large player library as a separate gzip asset so the browser
-    # can render the shell and initialize fast search before parsing full stats.
-    site_data=dict(data)
-    site_data['images']=[{k:v for k,v in a.items() if k!='data_url'} for a in data['images']]
+    # Public distribution is paused while upstream data and imagery reuse terms
+    # are confirmed. Keep the full explorer only in reports/explorer/ locally.
     site=ROOT/'site';site.mkdir(parents=True,exist_ok=True)
-    data_gzip=gzip.compress(json.dumps(site_data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)
-    (site/'futwar-data.json.gz').write_bytes(data_gzip)
-    # A compact identity-group index makes searching available while the full
-    # player metrics download and decompress in the background.
-    def identity_text(value):
-        value=unicodedata.normalize('NFKD',str(value or '')).encode('ascii','ignore').decode('ascii').lower()
-        return ' '.join(value.split())
-    identity_ids=defaultdict(set)
-    for r in data['records']:
-        details=r.get('details') or {}
-        key=identity_text(r['name'])+'|'+str(details.get('birth_year') or 'unknown:'+r['id'])
-        identity_ids[key].add(str(r.get('provider_player_id') or ''))
-    grouped=defaultdict(list)
-    for r in data['records']:
-        details=r.get('details') or {}
-        key=identity_text(r['name'])+'|'+str(details.get('birth_year') or 'unknown:'+r['id'])
-        ids=identity_ids[key]-{''}
-        player_id=str(r.get('provider_player_id') or '') or (next(iter(ids)) if len(ids)==1 else '')
-        group='provider:'+player_id if player_id else 'source:'+key
-        grouped[group].append({k:r.get(k) for k in ('id','name','team','league','season','domain','position','display_role')})
-    search_groups=[]
-    for group,rows in grouped.items():
-        rows.sort(key=lambda r:(r['season'],r['team']))
-        search_groups.append({'id':group,'rows':rows})
-    search_gzip=gzip.compress(json.dumps({'groups':search_groups},ensure_ascii=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)
-    (site/'futwar-search.json.gz').write_bytes(search_gzip)
-    site_html=(ROOT/'profile/explorer.html').read_text(encoding='utf-8').replace('__EXPLORER_DATA__','')
-    fast_search=(ROOT/'profile/fast_search.js').read_text(encoding='utf-8')
-    site_html=site_html.replace('<script src="value_comparisons.js"></script>','<script>'+comparisons+'</script>')
-    site_html=site_html.replace('<script src="explorer_core.js"></script>','<script>'+core+'</script>')
-    site_html=site_html.replace('<link rel="stylesheet" href="explorer.css">','<style>'+css+'</style>')
-    site_html=site_html.replace('<script src="explorer.js"></script>','<script>'+fast_search+'</script><script>'+js+'</script>')
-    (site/'index.html').write_text(site_html,encoding='utf-8')
+    for name in ('futwar-data.json.gz','futwar-search.json.gz'):
+        (site/name).unlink(missing_ok=True)
+    site_assets=site/'assets'
+    if site_assets.exists():
+        shutil.rmtree(site_assets)
+    (site/'index.html').write_text('''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>FutWAR · Research in progress</title>
+<style> :root{color-scheme:light}body{margin:0;background:#f1ebe1;color:#302d28;font:17px/1.65 "Segoe UI",Arial,sans-serif;display:grid;min-height:100vh;place-items:center}main{max-width:680px;padding:48px 28px;text-align:center}h1{font-size:clamp(34px,6vw,52px);line-height:1.1;margin:0 0 18px}p{color:#625c53}.mark{font-weight:800;font-size:22px;color:#b3152a;letter-spacing:-1px;margin-bottom:26px}.tag{display:inline-block;border:1px solid #d8cbbb;border-radius:99px;padding:5px 13px;color:#625c53;font-size:14px}</style></head>
+<body><main><div class="mark">FutWAR</div><span class="tag">Research prototype · under construction</span>
+<h1>Football analytics, built carefully.</h1>
+<p>The public player library is temporarily offline while source permissions and redistribution terms are reviewed. The underlying research and full explorer remain local.</p>
+<p>No player statistics or profile images are currently published here.</p></main></body></html>''',encoding='utf-8')
     print(f'Built local explorer: {len(data["records"]):,} records; {len(data["images"])} locally archived images; {target.stat().st_size:,} bytes')
-    print(f'Built public site: {site_html.__len__():,} HTML chars; {len(data_gzip):,} data bytes; {len(search_gzip):,} search-index bytes; {len(data["images"])} external image assets')
+    print('Public site data distribution paused; wrote a data-free holding page to site/index.html.')
 
 if __name__=='__main__':main()
