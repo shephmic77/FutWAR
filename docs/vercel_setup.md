@@ -23,4 +23,4 @@ The package script preserves a complete local copy for research. Only commit the
 3. Keep the project root at `./`. The checked-in `vercel.json` sets the output directory to `site`; this is a static HTML project and needs no build command.
 4. Deploy. Future pushes to the connected branch will trigger deployments. Use Vercel's preview deployment for review before promoting a version to production.
 
-The repository is public and its Git history may retain older site bundles. Removing files from the latest commit does not erase prior public Git objects. A full history rewrite and force-push would be required to remove those historical copies from the repository; coordinate that separately because it changes published commit history and may disrupt existing clones.
+The repository is public. On 2026-10-16, the main branch history was rewritten and force-pushed to remove the player bundles and source-linked site assets. A scan of reachable Git history found no such paths. Existing clones or caches may retain previous objects; re-clone or reset to the rewritten `main` branch before sharing a local checkout. The public Vercel page remains the data-free holding page.
