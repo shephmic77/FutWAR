@@ -13,7 +13,7 @@ The foundational source inventory, player-season audit, PostgreSQL staging, matc
 
 The owner asked to investigate three season-specific references—same-position average across all five leagues, same-position league average, and a team-accessible replacement candidate—each with a position-locked and an any-evidenced-position view. This yields six comparison views, not six approved WAR formulas. Average references remain above-average comparisons; only a defensible feasible-replacement pool could support a WAR interpretation. Keep the distinctions explicit in analysis and labels.
 
-The first model direction to test is expected match points before and after observed actions. Current pilots are limited and exploratory. StatsBomb registration guidance is pending after the owner submitted an inquiry; do not access additional event files until access conditions are clarified. The current scope remains 2017–18 through 2024–25, retaining COVID-era seasons pending analysis.
+The first model direction eventually to test is expected match points before and after observed actions. Current pilots are limited and exploratory. The owner has asked to drop StatsBomb and focus on free alternatives. Current work is data-foundation readiness; do not begin new WAR formula experiments until the documented data gates are reviewed. A possible Impect Bundesliga 2023–24 sample requires source-terms review and a coverage/quality audit before use. The current scope remains 2017–18 through 2024–25, retaining COVID-era seasons pending analysis.
 
 ## Technology
 Python (primary, not R), pandas and statistical libraries, PostgreSQL and SQL, Tableau for later dashboards; Git/GitHub; Jupyter for exploratory work. Docker optional once useful. Avoid adding tools just to increase the stack.
@@ -23,8 +23,8 @@ Python (primary, not R), pandas and statistical libraries, PostgreSQL and SQL, T
 - Plan small, reviewable changes. Prefer plain, readable code and minimal dependencies.
 - Never fabricate rows, statistics, tactical roles, links, model performance, or source completeness.
 - Keep raw source data immutable; preserve original filenames, source URLs, retrieval dates, licenses/terms, and transformation provenance.
-- Keep raw/processed datasets and credentials out of Git; use `.gitignore`. Do not assume data may be redistributed.
-- Treat this GitHub repository as public. Exclude generated row-level report tables and source-restricted material, even when present locally.
+- Keep raw source archives, credentials and local database files out of Git; use `.gitignore`. Do not infer redistribution rights from public access alone.
+- Treat this GitHub repository as public. On 2026-10-31 the owner explicitly directed public deployment of the existing explorer and stated that its Kaggle stats, Transfermarkt-derived values/identity records, images/marks, and anonymized injury research material are acceptable for this personal/student project. The generated `site/` deployment bundle is authorized; raw archives and unrelated row-level research outputs remain excluded. Preserve source links, attribution and limitations, and do not describe owner approval as an upstream license or independent legal certification.
 - When merging providers, validate club/player identity matching and stat definitions; mark uncertain matches.
 - Check missing coverage for every league × season × statistic, not just presence of files.
 - Current user-approved scope is 2017–18 through 2024–25. Retain COVID-era seasons for inspection; exclusion or contextual treatment remains undecided.

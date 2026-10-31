@@ -39,18 +39,18 @@ sql/            PostgreSQL schema and analysis queries
 tests/          automated checks for research and data-handling code
 ```
 
-Original/raw and processed datasets, credentials, local database files, and provider-restricted files are excluded from Git. The full player explorer is a local research artifact. The public Vercel deployment currently serves a data-free holding page while upstream redistribution terms for the player statistics and profile imagery are reviewed. The local package script will not publish player rows or source-linked images.
+Original/raw source archives, credentials, and local database files are excluded from Git. The owner has directed that the current explorer and its cited source-derived material be made public for this personal/student project. Public-facing pages retain source links, image credits and methodological limitations; this owner direction does not change upstream license statements or imply independent legal certification. The public app is a research prototype, not a finalized WAR product.
 
 ## Public site deployment
 
-The public project page is available at [futwar.vercel.app](https://futwar.vercel.app/). It currently explains that the player library is offline during the source-rights review. The full local explorer can still be rebuilt for research:
+The public project page is available at [futwar.vercel.app](https://futwar.vercel.app/). The Vercel build serves the player explorer from the `site/` directory. Rebuild it from the prepared local explorer with:
 
 ```powershell
 py scripts/package_explorer.py
 .\scripts\prepare_vercel_site.ps1
 ```
 
-This writes the full explorer to ignored `reports/explorer/` and writes only the data-free holding page to `site/index.html`. Do not copy `reports/explorer/` or its assets into the public deployment until redistribution permission is confirmed or the published dataset is replaced with an explicitly reusable source. See [Vercel setup](docs/vercel_setup.md).
+This refreshes the local build under ignored `reports/explorer/`, copies the player library into `site/index.html` with its required assets, and verifies the deployable artifact. See [Vercel setup](docs/vercel_setup.md).
 
 ## Local setup
 

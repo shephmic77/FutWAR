@@ -89,7 +89,7 @@ def main():
         'linked_records':sum(bool(r['profile_portrait']) for r in data['records']),
         'unresolved_records':sum(not r['profile_portrait'] for r in data['records']),
         'source_sha256':player_file['sha256'],
-        'policy':'On-demand remote portraits; private research only; upstream image rights unconfirmed; not historical-season photos.'}
+        'policy':'On-demand remote portraits; owner has approved public use for this personal/student project; upstream image licenses have not been independently verified; portraits are not season-specific.'}
     (folder/'portrait_coverage.json').write_text(json.dumps(data['portrait_coverage'],indent=2),encoding='utf-8')
     images=[]
     # All generated player and club imagery stays in the local audit output.
@@ -113,7 +113,7 @@ def main():
             for a in json.loads(p.read_text(encoding='utf-8'))['assets']:add(a)
     crest=json.loads((ROOT/'data/layout_full_crest_manifest.json').read_text(encoding='utf-8'))
     images=[a for a in images if not (a['kind']=='club' and a['label']=='Liverpool')]
-    add(dict(crest,kind='club',label='Liverpool',title='Liverpool crest',artist='Liverpool Football Club',source_page='https://resources.premierleague.com/premierleague/badges/t14.svg',license='Rights retained; private research only; no open redistribution permission verified'))
+    add(dict(crest,kind='club',label='Liverpool',title='Liverpool crest',artist='Liverpool Football Club',source_page='https://resources.premierleague.com/premierleague/badges/t14.svg',license='Owner-approved display for this personal/student project; source rights and license not independently verified'))
     p=ROOT/'data/explorer_club_assets.json'
     if p.exists():
         clubs=json.loads(p.read_text(encoding='utf-8'));by_id={a['id']:a for a in clubs['assets']}
@@ -179,9 +179,7 @@ def main():
     for i,r in enumerate(data['records']):
         data['sourceRows'].append([r['source_stats'][k] for k in data['sourceColumns']])
         del r['source_stats'];r['sourceIndex']=i
-    packed=base64.b64encode(gzip.compress(json.dumps(data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)).decode('ascii')
     html=(ROOT/'profile/explorer.html').read_text(encoding='utf-8')
-    html=html.replace('__EXPLORER_DATA__',json.dumps(packed))
     css=(ROOT/'profile/explorer.css').read_text(encoding='utf-8')
     js=(ROOT/'profile/explorer.js').read_text(encoding='utf-8')
     core=(ROOT/'profile/explorer_core.js').read_text(encoding='utf-8')
@@ -190,25 +188,55 @@ def main():
     html=html.replace('<script src="explorer_core.js"></script>','<script>'+core+'</script>')
     html=html.replace('<link rel="stylesheet" href="explorer.css">','<style>'+css+'</style>')
     html=html.replace('<script src="explorer.js"></script>','<script>'+js+'</script>')
-    target=folder/'FutWAR_Explorer.html';target.write_text(html,encoding='utf-8')
-    (folder/'index.html').write_text(html,encoding='utf-8')
-    # Public distribution is paused while upstream data and imagery reuse terms
-    # are confirmed. Keep the full explorer only in reports/explorer/ locally.
+    html=html.replace('</body>','<script src="fast_search.js"></script></body>')
+    local_payload=gzip.compress(json.dumps(data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0)
+    local_packed=base64.b64encode(local_payload).decode('ascii')
+    local_html=html.replace('__EXPLORER_DATA__',json.dumps(local_packed))
+    target=folder/'FutWAR_Explorer.html';target.write_text(local_html,encoding='utf-8')
+    (folder/'index.html').write_text(local_html,encoding='utf-8')
+    # The owner has directed public deployment of the current research explorer.
+    # Keep source attribution and qualification notes in the explorer; publish
+    # the built HTML and its locally archived assets under Vercel's site root.
     site=ROOT/'site';site.mkdir(parents=True,exist_ok=True)
-    for name in ('futwar-data.json.gz','futwar-search.json.gz'):
-        (site/name).unlink(missing_ok=True)
     site_assets=site/'assets'
     if site_assets.exists():
         shutil.rmtree(site_assets)
-    (site/'index.html').write_text('''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>FutWAR · Research in progress</title>
-<style> :root{color-scheme:light}body{margin:0;background:#f1ebe1;color:#302d28;font:17px/1.65 "Segoe UI",Arial,sans-serif;display:grid;min-height:100vh;place-items:center}main{max-width:680px;padding:48px 28px;text-align:center}h1{font-size:clamp(34px,6vw,52px);line-height:1.1;margin:0 0 18px}p{color:#625c53}.mark{font-weight:800;font-size:22px;color:#b3152a;letter-spacing:-1px;margin-bottom:26px}.tag{display:inline-block;border:1px solid #d8cbbb;border-radius:99px;padding:5px 13px;color:#625c53;font-size:14px}</style></head>
-<body><main><div class="mark">FutWAR</div><span class="tag">Research prototype · under construction</span>
-<h1>Football analytics, built carefully.</h1>
-<p>The public player library is temporarily offline while source permissions and redistribution terms are reviewed. The underlying research and full explorer remain local.</p>
-<p>No player statistics or profile images are currently published here.</p></main></body></html>''',encoding='utf-8')
+    if public_assets.exists():
+        shutil.copytree(public_assets,site_assets)
+    public_data=dict(data)
+    public_data['images']=[{k:v for k,v in asset.items() if k!='data_url'} for asset in data['images']]
+    public_json=json.dumps(public_data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8')
+    with (site/'futwar-data.json.gz').open('wb') as handle:
+        handle.write(gzip.compress(public_json,compresslevel=6,mtime=0))
+    def normalize(value):
+        value=str(value or '').lower().replace('ı','i').replace('ø','o').replace('ł','l').replace('đ','d').replace('ð','d').replace('æ','ae').replace('œ','oe').replace('’',"'")
+        return ' '.join(''.join(c for c in unicodedata.normalize('NFKD',value) if not unicodedata.combining(c)).split())
+    identity_links={}
+    for record in data['records']:
+        birth_year=(record.get('details') or {}).get('birth_year')
+        identity_key=normalize(record.get('name'))+'|'+(str(birth_year) if birth_year else 'unknown:'+str(record['id']))
+        identity_links.setdefault(identity_key,set())
+        if record.get('provider_player_id'):
+            identity_links[identity_key].add(str(record['provider_player_id']))
+    search_groups={}
+    for record in data['records']:
+        birth_year=(record.get('details') or {}).get('birth_year')
+        identity_key=normalize(record.get('name'))+'|'+(str(birth_year) if birth_year else 'unknown:'+str(record['id']))
+        provider_ids=identity_links[identity_key]
+        provider_id=record.get('provider_player_id') or (next(iter(provider_ids)) if len(provider_ids)==1 else None)
+        group_id='provider:'+str(provider_id) if provider_id else 'source:'+identity_key
+        search_groups.setdefault(group_id,[]).append({k:record.get(k) for k in ('id','name','team','season','position','display_role','domain')})
+    search_payload={'groups':[{'id':group_id,'rows':sorted(rows,key=lambda r:(r['season'],r['team']))} for group_id,rows in sorted(search_groups.items())]}
+    with (site/'futwar-search.json.gz').open('wb') as handle:
+        handle.write(gzip.compress(json.dumps(search_payload,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8'),compresslevel=6,mtime=0))
+    (site/'fast_search.js').write_text((ROOT/'profile/fast_search.js').read_text(encoding='utf-8'),encoding='utf-8')
+    (folder/'fast_search.js').write_text((ROOT/'profile/fast_search.js').read_text(encoding='utf-8'),encoding='utf-8')
+    fast_search_js=(ROOT/'profile/fast_search.js').read_text(encoding='utf-8')
+    public_html=html.replace('<script src="fast_search.js"></script>','<script>'+fast_search_js+'</script>').replace('__EXPLORER_DATA__','')
+    (site/'index.html').write_text(public_html,encoding='utf-8')
+    for local_file in ('futwar-data.json.gz','futwar-search.json.gz'):
+        (folder/local_file).write_bytes((site/local_file).read_bytes())
     print(f'Built local explorer: {len(data["records"]):,} records; {len(data["images"])} locally archived images; {target.stat().st_size:,} bytes')
-    print('Public site data distribution paused; wrote a data-free holding page to site/index.html.')
+    print(f'Public Vercel explorer ready: {site / "index.html"} ({(site / "index.html").stat().st_size:,} bytes), {len(search_groups):,} searchable profiles and {len(list(site_assets.glob("*")))} assets.')
 
 if __name__=='__main__':main()
