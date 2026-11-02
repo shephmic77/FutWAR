@@ -1,0 +1,77 @@
+{
+  "purpose": "Small, sourced player-profile nationality fills where the underlying player-season nationality is blank. Original fields remain unchanged.",
+  "corrections": [
+    {
+      "record_id": "original_player:1526",
+      "code": "ENG",
+      "country": "England",
+      "source_url": "https://www.premierleague.com/en/clubs/57/watford/squad?se=777",
+      "source_publisher": "Premier League",
+      "note": "Same player is listed as English in the official league squad source for a later Watford season; identity confirmed by name and career record."
+    },
+    {
+      "record_id": "original_player:1816",
+      "code": "CPV",
+      "country": "Cape Verde",
+      "source_url": "https://www.premierleague.com/en/players/421796/sidnei-tavares/overview",
+      "source_publisher": "Premier League",
+      "note": "Premier League profile identifies Cape Verde; other reporting also notes Portuguese nationality. The flag follows the league profile's displayed nationality."
+    },
+    {
+      "record_id": "original_player:2572",
+      "code": "ENG",
+      "country": "England",
+      "source_url": "https://www.premierleague.com/en/clubs/57/watford/squad?se=777",
+      "source_publisher": "Premier League",
+      "note": "Official league squad source; same player identity as the linked Watford season record."
+    },
+    {
+      "record_id": "original_player:4093",
+      "code": "ENG",
+      "country": "England",
+      "source_url": "https://www.lcfc.com/player-detail-statistics-defender/619146",
+      "source_publisher": "Leicester City FC",
+      "note": "Official club player profile identifies England."
+    },
+    {
+      "record_id": "original_player:9388",
+      "code": "COD",
+      "country": "DR Congo",
+      "source_url": "https://www.lequipe.fr/fiche/anthony-walongwa/203669",
+      "source_publisher": "L'Équipe",
+      "note": "Profile lists RD Congo. FC Nantes also describes him as a Congolese youth international; the game-roster source's generic Congo label is not used to distinguish the two Congos."
+    },
+    {
+      "record_id": "original_player:9919",
+      "code": "COD",
+      "country": "DR Congo",
+      "source_url": "https://www.lequipe.fr/fiche/anthony-walongwa/203669",
+      "source_publisher": "L'Équipe",
+      "note": "Profile lists RD Congo. FC Nantes also describes him as a Congolese youth international; the game-roster source's generic Congo label is not used to distinguish the two Congos."
+    },
+    {
+      "record_id": "original_player:13374",
+      "code": "COD",
+      "country": "DR Congo",
+      "source_url": "https://lepuyenvelayfc.fr/plamedi-nsingi-tout-le-monde-reve-de-jouer-des-grands-matchs-de-coupe-de-france/",
+      "source_publisher": "Le Puy Foot 43 Auvergne",
+      "note": "Player interview identifies his origin as DR Congo; DHR's player profile also lists DR Congo. Soccerbase lists France, so the nationality field has conflicting provider evidence and this flag is provisional."
+    },
+    {
+      "record_id": "original_player:16608",
+      "code": "TUR",
+      "country": "Türkiye",
+      "source_url": "https://datencenter.dfb.de/datencenter/personen/mahmut-kuecueksahin/spieler",
+      "source_publisher": "German Football Association (DFB)",
+      "note": "DFB Datencenter lists Türkiye as his nation."
+    },
+    {
+      "record_id": "original_player:17630",
+      "code": "ESP",
+      "country": "Spain",
+      "source_url": "https://www.uefa.com/uefaeuropaleague/clubs/2605572/squad/",
+      "source_publisher": "UEFA",
+      "note": "UEFA squad listing identifies Spain."
+    }
+  ]
+}

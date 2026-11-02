@@ -16,6 +16,32 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     folder=ROOT/'reports/explorer'
     data=json.loads((folder/'data.json').read_text(encoding='utf-8'))
+    # Keep game-edition roster roles as separate evidence. Do not overwrite
+    # match/profile position fields with these season-start snapshots.
+    roster_path=folder/'ea_fc_roster_enrichment.json'
+    if roster_path.exists():
+        roster=json.loads(roster_path.read_text(encoding='utf-8'))
+        linked=roster.get('by_record_id',{})
+        for record in data['records']:
+            record['game_roster_position']=linked.get(record['id'])
+        data['game_roster_audit']={k:v for k,v in roster.items() if k!='by_record_id'}
+    else:
+        for record in data['records']:
+            record['game_roster_position']=None
+        data['game_roster_audit']={'linked_record_count':0,'unlinked_record_count':len(data['records']),'coverage_pct':0,'status':'Roster enrichment has not been built.'}
+    # Keep reviewed nationality fills separate from original provider fields.
+    # The raw nationality column stays untouched; source and uncertainty are
+    # available to the player evidence panel.
+    nationality_path=ROOT/'data/explorer_nationality_corrections.json'
+    corrections=json.loads(nationality_path.read_text(encoding='utf-8')) if nationality_path.exists() else {'corrections':[]}
+    corrections_by_id={item['record_id']:item for item in corrections.get('corrections',[])}
+    if len(corrections_by_id)!=len(corrections.get('corrections',[])):
+        raise ValueError('Duplicate record IDs in nationality correction layer')
+    known_ids={record['id'] for record in data['records']}
+    if set(corrections_by_id)-known_ids:
+        raise ValueError('Nationality correction references unknown explorer record')
+    for record in data['records']:
+        record['nationality_correction']=corrections_by_id.get(record['id'])
     # Use recorded final table order, not a points/GD sort that loses deductions
     # or league-specific tie-breakers. Retain the archived secondary citation.
     standings_manifest=json.loads((ROOT/'data/wikipedia_standings_manifest.json').read_text(encoding='utf-8'))
@@ -206,8 +232,11 @@ def main():
     public_data=dict(data)
     public_data['images']=[{k:v for k,v in asset.items() if k!='data_url'} for asset in data['images']]
     public_json=json.dumps(public_data,ensure_ascii=False,allow_nan=False,separators=(',',':')).encode('utf-8')
-    with (site/'futwar-data.json.gz').open('wb') as handle:
+    public_data_path=site/'futwar-data.json.gz'
+    public_data_tmp=site/'futwar-data.json.gz.tmp'
+    with public_data_tmp.open('wb') as handle:
         handle.write(gzip.compress(public_json,compresslevel=6,mtime=0))
+    public_data_tmp.replace(public_data_path)
     def normalize(value):
         value=str(value or '').lower().replace('ı','i').replace('ø','o').replace('ł','l').replace('đ','d').replace('ð','d').replace('æ','ae').replace('œ','oe').replace('’',"'")
         return ' '.join(''.join(c for c in unicodedata.normalize('NFKD',value) if not unicodedata.combining(c)).split())

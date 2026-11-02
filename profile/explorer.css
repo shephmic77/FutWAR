@@ -14,6 +14,7 @@
 @media(max-width:700px){.war-grid,.war-flow,.war-data-grid{grid-template-columns:1fr}}
 
 .crest-fallback{display:inline-grid;place-items:center;width:48px;height:56px;border-radius:6px;background:var(--soft);color:var(--muted);font-size:18px;}
+.nationality-fact{display:inline-flex;align-items:center;gap:7px}.nationality-flag{display:inline-grid;place-items:center;font-size:21px;line-height:1;min-width:1.2em}.nationality-flag.missing{font-size:16px;color:var(--muted)}.game-position{margin:12px 0 0;color:var(--muted);font-size:14px;line-height:1.5}.game-position strong{color:var(--ink);font-weight:600}.game-position .small{margin-left:7px}.facts .nationality-flag{vertical-align:middle}
 
 :root{--multi-league:#d5a000}:root.dark{--multi-league:#ffd166}
 .brand{display:flex;align-items:center;gap:10px;letter-spacing:0}
