@@ -12,7 +12,7 @@
       "license_url": "",
       "path": "data/raw/profile_images/2026-10-10/la-liga-layout.svg",
       "sha256": "2276453fd9b3ca74a2b2ae6e4fe1b04c1b69fbc7ab3d4d11a1ec6c95562b5928",
-      "retrieved_at_utc": "2026-10-10T23:13:17.177878+00:00",
+      "retrieved_at_utc": "2026-10-10T19:13:17.177878-04:00",
       "historical_accuracy": "UI illustration; not asserted to match the season edition; trademarks retained"
     },
     {
@@ -27,23 +27,23 @@
       "license_url": "",
       "path": "data/raw/profile_images/2026-10-10/serie-a-layout.svg",
       "sha256": "a2785880dc59b28c5281a4f9f61936c1f44a10dbe30ba5f6dd221a9251a1878d",
-      "retrieved_at_utc": "2026-10-10T23:13:17.515822+00:00",
+      "retrieved_at_utc": "2026-10-10T19:13:17.515822-04:00",
       "historical_accuracy": "UI illustration; not asserted to match the season edition; trademarks retained"
     },
     {
       "kind": "league",
       "label": "Bundesliga",
-      "title": "File:Bundesliga logo.svg",
+      "title": "Bundesliga red player emblem and wordmark",
       "mime": "image/svg+xml",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Bundesliga_logo.svg",
-      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bundesliga_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "license": "Public domain",
-      "artist": "DFL Deutsche Fußball Liga GmbH",
-      "license_url": "",
-      "path": "data/raw/profile_images/2026-10-10/bundesliga-layout.svg",
-      "sha256": "cfe749860a4d5d9ce42eb170b25e0c339343c233158c365235cfdabb1fabaa2a",
-      "retrieved_at_utc": "2026-10-10T23:13:17.843674+00:00",
-      "historical_accuracy": "UI illustration; not asserted to match the season edition; trademarks retained"
+      "source_page": "https://www.footylogos.com/logos/bundesliga-germany",
+      "source_url": "https://www.footylogos.com/downloads/logo/bundesliga-germany-logo-footylogos.svg",
+      "license": "Owner-approved display for this public personal/student project; FootyLogos is a reference source, not a license grant; DFL rights remain with owner",
+      "artist": "DFL Deutsche Fußball Liga; indexed by FootyLogos",
+      "license_url": "https://www.footylogos.com/logo-usage-right",
+      "path": "data/raw/profile_images/2026-10-10/bundesliga-player-mark.svg",
+      "sha256": "0bfb1b56a2c3c3612ca51c70baa169d1ed121ead9e7769df48015954cd477a3f",
+      "retrieved_at_utc": "2026-11-03T01:17:08Z",
+      "historical_accuracy": "Current Bundesliga player emblem; illustrative league brand mark, not season-specific"
     },
     {
       "kind": "league",
@@ -57,7 +57,7 @@
       "license_url": "",
       "path": "data/raw/profile_images/2026-10-10/ligue-1-layout.svg",
       "sha256": "56d61b24a6295dbb22423a013a5d4e7f12dc090ab952f25e630b0bbb0d5a28c3",
-      "retrieved_at_utc": "2026-10-10T23:13:18.253217+00:00",
+      "retrieved_at_utc": "2026-10-10T19:13:18.253217-04:00",
       "historical_accuracy": "UI illustration; not asserted to match the season edition; trademarks retained"
     },
     {
@@ -72,7 +72,7 @@
       "license_url": "",
       "path": "data/raw/profile_images/2026-10-10/napoli-layout.svg",
       "sha256": "617fb01b2a650d886a16f5ce43c7bf6393d39fdaaf631c38fa06ebb9a0a1f2fa",
-      "retrieved_at_utc": "2026-10-10T23:15:20.483299+00:00",
+      "retrieved_at_utc": "2026-10-10T19:15:20.483299-04:00",
       "historical_accuracy": "UI illustration; not asserted to match the season edition; trademarks retained"
     },
     {
@@ -87,7 +87,7 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "path": "data/raw/profile_images/2026-10-10/lorenzo-insigne-layout.jpg",
       "sha256": "dda9f447d3117b511ea92c8d223110fa22ff35cd15a8cc9124a644677b2659e9",
-      "retrieved_at_utc": "2026-10-10T23:15:20.950223+00:00",
+      "retrieved_at_utc": "2026-10-10T19:15:20.950223-04:00",
       "historical_accuracy": "UI illustration; not asserted to match the season edition; trademarks retained"
     }
   ]
