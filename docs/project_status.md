@@ -1,6 +1,6 @@
 # FutWAR project status
 
-**Last reconciled:** 2026-11-06
+**Last reconciled:** 2026-11-09
 **Research status:** Under construction; no FutWAR WAR score is finalized or currently validated.
 
 ## WAR page refresh and production deployment — 2026-11-09
@@ -8,6 +8,10 @@
 The public-site bundle was rebuilt from `profile/` with `scripts/package_explorer.py`. The build verified 780 standings rows across 40 league-seasons, packaged 22,418 player records and 7,187 searchable profiles, and found no missing crests among 149 displayed clubs; 159 image assets were packaged. `scripts/prepare_vercel_site.ps1` passed, as did `node --check` for the four explorer JavaScript files. The changes and the research notes cited by the page were committed and pushed to `main` in commit `916ec1f`; GitHub reported the Vercel check as successful. The rebuilt page also preserves the newer bio-fact alignment update. No WAR scores were generated. The rebuild used the installed Python 3.13 executable because the `py` launcher did not find an installed interpreter in this environment.
 
 The deployed WAR page exposes all six requested comparison views and clearly states that player WAR is not estimated; a static check found all six baseline/scope combinations, no leftover build placeholder, and all 12 linked research notes tracked in the same release. This was a site-and-documentation release, not a WAR-score release.
+
+## Player metric consistency review — 2026-11-09
+
+A new arithmetic screen reviewed 22,417 corrected player-team-season rows. It flagged 159 metric consistency candidates across 65 rows overall; 14 checks across eight player-team-seasons exceeded the 0.05 excess-beyond-rounding triage threshold. Five high-exposure checks (900+ minutes) are concentrated in three player-team-seasons, including reported goal-versus-xG and non-penalty-goal-versus-npxG residuals. No values were changed. The audit cannot distinguish rounding, differing provider definitions, or source errors without tracing the exact source rows. Treat the flagged fields as unresolved input-quality candidates, not player-quality findings. See [the audit update](player_metric_consistency_update_2026-11-09.md); row-level outputs remain local and ignored. This does not close the four player-WAR data gates below and does not create a player score.
 
 ## Four player-WAR data gates — 2026-11-05
 
