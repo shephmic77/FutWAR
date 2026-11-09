@@ -44,3 +44,9 @@ The possession boundaries are transparent proxies over raw events, not validated
 5. Keep goalkeeper/defensive action value in a separate diagnostic and compare it on the same points scale. Shot-sequence Shapley alone cannot satisfy FutWAR's all-position goal.
 
 This experiment would compare the implications of the two credit views. It would not settle the user's three baselines, position-locked versus any-position pools, or the final WAR formula.
+
+## Match-sample uncertainty
+
+The direct-versus-equal-share rank comparison now includes a fixture-cluster bootstrap. It resamples 545 matches 1,000 times, keeps each observed exposure cohort fixed, and recomputes the two credit rankings. The full-sample and bootstrap summaries are in `reports/action_credit_pilot/match_bootstrap_rank_stability.csv`; the reusable script is `scripts/bootstrap_action_credit_rank_stability.py`.
+
+The intervals quantify sensitivity to which fixtures appear in this previously inspected March–May window, conditional on the fitted event expected-points model. They do not cover model refitting, player identity uncertainty, causal credit, or unobserved defending/goalkeeper work. They do not indicate which credit method is preferable. See the timestamped WAR execution review for the interval values and site display note.

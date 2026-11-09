@@ -3,6 +3,41 @@
 const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>FutwarCore.normalize(s),fmt=(v,d=2)=>v==null?'Unavailable':Number(v).toLocaleString('en-US',{maximumFractionDigits:d}),euro=v=>v==null?'Unavailable':v>=1e6?'€'+fmt(v/1e6,2)+'m':'€'+fmt(v,0),sum=a=>a.reduce((s,v)=>s+v,0),initials=n=>n.split(/\s+/).map(p=>p[0]).slice(0,2).join('');
 const leagues=['Premier League','La Liga','Serie A','Bundesliga','Ligue 1'],leagueColors=['#7955c3','#b95c18','#2474b3','#bb3545','#268475'];
+const warRmseEvidence=[
+ {league:'Premier League',scoreRmse:.972642,eventRmse:.987487,difference:.014845,low:.000857,high:.030037,brier:.017301,brierLow:.006374,brierHigh:.029802,logLoss:.030089,logLow:.010217,logHigh:.051669},
+ {league:'La Liga',scoreRmse:.963794,eventRmse:.982658,difference:.018864,low:-.000649,high:.038750,brier:.015904,brierLow:.003385,brierHigh:.027981,logLoss:.026049,logLow:.002907,logHigh:.049577},
+ {league:'Serie A',scoreRmse:.938458,eventRmse:.955796,difference:.017338,low:-.002601,high:.035197,brier:.014444,brierLow:-.000186,brierHigh:.026861,logLoss:.022906,logLow:.000241,logHigh:.044432},
+ {league:'Bundesliga',scoreRmse:1.001566,eventRmse:1.011766,difference:.010200,low:-.009464,high:.028553,brier:.018016,brierLow:.003591,brierHigh:.032664,logLoss:.041375,logLow:.010519,logHigh:.073262},
+ {league:'Ligue 1',scoreRmse:1.008616,eventRmse:1.029285,difference:.020670,low:.004850,high:.035848,brier:.019989,brierLow:.006889,brierHigh:.032978,logLoss:.036807,logLow:.011891,logHigh:.062955},
+];
+const warGoalDifferenceEvidence=[
+ {league:'Premier League',matches:379,scoreRmse:1.296363,eventRmse:1.296076,difference:-.000287,low:-.005904,high:.005860},
+ {league:'La Liga',matches:380,scoreRmse:1.262880,eventRmse:1.264549,difference:.001669,low:-.003561,high:.007107},
+ {league:'Serie A',matches:380,scoreRmse:1.199218,eventRmse:1.193421,difference:-.005797,low:-.012136,high:.000343},
+ {league:'Bundesliga',matches:306,scoreRmse:1.319291,eventRmse:1.315802,difference:-.003489,low:-.011143,high:.003759},
+ {league:'Ligue 1',matches:380,scoreRmse:1.302208,eventRmse:1.303712,difference:.001504,low:-.006035,high:.009080},
+];
+const warUpliftEvidence=[
+ {minutes:90,pairs:334303,players:6038,onMatches:12,offMatches:15},
+ {minutes:180,pairs:261405,players:5605,onMatches:13,offMatches:16},
+ {minutes:450,pairs:138461,players:4889,onMatches:17,offMatches:19},
+ {minutes:900,pairs:39721,players:3820,onMatches:20,offMatches:22},
+];
+const warCreditEvidence=[
+ {minimum:1,players:1970,rho:.8115477,rhoBootstrap:.785967,rhoLow:.762865,rhoHigh:.809511,medianRankChange:171.0,moveBootstrap:144.0,moveLow:124.0,moveHigh:170.0},
+ {minimum:5,players:1437,rho:.8322184,rhoBootstrap:.799265,rhoLow:.775652,rhoHigh:.823307,medianRankChange:152.0,moveBootstrap:150.0,moveLow:135.0,moveHigh:166.0},
+ {minimum:10,players:1031,rho:.8497733,rhoBootstrap:.814632,rhoLow:.790561,rhoHigh:.838552,medianRankChange:133.0,moveBootstrap:137.0,moveLow:120.0,moveHigh:153.0},
+ {minimum:25,players:286,rho:.8811268,rhoBootstrap:.861628,rhoLow:.828999,rhoHigh:.890459,medianRankChange:66.5,moveBootstrap:76.0,moveLow:61.0,moveHigh:94.5},
+];
+const warAccounting=[
+ {model:'Score/time/context',clock:.000262,residual:.000947,actor:.000490,opponent:.000458,full:.001208,color:'#2474b3'},
+ {model:'Event context',clock:.000248,residual:.010256,actor:.005451,opponent:.004806,full:.010408,color:'#b95c18'},
+];
+const warHorizons=[
+ {events:3,complete:22298748,incomplete:42990,matches:14330,scoreTime:.003237,eventContext:.020942,gap:.017704608,low:.017607936,high:.017793407},
+ {events:5,complete:22270088,incomplete:71650,matches:14330,scoreTime:.005372,eventContext:.024461,gap:.019089292,low:.019000230,high:.019196359},
+ {events:10,complete:22198438,incomplete:143300,matches:14330,scoreTime:.010723,eventContext:.030435,gap:.019712720,low:.019611852,high:.019812779},
+];
 const labels={futwar:'FutWAR · model in development',blocks_per90:'Blocks',recoveries_per90:'Recoveries',aerial_duels_won_per90:'Aerial duels won',aerial_duels_lost_per90:'Aerial duels lost',key_passes_per90:'Key passes',progressive_receptions_per90:'Progressive receptions',passes_into_box_per90:'Passes into the box',dispossessions_per90:'Dispossessions',miscontrols_per90:'Miscontrols',errors_per90:'Recorded errors',goals_per90:'Goals',assists_per90:'Assists',non_penalty_goals_per90:'Non-penalty goals',npxg_per90:'Non-penalty xG',xa_per90:'Expected assists',xag_per90:'Expected assisted goals',progressive_passes_per90:'Progressive passes',progressive_carries_per90:'Progressive carries',tackles_per90:'Tackles',interceptions_per90:'Interceptions',saves_per90:'Saves',psxg_per90:'Post-shot xG faced',reported_residual_per90:'Reported PSxG residual',shots_on_target_against_per90:'Shots on target faced',pass_attempts_per90:'Keeper pass attempts',crosses_faced_per90:'Crosses faced',sweeper_actions_per90:'Outside-box actions',crosses_stopped_share:'Crosses stopped / faced'};
 const roleNames={GK:'Goalkeeper',RB:'Right-back',RWB:'Right wingback',CB:'Centre-back',LB:'Left-back',LWB:'Left wingback',CM:'Central midfielder',CDM:'Defensive midfielder',CAM:'Attacking midfielder',LM:'Left midfielder',RM:'Right midfielder',ST:'Striker',LW:'Left winger',RW:'Right winger'};
 const nationalityFlags={ALB:['AL','Albania'],ALG:['DZ','Algeria'],ANG:['AO','Angola'],ARG:['AR','Argentina'],ARM:['AM','Armenia'],AUS:['AU','Australia'],AUT:['AT','Austria'],BAN:['BD','Bangladesh'],BDI:['BI','Burundi'],BEL:['BE','Belgium'],BEN:['BJ','Benin'],BER:['BM','Bermuda'],BFA:['BF','Burkina Faso'],BIH:['BA','Bosnia and Herzegovina'],BOL:['BO','Bolivia'],BRA:['BR','Brazil'],BUL:['BG','Bulgaria'],CAN:['CA','Canada'],CGO:['CG','Republic of the Congo'],CHA:['TD','Chad'],CHI:['CL','Chile'],CHN:['CN','China'],CIV:['CI',"Côte d’Ivoire"],CMR:['CM','Cameroon'],COD:['CD','DR Congo'],COL:['CO','Colombia'],COM:['KM','Comoros'],CPV:['CV','Cape Verde'],CRC:['CR','Costa Rica'],CRO:['HR','Croatia'],CTA:['CF','Central African Republic'],CUB:['CU','Cuba'],CUW:['CW','Curaçao'],CYP:['CY','Cyprus'],CZE:['CZ','Czechia'],DEN:['DK','Denmark'],DOM:['DO','Dominican Republic'],ECU:['EC','Ecuador'],EGY:['EG','Egypt'],ENG:['GB-ENG','England'],EQG:['GQ','Equatorial Guinea'],ESP:['ES','Spain'],EST:['EE','Estonia'],FIN:['FI','Finland'],FRA:['FR','France'],FRO:['FO','Faroe Islands'],GAB:['GA','Gabon'],GAM:['GM','Gambia'],GEO:['GE','Georgia'],GER:['DE','Germany'],GHA:['GH','Ghana'],GLP:['GP','Guadeloupe'],GNB:['GW','Guinea-Bissau'],GRE:['GR','Greece'],GRN:['GD','Grenada'],GUA:['GT','Guatemala'],GUF:['GF','French Guiana'],GUI:['GN','Guinea'],HAI:['HT','Haiti'],HON:['HN','Honduras'],HUN:['HU','Hungary'],IDN:['ID','Indonesia'],IRL:['IE','Republic of Ireland'],IRN:['IR','Iran'],IRQ:['IQ','Iraq'],ISL:['IS','Iceland'],ISR:['IL','Israel'],ITA:['IT','Italy'],JAM:['JM','Jamaica'],JOR:['JO','Jordan'],JPN:['JP','Japan'],KEN:['KE','Kenya'],KOR:['KR','South Korea'],KSA:['SA','Saudi Arabia'],KVX:['XK','Kosovo'],LAO:['LA','Laos'],LBY:['LY','Libya'],LIE:['LI','Liechtenstein'],LTU:['LT','Lithuania'],LUX:['LU','Luxembourg'],LVA:['LV','Latvia'],MAD:['MG','Madagascar'],MAR:['MA','Morocco'],MAS:['MY','Malaysia'],MDA:['MD','Moldova'],MEX:['MX','Mexico'],MKD:['MK','North Macedonia'],MLI:['ML','Mali'],MLT:['MT','Malta'],MNE:['ME','Montenegro'],MOZ:['MZ','Mozambique'],MSR:['MS','Montserrat'],MTN:['MR','Mauritania'],MTQ:['MQ','Martinique'],NCL:['NC','New Caledonia'],NED:['NL','Netherlands'],NGA:['NG','Nigeria'],NIG:['NE','Niger'],NIR:['GB','Northern Ireland'],NOR:['NO','Norway'],NZL:['NZ','New Zealand'],PAN:['PA','Panama'],PAR:['PY','Paraguay'],PER:['PE','Peru'],PHI:['PH','Philippines'],PLE:['PS','Palestine'],POL:['PL','Poland'],POR:['PT','Portugal'],PRK:['KP','North Korea'],PUR:['PR','Puerto Rico'],QAT:['QA','Qatar'],ROU:['RO','Romania'],RSA:['ZA','South Africa'],RUS:['RU','Russia'],SCO:['GB-SCT','Scotland'],SEN:['SN','Senegal'],SKN:['KN','Saint Kitts and Nevis'],SLE:['SL','Sierra Leone'],SMN:['SM','San Marino'],SRB:['RS','Serbia'],SUI:['CH','Switzerland'],SUR:['SR','Suriname'],SVK:['SK','Slovakia'],SVN:['SI','Slovenia'],SWE:['SE','Sweden'],SYR:['SY','Syria'],TAN:['TZ','Tanzania'],TOG:['TG','Togo'],TRI:['TT','Trinidad and Tobago'],TUN:['TN','Tunisia'],TUR:['TR','Türkiye'],UGA:['UG','Uganda'],UKR:['UA','Ukraine'],URU:['UY','Uruguay'],USA:['US','United States'],UZB:['UZ','Uzbekistan'],VEN:['VE','Venezuela'],WAL:['GB-WLS','Wales'],ZAM:['ZM','Zambia'],ZIM:['ZW','Zimbabwe']};
@@ -40,9 +75,10 @@ function roleMarkup(r){return `<span class="role" title="${esc(roleNames[role(r)
 function headerPositionCode(r){const g=r?.game_roster_position,p=g?.primary_position;return p&&(g.allowed_positions||[]).includes(p)?p:role(r);}
 function headerPositionMarkup(r){const g=r?.game_roster_position,p=headerPositionCode(r);if(!p)return roleMarkup(r);const fromRoster=g?.primary_position===p;return `<span class="role" title="${esc(roleNames[p]||p)}; ${fromRoster?'season-start game-roster primary position':'profile role; historical position-minute validation pending'}">Position: ${esc(p)}</span>`;}
 function flagEmoji(region){if(!region)return '';if(region.startsWith('GB-')){const tags=region.slice(3).toLowerCase();return String.fromCodePoint(0x1f3f4,...[...tags].map(c=>0xe0000+c.charCodeAt(0)),0xe007f);}return [...region].map(c=>String.fromCodePoint(0x1f1e6+c.charCodeAt(0)-65)).join('');}
-function nationalityMarkup(code,sourceName=''){const key=String(code||'').toUpperCase(),item=nationalityFlags[key]||nationalityFlags[nationalityNameLookup.get(norm(sourceName))];return item?`<span class="nationality-flag" role="img" aria-label="${esc(item[1])}" title="${esc(item[1])}"><img class="nationality-flag-image" src="https://flagcdn.com/w40/${esc(item[0].toLowerCase())}.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><span class="nationality-flag-fallback" hidden>${flagEmoji(item[0])}</span></span>`:'<span class="nationality-flag missing" aria-label="Nationality unavailable" title="Nationality unavailable">—</span>';}
-function nationalityForRecord(r){return r?.nationality_correction?.code||r?.details?.nationality||'';}
-document.addEventListener('error',event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.classList.contains('nationality-flag-image')){image.hidden=true;const fallback=image.nextElementSibling;if(fallback)fallback.hidden=false;}},true);
+function nationalityMarkup(code,sourceName=''){const key=String(code||'').toUpperCase(),item=nationalityFlags[key]||nationalityFlags[nationalityNameLookup.get(norm(sourceName))];return item?`<span class="nationality-flag" role="img" aria-label="${esc(item[1])}" title="${esc(item[1])}"><span class="nationality-flag-fallback">${flagEmoji(item[0])}</span><img class="nationality-flag-image" hidden src="https://flagcdn.com/w40/${esc(item[0].toLowerCase())}.png" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></span>`:'<span class="nationality-flag missing" aria-label="Nationality unavailable" title="Nationality unavailable">—</span>';}
+function nationalityForRecord(r){return r?.nationality_correction?.code||r?.details?.nationality||r?.game_roster_position?.source_nationality||'';}
+document.addEventListener('load',event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.classList.contains('nationality-flag-image')){const fallback=image.previousElementSibling;if(fallback)fallback.hidden=true;image.hidden=false;}},true);
+document.addEventListener('error',event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.classList.contains('nationality-flag-image'))image.hidden=true;},true);
 function history(r=current){return groups.get(r.group)||[r];}
 function profileHistory(r=current){const pid=r.provider_player_id||String(r.group||'').replace(/^provider:/,'');return data.profile_history?.profiles[String(pid)];}
 function annualMarketValues(r=current){return profileHistory(r)?.annual_values||FutwarCore.seasonValues(history(r));}
@@ -161,8 +197,97 @@ function exportRow(r){return {...r.source_stats,record_id:r.id,provider_player_i
 function downloadComparison(){download('futwar-comparison.csv',csv(comparisons.flatMap(x=>x.rows).map(exportRow)),'text/csv;charset=utf-8');}
 function downloadSVG(id,name){const svg=$(id),clone=svg.cloneNode(true);clone.setAttribute('xmlns','http://www.w3.org/2000/svg');const original=[svg,...svg.querySelectorAll('*')],copied=[clone,...clone.querySelectorAll('*')];original.forEach((node,i)=>{const st=getComputedStyle(node);copied[i].setAttribute('style',`fill:${st.fill};stroke:${st.stroke};stroke-width:${st.strokeWidth};font:${st.font};opacity:${st.opacity}`)});download(name,new XMLSerializer().serializeToString(clone),'image/svg+xml');}
 
+function drawWarEvidence(){
+ const svg=$('war-evidence-chart'),tbody=$('war-evidence-table');
+ if(!svg||!tbody)return;
+ const signed=v=>(v>0?'+':'')+v.toFixed(4),interval=(v,low,high)=>`${signed(v)} · [${signed(low)}, ${signed(high)}]`;
+ tbody.innerHTML=warRmseEvidence.map(r=>`<tr><td>${esc(r.league)}</td><td>${r.scoreRmse.toFixed(4)}</td><td>${r.eventRmse.toFixed(4)}</td><td>${interval(r.difference,r.low,r.high)}</td><td>${interval(r.brier,r.brierLow,r.brierHigh)}</td><td>${interval(r.logLoss,r.logLow,r.logHigh)}</td></tr>`).join('');
+ const w=980,h=310,left=215,right=28,top=28,bottom=52,x0=left,x1=w-right,y0=top,y1=h-bottom,xmin=-.012,xmax=.042;
+ const x=v=>x0+(v-xmin)/(xmax-xmin)*(x1-x0),step=(y1-y0)/warRmseEvidence.length;
+ let parts=[`<rect x="0" y="0" width="${w}" height="${h}" rx="10" fill="var(--surface)"/>`];
+ for(const tick of [-.01,0,.01,.02,.03,.04]){const tx=x(tick);parts.push(`<line class="${tick===0?'zero-line':'grid-line'}" x1="${tx.toFixed(1)}" y1="${y0}" x2="${tx.toFixed(1)}" y2="${y1}"/><text class="tick-label" x="${tx.toFixed(1)}" y="${y1+21}" text-anchor="middle">${tick>0?'+':''}${tick.toFixed(2)}</text>`);}
+ for(let i=0;i<warRmseEvidence.length;i++){const r=warRmseEvidence[i],cy=y0+step*(i+.5),color=leagueColors[leagues.indexOf(r.league)];parts.push(`<text class="league-label" x="14" y="${cy+5}" text-anchor="start">${esc(r.league)}</text><line class="interval" x1="${x(r.low).toFixed(1)}" y1="${cy}" x2="${x(r.high).toFixed(1)}" y2="${cy}" stroke="${color}"/><line class="interval-cap" x1="${x(r.low).toFixed(1)}" y1="${cy-6}" x2="${x(r.low).toFixed(1)}" y2="${cy+6}" stroke="${color}"/><line class="interval-cap" x1="${x(r.high).toFixed(1)}" y1="${cy-6}" x2="${x(r.high).toFixed(1)}" y2="${cy+6}" stroke="${color}"/><circle class="point" cx="${x(r.difference).toFixed(1)}" cy="${cy}" r="6" fill="${color}"><title>${esc(r.league)} · difference +${r.difference.toFixed(4)} · interval ${r.low.toFixed(4)} to +${r.high.toFixed(4)}</title></circle>`);}
+ parts.push(`<text class="axis-label" x="${(x0+x1)/2}" y="${h-8}" text-anchor="middle">Event-context RMSE minus score/time RMSE · expected points</text>`);
+ svg.innerHTML=parts.join('');
+}
+
+function drawWarGoalDifferenceEvidence(){
+ const svg=$('war-goaldiff-chart'),tbody=$('war-goaldiff-table');
+ if(!svg||!tbody)return;
+ const signed=v=>(v>0?'+':'')+v.toFixed(4);
+ tbody.innerHTML=warGoalDifferenceEvidence.map(r=>`<tr><td>${esc(r.league)}</td><td>${fmt(r.matches,0)}</td><td>${r.scoreRmse.toFixed(4)}</td><td>${r.eventRmse.toFixed(4)}</td><td>${signed(r.difference)} · [${signed(r.low)}, ${signed(r.high)}]</td></tr>`).join('');
+ const w=980,h=310,left=215,right=28,top=28,bottom=52,x0=left,x1=w-right,y0=top,y1=h-bottom,xmin=-.014,xmax=.014;
+ const x=v=>x0+(v-xmin)/(xmax-xmin)*(x1-x0),step=(y1-y0)/warGoalDifferenceEvidence.length;
+ let parts=[`<rect x="0" y="0" width="${w}" height="${h}" rx="10" fill="var(--surface)"/>`];
+ for(const tick of [-.012,-.008,-.004,0,.004,.008,.012]){const tx=x(tick);parts.push(`<line class="${tick===0?'zero-line':'grid-line'}" x1="${tx.toFixed(1)}" y1="${y0}" x2="${tx.toFixed(1)}" y2="${y1}"/><text class="tick-label" x="${tx.toFixed(1)}" y="${y1+21}" text-anchor="middle">${tick>0?'+':''}${tick.toFixed(3)}</text>`);}
+ for(let i=0;i<warGoalDifferenceEvidence.length;i++){const r=warGoalDifferenceEvidence[i],cy=y0+step*(i+.5),color=leagueColors[leagues.indexOf(r.league)];parts.push(`<text class="league-label" x="14" y="${cy+5}" text-anchor="start">${esc(r.league)}</text><line class="interval" x1="${x(r.low).toFixed(1)}" y1="${cy}" x2="${x(r.high).toFixed(1)}" y2="${cy}" stroke="${color}"/><line class="interval-cap" x1="${x(r.low).toFixed(1)}" y1="${cy-6}" x2="${x(r.low).toFixed(1)}" y2="${cy+6}" stroke="${color}"/><line class="interval-cap" x1="${x(r.high).toFixed(1)}" y1="${cy-6}" x2="${x(r.high).toFixed(1)}" y2="${cy+6}" stroke="${color}"/><circle class="point" cx="${x(r.difference).toFixed(1)}" cy="${cy}" r="6" fill="${color}"><title>${esc(r.league)} · event-context minus score/time RMSE ${signed(r.difference)} · 95% paired match interval ${signed(r.low)} to ${signed(r.high)}</title></circle>`);}
+ parts.push(`<text class="axis-label" x="${(x0+x1)/2}" y="${h-8}" text-anchor="middle">Event-context RMSE minus score/time RMSE · final goal difference</text>`);
+ svg.innerHTML=parts.join('');
+}
+
+function drawWarUpliftEvidence(){
+ const svg=$('war-uplift-chart'),tbody=$('war-uplift-table');
+ if(!svg||!tbody)return;
+ tbody.innerHTML=warUpliftEvidence.map(r=>`<tr><td>${fmt(r.minutes,0)} each way</td><td>${fmt(r.pairs,0)}</td><td>${fmt(r.players,0)}</td><td>${fmt(r.onMatches,0)} / ${fmt(r.offMatches,0)}</td></tr>`).join('');
+ const w=980,h=300,left=285,right=54,top=38,bottom=48,x0=left,x1=w-right,max=360000;
+ const x=v=>x0+v/max*(x1-x0),bar=34,gap=25;
+ let parts=[`<rect x="0" y="0" width="${w}" height="${h}" rx="10" fill="var(--surface)"/>`];
+ for(const tick of [0,90000,180000,270000,360000]){const xx=x(tick);parts.push(`<line class="grid-line" x1="${xx.toFixed(1)}" y1="${top-8}" x2="${xx.toFixed(1)}" y2="${h-bottom}"/><text class="tick-label" x="${xx.toFixed(1)}" y="${h-bottom+20}" text-anchor="middle">${fmt(tick,0)}</text>`);}
+ warUpliftEvidence.forEach((r,i)=>{const yy=top+i*(bar+gap);parts.push(`<text class="league-label" x="14" y="${yy+22}" text-anchor="start">${fmt(r.minutes,0)}+ min with and without</text><rect x="${x0}" y="${yy}" width="${(x(r.pairs)-x0).toFixed(1)}" height="${bar}" rx="6" fill="#268475"><title>${fmt(r.pairs,0)} pair-season records; ${fmt(r.players,0)} source focal IDs</title></rect><text class="tick-label" x="${(x(r.pairs)+8).toFixed(1)}" y="${yy+22}" text-anchor="start">${fmt(r.pairs,0)}</text>`);});
+ parts.push(`<text class="axis-label" x="${(x0+x1)/2}" y="${h-7}" text-anchor="middle">Ordered focal-player / teammate pairs meeting both exposure cutoffs</text>`);
+ svg.innerHTML=parts.join('');
+}
+
+function drawWarCreditEvidence(){
+ const svg=$('war-credit-chart'),tbody=$('war-credit-table');
+ if(!svg||!tbody)return;
+ tbody.innerHTML=warCreditEvidence.map(r=>`<tr><td>${r.minimum}+</td><td>${fmt(r.players,0)}</td><td>${r.rho.toFixed(3)} · ${r.rhoBootstrap.toFixed(3)} [${r.rhoLow.toFixed(3)}, ${r.rhoHigh.toFixed(3)}]</td><td>${fmt(r.medianRankChange,1)} · ${fmt(r.moveBootstrap,1)} [${fmt(r.moveLow,1)}, ${fmt(r.moveHigh,1)}]</td></tr>`).join('');
+ const w=980,h=300,gap=78,top=48,bottom=54,left=64,right=26,mid=w/2;
+ const groups=[
+  {title:'Rank-order correlation',unit:'Spearman ρ',x0:left,x1:mid-gap/2,min:.74,max:.91,values:warCreditEvidence.map(r=>r.rhoBootstrap),low:warCreditEvidence.map(r=>r.rhoLow),high:warCreditEvidence.map(r=>r.rhoHigh),color:'#2474b3',ticks:[.75,.80,.85,.90]},
+  {title:'Median absolute rank movement',unit:'Places',x0:mid+gap/2,x1:w-right,min:0,max:190,values:warCreditEvidence.map(r=>r.moveBootstrap),low:warCreditEvidence.map(r=>r.moveLow),high:warCreditEvidence.map(r=>r.moveHigh),color:'#b95c18',ticks:[0,50,100,150]},
+ ];
+ let parts=[`<rect x="0" y="0" width="${w}" height="${h}" rx="10" fill="var(--surface)"/>`];
+ for(const g of groups){
+  const x=i=>g.x0+14+i*(g.x1-g.x0-28)/(warCreditEvidence.length-1),y=v=>top+(g.max-v)/(g.max-g.min)*(h-top-bottom);
+  parts.push(`<text class="credit-title" x="${(g.x0+g.x1)/2}" y="22" text-anchor="middle">${g.title}</text>`);
+  for(const tick of g.ticks){const ty=y(tick);parts.push(`<line class="grid-line" x1="${g.x0+10}" y1="${ty.toFixed(1)}" x2="${g.x1}" y2="${ty.toFixed(1)}"/><text class="tick-label" x="${g.x0+4}" y="${ty+4}" text-anchor="end">${tick}</text>`);}
+  parts.push(`<path d="${g.values.map((v,i)=>`${i?'L':'M'}${x(i).toFixed(1)} ${y(v).toFixed(1)}`).join(' ')}" fill="none" stroke="${g.color}" stroke-width="3"/>`);
+  g.values.forEach((v,i)=>{const xx=x(i),yl=y(g.low[i]),yh=y(g.high[i]);parts.push(`<line x1="${xx}" y1="${yl.toFixed(1)}" x2="${xx}" y2="${yh.toFixed(1)}" stroke="${g.color}" stroke-width="2"/><line x1="${xx-4}" y1="${yl.toFixed(1)}" x2="${xx+4}" y2="${yl.toFixed(1)}" stroke="${g.color}"/><line x1="${xx-4}" y1="${yh.toFixed(1)}" x2="${xx+4}" y2="${yh.toFixed(1)}" stroke="${g.color}"/><circle class="point" cx="${xx.toFixed(1)}" cy="${y(v).toFixed(1)}" r="6" fill="${g.color}"><title>${warCreditEvidence[i].minimum}+ sequences · ${g.unit} bootstrap median: ${v}; 95% match-bootstrap interval ${g.low[i]} to ${g.high[i]}</title></circle><text class="tick-label" x="${xx.toFixed(1)}" y="${h-bottom+22}" text-anchor="middle">≥${warCreditEvidence[i].minimum}</text>`)});
+  parts.push(`<text class="axis-label" x="${(g.x0+g.x1)/2}" y="${h-8}" text-anchor="middle">Minimum shot-ending sequences per player</text>`);
+ }
+ parts.push(`<line class="grid-line" x1="${mid}" y1="30" x2="${mid}" y2="${h-35}"/>`);
+ svg.innerHTML=parts.join('');
+}
+
+function drawWarAccountingEvidence(){
+ const svg=$('war-accounting-chart'),body=$('war-accounting-table'),horizonBody=$('war-horizon-table'),horizonSvg=$('war-horizon-chart');
+ if(!svg||!body||!horizonBody||!horizonSvg)return;
+ const cols=[['Clock-only', 'clock'],['Event-update', 'residual'],['Target-team event', 'actor'],['Opponent event', 'opponent']];
+ body.innerHTML=warAccounting.map(r=>`<tr><td>${esc(r.model)}</td><td>${r.clock.toFixed(6)}</td><td>${r.residual.toFixed(6)}</td><td>${r.actor.toFixed(6)}</td><td>${r.opponent.toFixed(6)}</td><td>${r.full.toFixed(6)}</td></tr>`).join('');
+ horizonBody.innerHTML=warHorizons.map(r=>`<tr><td>${r.events}</td><td>${fmt(r.complete,0)}</td><td>${fmt(r.incomplete,0)}</td><td>${fmt(r.matches,0)}</td><td>${r.scoreTime.toFixed(5)}</td><td>${r.eventContext.toFixed(5)}</td><td>${r.gap.toFixed(5)} [${r.low.toFixed(5)}, ${r.high.toFixed(5)}]</td></tr>`).join('');
+ const hw=980,hh=340,hLeft=86,hRight=36,hTop=42,hBottom=68,hMax=.035,xs=warHorizons.map((_,i)=>hLeft+i*(hw-hLeft-hRight)/(warHorizons.length-1)),hY=v=>hh-hBottom-(v/hMax)*(hh-hTop-hBottom),series=[{key:'scoreTime',name:'State-only',color:'#2474b3'},{key:'eventContext',name:'Event-context',color:'#b95c18'}];
+ let hp=[`<rect x="0" y="0" width="${hw}" height="${hh}" rx="10" fill="var(--surface)"/>`];
+ for(const tick of [0,.01,.02,.03]){const yy=hY(tick);hp.push(`<line class="grid-line" x1="${hLeft}" y1="${yy.toFixed(1)}" x2="${hw-hRight}" y2="${yy.toFixed(1)}"/><text class="tick-label" x="${hLeft-12}" y="${yy+4}" text-anchor="end">${tick.toFixed(2)}</text>`);}
+ series.forEach((s,si)=>{const points=warHorizons.map((r,i)=>`${i?'L':'M'}${xs[i].toFixed(1)} ${hY(r[s.key]).toFixed(1)}`).join(' ');hp.push(`<path d="${points}" fill="none" stroke="${s.color}" stroke-width="3"/>`);warHorizons.forEach((r,i)=>hp.push(`<circle cx="${xs[i].toFixed(1)}" cy="${hY(r[s.key]).toFixed(1)}" r="6" fill="${s.color}"><title>${s.name} · ${r.events} later event rows: ${r[s.key].toFixed(5)} mean absolute clock-adjusted residual expected points</title></circle>`));const lx=hLeft+si*175;hp.push(`<circle cx="${lx}" cy="20" r="6" fill="${s.color}"/><text class="tick-label" x="${lx+14}" y="24">${s.name}</text>`);});
+ warHorizons.forEach((r,i)=>hp.push(`<text class="tick-label" x="${xs[i].toFixed(1)}" y="${hh-hBottom+24}" text-anchor="middle">${r.events} future rows</text>`));
+ hp.push(`<text class="axis-label" x="${(hLeft+hw-hRight)/2}" y="${hh-12}" text-anchor="middle">Mean absolute clock-adjusted residual · expected points per endpoint</text>`);horizonSvg.innerHTML=hp.join('');
+ const w=980,h=390,left=255,right=28,top=52,bottom=50,x0=left,x1=w-right,max=.011;
+ const x=v=>x0+(v/max)*(x1-x0),colors=['#7955c3','#b95c18','#2474b3','#268475'];
+ let parts=[`<rect x="0" y="0" width="${w}" height="${h}" rx="10" fill="var(--surface)"/>`];
+ for(const t of [0,.002,.004,.006,.008,.010]){const tx=x(t);parts.push(`<line class="grid-line" x1="${tx.toFixed(1)}" y1="${top-16}" x2="${tx.toFixed(1)}" y2="${h-bottom+4}"/><text class="tick-label" x="${tx.toFixed(1)}" y="${h-bottom+22}" text-anchor="middle">${t.toFixed(3)}</text>`);}
+ warAccounting.forEach((r,i)=>{const base=top+i*152;parts.push(`<text class="accounting-model" x="14" y="${base-8}" text-anchor="start">${esc(r.model)}</text>`);cols.forEach((c,j)=>{const yy=base+22+j*27,xx=x(r[c[1]]);parts.push(`<text class="tick-label" x="14" y="${yy+4}" text-anchor="start">${c[0]}</text><circle cx="${xx.toFixed(1)}" cy="${yy}" r="6" fill="${colors[j]}"><title>${esc(r.model)} · ${c[0]} mean absolute change: ${r[c[1]].toFixed(6)} expected points</title></circle>`);});});
+ parts.push(`<text class="axis-label" x="${(x0+x1)/2}" y="${h-8}" text-anchor="middle">Mean absolute expected-points movement per transition · points</text>`);
+ svg.innerHTML=parts.join('');
+}
+
 function drawReferences(){
  if(view!=='player'||tab!=='value')return;
+ drawWarEvidence();
+ drawWarGoalDifferenceEvidence();
+ drawWarUpliftEvidence();
+ drawWarCreditEvidence();
+ drawWarAccountingEvidence();
  const mode=$('reference-mode').value,k=$('reference-metric').value,minimum=Number($('reference-minutes').value);
  $('reference-leagues').hidden=mode!=='league';$('reference-budget').hidden=mode!=='team';
  const isWar=k==='futwar';
