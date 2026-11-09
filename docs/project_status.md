@@ -3,11 +3,11 @@
 **Last reconciled:** 2026-11-06
 **Research status:** Under construction; no FutWAR WAR score is finalized or currently validated.
 
-## Local Vercel bundle refresh — 2026-11-09
+## WAR page refresh and production deployment — 2026-11-09
 
-The local public-site bundle was rebuilt from `profile/` with `scripts/package_explorer.py`. The build verified 780 standings rows across 40 league-seasons, packaged 22,418 player records and 7,187 searchable profiles, and found no missing crests among 149 displayed clubs; 159 image assets were packaged. `scripts/prepare_vercel_site.ps1` passed, as did `node --check` for the four explorer JavaScript files. This confirms the local bundle is structurally ready for review, not that the live Vercel site was updated. No WAR scores were generated. The rebuild used the installed Python 3.13 executable because the `py` launcher did not find an installed interpreter in this environment.
+The public-site bundle was rebuilt from `profile/` with `scripts/package_explorer.py`. The build verified 780 standings rows across 40 league-seasons, packaged 22,418 player records and 7,187 searchable profiles, and found no missing crests among 149 displayed clubs; 159 image assets were packaged. `scripts/prepare_vercel_site.ps1` passed, as did `node --check` for the four explorer JavaScript files. The changes and the research notes cited by the page were committed and pushed to `main` in commit `916ec1f`; GitHub reported the Vercel check as successful. The rebuilt page also preserves the newer bio-fact alignment update. No WAR scores were generated. The rebuild used the installed Python 3.13 executable because the `py` launcher did not find an installed interpreter in this environment.
 
-The generated WAR page exposes all six requested comparison views and clearly states that player WAR is not estimated; a static check found all six baseline/scope combinations and no leftover build placeholder. **Deployment still needs a documentation release:** 11 of the 12 research-note links embedded in the page point to files present locally but not yet tracked in Git. Include the corresponding notes in the same GitHub release as the page, or those public citations will lead to missing pages.
+The deployed WAR page exposes all six requested comparison views and clearly states that player WAR is not estimated; a static check found all six baseline/scope combinations, no leftover build placeholder, and all 12 linked research notes tracked in the same release. This was a site-and-documentation release, not a WAR-score release.
 
 ## Four player-WAR data gates — 2026-11-05
 
