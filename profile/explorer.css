@@ -33,6 +33,8 @@
 .facts{align-items:baseline;align-content:flex-start;column-gap:20px;row-gap:4px;line-height:1.35}.facts>span:not(.market-value-fact){display:inline-flex;align-items:baseline;align-self:baseline;min-height:30px;line-height:1.25;white-space:nowrap}.facts .nationality-fact{gap:7px}.facts .nationality-fact .nationality-flag{flex:0 0 24px;align-self:center;vertical-align:middle}.facts .market-value-fact{display:inline-grid;align-items:center;min-height:48px;line-height:1.25}
 
 /* Keep every player-bio fact on the same visual centerline, including the flag. */
+
+/* Player bio facts share a common centerline, including nationality flags. */
 .facts{align-items:center;align-content:center;column-gap:20px;row-gap:8px;line-height:20px}
 .facts>span:not(.market-value-fact){display:flex;align-items:center;align-self:center;height:32px;min-height:32px;padding:0;line-height:20px;white-space:nowrap}
 .facts>.nationality-fact{gap:7px}
