@@ -116,3 +116,71 @@
 .quality-methods p:last-child{margin-bottom:0}
 @media(max-width:800px){.build-notice{padding:0 18px}.build-progress{grid-template-columns:1fr;padding-left:0}.team-comparison{grid-template-columns:1fr}.coverage-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.build-notice summary{gap:10px;align-items:flex-start}.construction-icon{flex-basis:62px;height:46px}.construction-icon svg{width:58px;height:38px}.build-title strong{font-size:14px}.build-more{font-size:12px;padding:7px 8px}.headline{grid-template-columns:repeat(2,minmax(0,1fr))}.headline .stat{min-height:105px;padding:13px}.coverage-summary{gap:8px}.coverage-summary>div{padding:12px}.team-metrics{gap:8px}.team-metric{padding:11px}.source-table{min-width:620px}}
+
+/* Clear landing page and visible build status without hiding the working library. */
+.landing{max-width:unset;text-align:left;padding:34px 0 20px}
+.home-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(340px,.85fr);gap:24px;align-items:stretch}
+.home-intro{display:flex;flex-direction:column;justify-content:center;min-height:390px;padding:40px clamp(22px,5vw,72px);border:1px solid var(--line);border-left:5px solid var(--team);border-radius:14px;background:linear-gradient(135deg,var(--surface),color-mix(in srgb,var(--surface) 78%,var(--team) 22%))}
+.home-intro h1{font-size:clamp(46px,6vw,76px);line-height:.99;letter-spacing:-2.8px;margin:10px 0 18px}
+.home-lede{max-width:560px;font-size:19px;line-height:1.5;color:var(--muted)}
+.home-intro form{display:flex;gap:8px;width:min(100%,620px);margin:15px 0 8px}
+.home-intro form input{flex:1;padding:14px 16px}
+.home-intro .small{font-size:13px}
+.build-card{padding:24px 25px;border:1px solid var(--line);border-top:4px solid var(--team);border-radius:14px;background:var(--surface);box-shadow:0 8px 24px color-mix(in srgb,var(--ink) 6%,transparent)}
+.build-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.build-card-icon{display:grid;place-items:center;width:100px;height:52px;border-radius:10px;background:var(--bg)}
+.build-card-icon svg{width:90px;height:45px}
+.build-card h2{font-size:24px;line-height:1.25;letter-spacing:-.35px;margin-bottom:9px}
+.build-card>.small{line-height:1.45}
+.build-steps{list-style:none;margin:18px 0 12px;padding:0;display:grid;gap:0}
+.build-steps li{display:grid;grid-template-columns:98px 1fr;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line);font-size:13px;line-height:1.35}
+.step-state{display:inline-flex;width:max-content;padding:3px 8px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.step-state.is-ready{color:#28785b;border-color:color-mix(in srgb,#28785b 35%,var(--line));background:color-mix(in srgb,#28785b 9%,var(--surface))}
+.step-state.is-active{color:var(--team);border-color:color-mix(in srgb,var(--team) 36%,var(--line));background:color-mix(in srgb,var(--team) 9%,var(--surface))}
+.build-link{padding:0;border:0;background:none;color:var(--team);font-size:13px;font-weight:650}
+.build-link:hover{background:none;text-decoration:underline;text-underline-offset:4px}
+.league-section{margin:38px 0 24px}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:14px}
+.section-heading .eyebrow{margin-bottom:2px}
+.section-heading h2{font-size:25px;margin:0}
+.league-cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.league-card{min-width:0;padding:16px;border:1px solid var(--line);border-top:3px solid var(--league-accent);border-radius:11px;background:var(--surface);box-shadow:0 3px 10px color-mix(in srgb,var(--ink) 4%,transparent)}
+.league-card-head{display:flex;align-items:center;gap:9px;min-height:42px;margin-bottom:12px;color:var(--ink);font-weight:650}
+.league-card .league-mark{width:34px;height:34px;padding:2px;flex:0 0 auto}
+.league-card>strong{display:block;font-size:25px;line-height:1.1;font-variant-numeric:tabular-nums}
+.league-card-label{display:block;margin-top:4px;color:var(--muted);font-size:12px}
+.league-card-meta{display:grid;gap:4px;margin-top:14px;padding-top:10px;border-top:1px solid var(--line);color:var(--muted);font-size:11px;line-height:1.35}
+.home-footnote{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:15px 17px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--muted);font-size:13px}
+.home-footnote button{color:var(--team);font-weight:600}
+.headline{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.headline .war-placeholder{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:5px;border-top-color:var(--team);background:color-mix(in srgb,var(--team) 6%,var(--surface));cursor:pointer}
+.headline .war-placeholder strong{font-size:20px;margin:2px 0;color:var(--team)}
+.headline .war-placeholder small:last-child{font-size:11px}
+.headline .war-placeholder:hover{border-color:var(--team);transform:translateY(-1px)}
+.team-positions{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.team-positions .panel-head{align-items:center;margin-bottom:12px}
+.team-positions h3{margin:0;font-size:16px}
+.team-positions .small{margin:2px 0 0;font-size:12px}
+.position-bars{display:grid;gap:7px;margin:12px 0}
+.position-bar-row{display:grid;grid-template-columns:42px minmax(30px,1fr) 30px;gap:9px;align-items:center;font-size:12px}
+.position-bar-row>span:first-child{font-weight:650;color:var(--team)}
+.position-bar-row strong{text-align:right;font-variant-numeric:tabular-nums}
+.position-bar-track{height:9px;border-radius:99px;background:var(--bg);overflow:hidden}
+.position-bar-track i{display:block;height:100%;border-radius:99px;background:var(--team)}
+.team-war-placeholder{display:flex;gap:13px;align-items:center;margin-top:13px;padding:12px 14px;border:1px dashed color-mix(in srgb,var(--team) 45%,var(--line));border-radius:10px;background:color-mix(in srgb,var(--team) 5%,var(--surface))}
+.build-mini-icon{display:grid;place-items:center;width:72px;height:44px;flex:0 0 auto;border-radius:8px;background:var(--bg)}
+.build-mini-icon svg{width:68px;height:34px}
+.team-war-placeholder strong{font-size:13px}
+.team-war-placeholder p{margin:3px 0 0;font-size:12px}
+.source-table th{background:color-mix(in srgb,var(--team) 9%,var(--surface))}
+.view-heading{margin-bottom:14px}
+.view-heading h1{margin:0 0 5px}
+.view-heading p{margin-bottom:7px}
+.feature-build-note{display:flex;align-items:center;gap:14px;margin:16px 0 20px;padding:13px 16px;border:1px dashed color-mix(in srgb,var(--team) 42%,var(--line));border-radius:11px;background:color-mix(in srgb,var(--team) 5%,var(--surface))}
+.feature-build-note>div{display:grid;gap:5px;min-width:0;flex:1}
+.feature-build-note strong{font-size:14px}
+.feature-build-note p{margin:0;line-height:1.4}
+.feature-build-note>button{white-space:nowrap;color:var(--team);font-size:13px}
+@media(max-width:1050px){.league-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.home-hero{grid-template-columns:1fr 1fr}.home-intro{padding:30px}}
+@media(max-width:760px){.home-hero{grid-template-columns:1fr}.home-intro{min-height:0}.league-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.section-heading{align-items:flex-start;flex-direction:column;gap:6px}}
+@media(max-width:480px){.home-intro{padding:26px 20px}.home-intro h1{font-size:48px}.build-card{padding:18px}.league-cards{grid-template-columns:1fr}.league-card{padding:13px}.home-footnote{align-items:flex-start;flex-direction:column}.build-steps li{grid-template-columns:86px 1fr}.headline{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-build-note{align-items:flex-start;flex-wrap:wrap}.feature-build-note>button{margin-left:86px}}
