@@ -1,0 +1,432 @@
+{
+  "source": "OpenPlay",
+  "repository": "https://github.com/nlbair/openplay",
+  "release_tag": "data-v0.1.0",
+  "release_url": "https://github.com/nlbair/openplay/releases/tag/data-v0.1.0",
+  "release_published_at": "2026-11-03T06:57:53Z",
+  "release_is_prerelease": true,
+  "release_api_sha256": "5d185a3687dc6661a79b0ee9bb4363ed113ecf758142577812ebb9b88c8d0a27",
+  "release_api_retrieved_at_utc": "2026-11-04T17:20:57.041309+00:00",
+  "declared_data_license": "CC BY 4.0; credit openplay (Noah Bair)",
+  "source_provenance_status": "publisher declares CC BY 4.0; upstream authorization basis not independently verified",
+  "use_status": "local research audit only; no player WAR publication approved",
+  "scope": {
+    "competitions": [
+      "eng",
+      "esp",
+      "ita",
+      "ger",
+      "fra"
+    ],
+    "seasons": [
+      "1718",
+      "1819",
+      "1920",
+      "2021",
+      "2122",
+      "2223",
+      "2324",
+      "2425"
+    ]
+  },
+  "raw_archive_git_policy": "data/raw/ is ignored and must remain out of Git",
+  "files": [
+    {
+      "name": "cards.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/cards.parquet",
+      "sha256": "5ed8446fc8cee3fedeb5b42e620154164f66552c8b6fb22ad96f3129da6f7d91",
+      "bytes": 1553291,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "checksums.json",
+      "path": "data/raw/openplay/data-v0.1.0/checksums.json",
+      "sha256": "5d185a3687dc6661a79b0ee9bb4363ed113ecf758142577812ebb9b88c8d0a27",
+      "bytes": 19123,
+      "status": "verified-existing"
+    },
+    {
+      "name": "competitions.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/competitions.parquet",
+      "sha256": "21ad45f8afe5564ece2b218d6097f5f2406a68261d748df5affaf5f5b8d56e56",
+      "bytes": 5840,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "coverage.csv",
+      "path": "data/raw/openplay/data-v0.1.0/coverage.csv",
+      "sha256": "0007ce546378948574ea656a9d0fd814b03373666e2f7fe910439e54835ede0d",
+      "bytes": 8189,
+      "status": "verified-existing"
+    },
+    {
+      "name": "data_issues.csv",
+      "path": "data/raw/openplay/data-v0.1.0/data_issues.csv",
+      "sha256": "d2e61f67a60547b1fd47d35f1bac9282a591fa63d4a189b6f8b81e388b2dced3",
+      "bytes": 7104,
+      "status": "verified-existing"
+    },
+    {
+      "name": "events_eng_1718.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_1718.parquet",
+      "sha256": "1caebbd29dcdb15d97b8fdef2a5ec7a9ca65d9a0466938b9fded2f1e0ebd57a3",
+      "bytes": 13259612,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_1819.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_1819.parquet",
+      "sha256": "b102a116d169401c026300337c7b1da00eda416eee38645b2ae9f890d262bc14",
+      "bytes": 13353150,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_1920.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_1920.parquet",
+      "sha256": "ecbe85c9704376079e3754fb82244966f08e4c8bf96399db58943fb38d04ee46",
+      "bytes": 11849412,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_2021.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_2021.parquet",
+      "sha256": "d57bfe63282b6d6b9171400366f96149801879de8f92a7dbf9bcc885615bc31c",
+      "bytes": 11671882,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_2122.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_2122.parquet",
+      "sha256": "b1c50cfaa318397da2672837ac3b42f9533dbe1a52aa145538bbcc96e92b2383",
+      "bytes": 11563803,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_2223.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_2223.parquet",
+      "sha256": "17ea4875666f5b03175193dcea2351580cef35d97f9a9929008a7f2903527783",
+      "bytes": 11720717,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_2324.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_2324.parquet",
+      "sha256": "925dca7c43eb27d0d3eda5083426f0cbcaf3b75ce302ba28e45ae0153a4c7e8c",
+      "bytes": 12135606,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_eng_2425.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_eng_2425.parquet",
+      "sha256": "cb7cefa40de8dd36b7a9005236186883a5e0c174d90e84ebd89a634370e80b6b",
+      "bytes": 11670839,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_1718.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_1718.parquet",
+      "sha256": "17327e3ae324d4af3ad8f6a4e338ce989817d3743d918c0e1fab8f113115d064",
+      "bytes": 12941200,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_1819.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_1819.parquet",
+      "sha256": "cb7d8a9ff1873f4f09a37fd05080e0702776f15dba2deb1979661877d395f52d",
+      "bytes": 12755028,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_1920.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_1920.parquet",
+      "sha256": "371d1a740f02e28fb4f7a9a5687558e2b887aff04c6bbb3663db905f6a2b7149",
+      "bytes": 11110203,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_2021.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_2021.parquet",
+      "sha256": "ddd981ade0e737aafa54e33f9560057d3d764653e68e82c7afb5fb9726f9902a",
+      "bytes": 11156414,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_2122.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_2122.parquet",
+      "sha256": "b0c5e5f0b82dc06a16c36969eade518dc1c2fd9b19ecd61fde2d12db7b9e1554",
+      "bytes": 11281639,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_2223.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_2223.parquet",
+      "sha256": "d8870154c8e354a2edadb4ced8a468651b22aca96295ef823da07b8863cd3d07",
+      "bytes": 11294969,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_2324.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_2324.parquet",
+      "sha256": "f84e37f19c9320262d24e704fcc8ff2a85bfcbc5f5ba579cbabfe2b99f28f15c",
+      "bytes": 11660395,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_esp_2425.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_esp_2425.parquet",
+      "sha256": "2b71c009ba14a1b7d4d7ce8380229b50772f3d0817eecc6c0455c9e4b329a24f",
+      "bytes": 11448736,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_1718.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_1718.parquet",
+      "sha256": "4ebc427942ba3d960608c81971f154853ad8c7e3801de5cb6ce8e0201f42653f",
+      "bytes": 13116328,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_1819.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_1819.parquet",
+      "sha256": "cd9a0ea2e7c3ecbe731d61b774456f6ba0476a462fa28d0e2ce9ef0575877afb",
+      "bytes": 12975941,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_1920.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_1920.parquet",
+      "sha256": "d5f598ac570b859b4e45d844dd6b2777e0d959caa88d3a1cc0320ded255b1d9d",
+      "bytes": 8676990,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_2021.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_2021.parquet",
+      "sha256": "37088dd1603af48b7d6d57279ac83730ec3a3f8d90427be6bd2a9cd0fdcc8731",
+      "bytes": 11763211,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_2122.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_2122.parquet",
+      "sha256": "d509d11d3d9b96638b00c6bdefa2f5907f64a5446f09b5fee7dfa04eb525ea4a",
+      "bytes": 11550626,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_2223.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_2223.parquet",
+      "sha256": "bcd2849f3f279bccc99627d6a2ddec34c51bfd9d6a6c1af316824bdd6b9c8787",
+      "bytes": 11684007,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_2324.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_2324.parquet",
+      "sha256": "34de9f32af4135e40d5468a1b5510f206a4ebca82db4c0809e3af5e88dc50f4e",
+      "bytes": 9540776,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_fra_2425.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_fra_2425.parquet",
+      "sha256": "da4a4338f5e80ef1f509116f1d0126f7fc2e79fc4b99f84561dd2e7ba402da09",
+      "bytes": 9542525,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_1718.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_1718.parquet",
+      "sha256": "e4e8bde9b2fcd27259d006c07661f91ea72305251109bcdd95c334fd970f387c",
+      "bytes": 10535282,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_1819.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_1819.parquet",
+      "sha256": "c736f5f9824bb2a9ef4bff664d7409bda1a431f4b3faccb59a2a15b091cef800",
+      "bytes": 10722615,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_1920.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_1920.parquet",
+      "sha256": "ef4afb185e076d4be1d7f213f73d69a5d8ad045c3e04e59327d54d5717dcec43",
+      "bytes": 9657253,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_2021.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_2021.parquet",
+      "sha256": "ff08b783eb9569032406d6fd1d994d7d7454a6c435932c362b866ed62b8159be",
+      "bytes": 9716048,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_2122.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_2122.parquet",
+      "sha256": "90483de34791221bb94e491f016828339c3ae36d1f5877a8d54137eaf047a8a9",
+      "bytes": 9572852,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_2223.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_2223.parquet",
+      "sha256": "70d97e220346704bae737f8b707978ecb1940a5a267361d0d4d93dd0693f3994",
+      "bytes": 9398081,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_2324.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_2324.parquet",
+      "sha256": "65382e4239759fbbf518842e19c447ec9d9ad347de9c637f0f9060b3686a8be9",
+      "bytes": 9885583,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ger_2425.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ger_2425.parquet",
+      "sha256": "b7184a967ea5736a6f828096fd13b460c4b6293e8af3caa93858dd4a46d2f63b",
+      "bytes": 9657002,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_1718.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_1718.parquet",
+      "sha256": "e741ffcc150bfa3fff3f02009f592d0b9cb25de75e1f7afe74d8fb2b95e7a7b2",
+      "bytes": 13279508,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_1819.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_1819.parquet",
+      "sha256": "a388173de669b247331320aa8a66bba9676233328cf8da28239cd7674b5aba7f",
+      "bytes": 13052507,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_1920.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_1920.parquet",
+      "sha256": "e2c0eaee277c0fe898a6667d8f3dc66d18770e3718888dc5a228f139d2cebd72",
+      "bytes": 11377952,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_2021.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_2021.parquet",
+      "sha256": "b5d29907d41a81371abb01e3d1344de6e764ddb97469fd6c7f3c6f8a7a4b2fb3",
+      "bytes": 11721406,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_2122.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_2122.parquet",
+      "sha256": "7b70a15ba16087c176598c90cb9cdcbef99aa037d487ca31a367be0e9123ae1a",
+      "bytes": 11195072,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_2223.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_2223.parquet",
+      "sha256": "35acd679f61f0501d91177f36774a9e162e7ac2a722f20126849e467132d210b",
+      "bytes": 11289945,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_2324.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_2324.parquet",
+      "sha256": "cb994a6ef05fe2fb867edf179e3645ee4c06fc0573eb52f23432ce3195dc4d09",
+      "bytes": 11342826,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "events_ita_2425.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/events_ita_2425.parquet",
+      "sha256": "fef409788d1c4256a2a87bd33ab38a564c07d0502976ba95466db837d50686a6",
+      "bytes": 11181324,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "formations.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/formations.parquet",
+      "sha256": "279615d3899eca34e4fe359f7fbdc66b890bd5227c857ef7daea0611e57ecf4e",
+      "bytes": 6255372,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "known_gaps.csv",
+      "path": "data/raw/openplay/data-v0.1.0/known_gaps.csv",
+      "sha256": "d653a1e13257601615d28493cbbf5e7e47597d8e552a54009469501a741da305",
+      "bytes": 251802,
+      "status": "verified-existing"
+    },
+    {
+      "name": "lineups.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/lineups.parquet",
+      "sha256": "696dbf1cae092803894c5f2298c60bca6fb9eaaa6cb1c0e843b115121c39db76",
+      "bytes": 9037477,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "matches.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/matches.parquet",
+      "sha256": "99017d55a38c1c03eda15ffc500e23be7c6e5a380839809732f48e531f8526ac",
+      "bytes": 1352422,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "player_match_stats.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/player_match_stats.parquet",
+      "sha256": "0acfaeb979ac67faede18d388181c20a5e65a4c2b79c646f5e87d96c9279366d",
+      "bytes": 26893798,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "players.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/players.parquet",
+      "sha256": "88b4039e0ac2f32c375ab3dcaccf44f9cd519031ecac266d9716f633a2ba6d7b",
+      "bytes": 697445,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "shots.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/shots.parquet",
+      "sha256": "1b8f5750af5fcce93a1c4dc6b14026b5df6c038463fb792f2764e9b27478e4c5",
+      "bytes": 24195178,
+      "status": "downloaded-and-verified"
+    },
+    {
+      "name": "teams.parquet",
+      "path": "data/raw/openplay/data-v0.1.0/teams.parquet",
+      "sha256": "bae9c95e4c97172938e3e562af97658d65668050de05605557d15049d6b15b9b",
+      "bytes": 15911,
+      "status": "downloaded-and-verified"
+    }
+  ],
+  "source_documentation": [
+    {
+      "name": "LICENSE",
+      "path": "data/raw/openplay/data-v0.1.0/source_docs/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/nlbair/openplay/data-v0.1.0/LICENSE",
+      "sha256": "3006bd7b9333032dd896c938c8ceb8795d450a7a1f69c95fea181d4d709943bc",
+      "bytes": 709,
+      "retrieved_at_utc": "2026-11-04T17:20:57.041309+00:00"
+    },
+    {
+      "name": "README.md",
+      "path": "data/raw/openplay/data-v0.1.0/source_docs/README.md",
+      "source_url": "https://raw.githubusercontent.com/nlbair/openplay/data-v0.1.0/README.md",
+      "sha256": "e4d961eeebce0214d499ee02109b8fa68961126627b19e99f8e35676dd9543d0",
+      "bytes": 5940,
+      "retrieved_at_utc": "2026-11-04T17:20:57.041309+00:00"
+    },
+    {
+      "name": "DATA_DICTIONARY.md",
+      "path": "data/raw/openplay/data-v0.1.0/source_docs/DATA_DICTIONARY.md",
+      "source_url": "https://raw.githubusercontent.com/nlbair/openplay/data-v0.1.0/DATA_DICTIONARY.md",
+      "sha256": "24a1037a948afa1759e3bc2babeb8b17b9e1e2dc3c8a8beea2e18f9b5b671279",
+      "bytes": 31093,
+      "retrieved_at_utc": "2026-11-04T17:20:57.041309+00:00"
+    }
+  ]
+}
