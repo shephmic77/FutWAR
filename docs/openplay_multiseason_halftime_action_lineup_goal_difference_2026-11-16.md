@@ -27,6 +27,18 @@ MAE differences are candidate minus baseline, so positive values mean the added 
 | Add full action candidates to context alone | +0.00528 goals | +0.00221 to +0.00833 | Worse pooled |
 | Add clock-adjusted action candidates to context alone | +0.00532 goals | +0.00227 to +0.00852 | Worse pooled |
 
+### League breakdown: add lineup identities on top of action candidates
+
+| League | Held-out matches | MAE change | Paired match-bootstrap 95% interval |
+|---|---:|---:|---:|
+| Bundesliga | 407 | +0.01727 | −0.00408 to +0.03944 |
+| La Liga | 623 | +0.01210 | −0.00215 to +0.02680 |
+| Ligue 1 | 422 | +0.02157 | +0.00660 to +0.03618 |
+| Premier League | 568 | +0.00772 | −0.00828 to +0.02361 |
+| Serie A | 612 | +0.01648 | +0.00124 to +0.03203 |
+
+The point estimate is worse in all five leagues, but the league-specific interval excludes zero only for Ligue 1 and Serie A. For adding action candidates to context alone, the point estimate is worse in four leagues and slightly better in the Premier League; only Ligue 1's interval excludes zero. These league intervals are descriptive sensitivity checks, not five independent confirmations, and still condition on the fitted models.
+
 For the action-plus-lineup comparison, the exception is 2024–25: adding the XI signal slightly lowered MAE in that fold. That exception makes the result mixed by season, although the pooled comparison is clearly worse and five folds are worse. The per-season table is retained in the local ignored report outputs.
 
 ## What this means
@@ -50,3 +62,4 @@ The script writes ignored local outputs under `reports/openplay_multiseason_half
 - Script: `scripts/audit_openplay_multiseason_halftime_action_lineup_goal_difference.py`
 - Local summary: `reports/openplay_multiseason_halftime_action_lineup_goal_difference/summary.json`
 - Expected-points companion: `docs/openplay_multiseason_halftime_action_lineup_2026-11-13.md`
+- League-level paired intervals: `reports/openplay_multiseason_halftime_action_lineup_goal_difference/paired_differences_by_league.csv`

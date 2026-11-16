@@ -92,6 +92,35 @@ def paired_delta_ci(frame: pd.DataFrame, candidate: str, baseline: str,
     }
 
 
+def paired_delta_by_league(frame: pd.DataFrame, candidate: str, baseline: str,
+                           replicates: int, seed: int) -> list[dict]:
+    """Match-paired MAE differences within league, preserving both team rows."""
+    work = frame.copy()
+    work["delta"] = (np.abs(work[f"{candidate}_prediction"] - work.goal_difference)
+                     - np.abs(work[f"{baseline}_prediction"] - work.goal_difference))
+    match_deltas = (work.groupby(["league", "match_id"], sort=False).delta.mean()
+                    .reset_index())
+    rows = []
+    for league_index, (league, group) in enumerate(match_deltas.groupby("league", sort=True)):
+        values = group.delta.to_numpy(dtype=float)
+        rng = np.random.default_rng(seed + league_index)
+        draws = np.empty(replicates, dtype=float)
+        for i in range(replicates):
+            draws[i] = rng.choice(values, size=len(values), replace=True).mean()
+        rows.append({
+            "league": league,
+            "candidate": candidate,
+            "baseline": baseline,
+            "mae_delta_candidate_minus_baseline": float(values.mean()),
+            "paired_match_bootstrap_95_low": float(np.quantile(draws, .025)),
+            "paired_match_bootstrap_95_high": float(np.quantile(draws, .975)),
+            "bootstrap_replicates": replicates,
+            "test_matches": int(len(values)),
+            "matches_with_candidate_lower_absolute_error": int((values < 0).sum()),
+        })
+    return rows
+
+
 def main() -> None:
     frame, audit = source.read_inputs()
     frame = attach_goal_difference(frame)
@@ -141,11 +170,15 @@ def main() -> None:
 
     predictions = pd.concat(prediction_frames, ignore_index=True)
     comparisons = []
+    league_comparisons = []
     for index, (candidate, baseline) in enumerate(COMPARISONS):
         comparison = {"candidate": candidate, "baseline": baseline}
         comparison.update(paired_delta_ci(
             predictions, candidate, baseline, replicates=5000, seed=20261116 + index))
         comparisons.append(comparison)
+        league_comparisons.extend(paired_delta_by_league(
+            predictions, candidate, baseline, replicates=5000,
+            seed=20261216 + index * 100))
 
     by_season = []
     for season, group in predictions.groupby("heldout_season", sort=True):
@@ -173,6 +206,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(fold_rows).to_csv(OUT / "fold_metrics.csv", index=False)
     pd.DataFrame(comparisons).to_csv(OUT / "pooled_paired_differences.csv", index=False)
+    pd.DataFrame(league_comparisons).to_csv(OUT / "paired_differences_by_league.csv", index=False)
     pd.DataFrame(by_season).to_csv(OUT / "paired_differences_by_season.csv", index=False)
     pd.DataFrame(league_rows).to_csv(OUT / "metrics_by_season_league.csv", index=False)
     predictions.to_csv(OUT / "team_match_predictions_local.csv", index=False)
@@ -183,13 +217,14 @@ def main() -> None:
         "heldout_match_count": int(predictions.match_id.nunique()),
         "split": "same within-season chronological 60/15/25 splits as the expected-points action-lineup audit",
         "tuning": "each model selects Ridge alpha on earlier dates only; tie prefers stronger regularization",
-        "uncertainty": "paired 5,000-replicate match-cluster bootstrap; pooled interval does not capture season-fold dependence or refit uncertainty",
+        "uncertainty": "paired 5,000-replicate match-cluster bootstrap for pooled and within-league MAE differences; intervals condition on fitted models and do not capture season-fold dependence or refit uncertainty",
         "formula_or_credit_selected": False,
         "player_coefficients_exported": False,
         "causal_player_value_estimated": False,
         "interpretation": "exploratory predictive-utility check on the owner's secondary scale; not player validation or WAR",
         "outputs_local_ignored": True,
         "pooled_comparisons": comparisons,
+        "league_comparisons": league_comparisons,
     }
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(json.dumps(summary, indent=2))
