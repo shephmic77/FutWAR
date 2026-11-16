@@ -184,3 +184,5 @@
 @media(max-width:1050px){.league-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.home-hero{grid-template-columns:1fr 1fr}.home-intro{padding:30px}}
 @media(max-width:760px){.home-hero{grid-template-columns:1fr}.home-intro{min-height:0}.league-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.section-heading{align-items:flex-start;flex-direction:column;gap:6px}}
 @media(max-width:480px){.home-intro{padding:26px 20px}.home-intro h1{font-size:48px}.build-card{padding:18px}.league-cards{grid-template-columns:1fr}.league-card{padding:13px}.home-footnote{align-items:flex-start;flex-direction:column}.build-steps li{grid-template-columns:86px 1fr}.headline{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-build-note{align-items:flex-start;flex-wrap:wrap}.feature-build-note>button{margin-left:86px}}
+
+.war-latest-check{border-top:4px solid var(--team);background:var(--surface)}.war-latest-check .panel-head{align-items:flex-start}.war-latest-check .badge{max-width:260px;white-space:normal;text-align:center}.war-latest-check p{max-width:100ch}.war-latest-check a{font-weight:600}
