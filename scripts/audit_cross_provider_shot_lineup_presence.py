@@ -61,8 +61,26 @@ def main() -> None:
         (int(match_id), str(side)): group
         for (match_id, side), group in lineups.groupby(["match_id", "side"])
     }
+    match_rows = pd.read_parquet(
+        lineup_path.parent / "matches.parquet",
+        columns=["match_id", "competition", "date", "home_team", "away_team"],
+    )
+    match_info = {
+        int(row.match_id): row._asdict()
+        for row in match_rows[match_rows["competition"].isin(
+            {league for _, league, _ in source_audit.LEAGUES.values()}
+        )]
+        .itertuples(index=False)
+    }
+    wyscout_display_names = {
+        int(row["wyId"]): " ".join(
+            part for part in (str(row.get("firstName", "")).strip(),
+                              str(row.get("lastName", "")).strip()) if part
+        ) for row in player_rows
+    }
 
     league_results: list[dict[str, object]] = []
+    outside_candidates: list[dict[str, object]] = []
     with zipfile.ZipFile(WYSCOUT_DIR / "matches.zip") as matches_zip, \
             zipfile.ZipFile(WYSCOUT_DIR / "events.zip") as events_zip:
         for country, (code, league, _) in source_audit.LEAGUES.items():
@@ -143,6 +161,27 @@ def main() -> None:
                         league_counts[f"{method}_within_four_minute_tolerance"] += 1
                     else:
                         league_counts[f"{method}_clearly_outside_stint"] += 1
+                        match = match_info.get(match_id, {})
+                        outside_candidates.append({
+                            "league": league,
+                            "openplay_match_id": match_id,
+                            "match_date": str(match.get("date", ""))[:10],
+                            "home_team": match.get("home_team", ""),
+                            "away_team": match.get("away_team", ""),
+                            "team_side": side,
+                            "wyscout_match_id": int(event.get("matchId") or 0),
+                            "wyscout_event_id": event.get("id"),
+                            "period": period,
+                            "event_seconds_in_period": elapsed,
+                            "approx_match_minute": match_clock / 60.0,
+                            "actor_name": wyscout_display_names.get(
+                                int(event.get("playerId") or 0), actor_name
+                            ),
+                            "openplay_lineup_name": row.player,
+                            "name_match_method": method,
+                            "lineup_minute_on": row.minute_on,
+                            "lineup_minute_off": row.minute_off,
+                        })
 
             mapped = league_counts["exact_lineup_name"] + league_counts["variant_lineup_name"]
             league_results.append({
@@ -174,6 +213,9 @@ def main() -> None:
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(league_results).to_csv(OUTPUT / "league_summary.csv", index=False)
+    pd.DataFrame(outside_candidates).to_csv(
+        OUTPUT / "outside_stint_review_candidates.csv", index=False
+    )
     totals = Counter()
     for row in league_results:
         for key, value in row.items():
@@ -194,6 +236,7 @@ def main() -> None:
         "aggregate_counts": dict(totals),
         "limitations": [
             "A player being listed and plausibly on the pitch means they could have taken the shot; it does not prove they did.",
+            "An event outside a recorded lineup interval is a timing-conflict flag, not proof of an incorrect shot actor; independently reviewed cases show the lineup entry minute can be late.",
             "The OpenPlay lineup interval is a separate provider table, but its source lineage is not fully independent of the event release.",
             "Name variants remain candidate links and the four-minute interval tolerance can hide short substitution-time conflicts.",
             "Only shots in the one season shared with Wyscout are checked; this does not validate other event families or seasons.",
